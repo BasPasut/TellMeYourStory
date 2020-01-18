@@ -27,14 +27,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2328015252444905132}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -10.950716, y: -0.9977021, z: -10.070503}
   m_LocalScale: {x: 1, y: 1.0665859, z: 1}
   m_Children:
   - {fileID: 1063665200511896934}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 0}
 --- !u!33 &7732287958592697993
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -105,13 +105,13 @@ Animation:
   m_GameObject: {fileID: 2328015252444905132}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 1827226128182048838, guid: ce051e5c098bc5c4196391fe9080b57a,
-    type: 3}
+  m_Animation: {fileID: 7400000, guid: 631ddcc625854a547a8c608e9172f06e, type: 2}
   m_Animations:
   - {fileID: 1827226128182048838, guid: ce051e5c098bc5c4196391fe9080b57a, type: 3}
   - {fileID: 4491309262808814626, guid: ce051e5c098bc5c4196391fe9080b57a, type: 3}
+  - {fileID: 7400000, guid: 631ddcc625854a547a8c608e9172f06e, type: 2}
   m_WrapMode: 0
-  m_PlayAutomatically: 1
+  m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
 --- !u!1 &9173414166681488169
@@ -126,9 +126,10 @@ GameObject:
   - component: {fileID: 8744800634295244565}
   - component: {fileID: 3553483379848850780}
   - component: {fileID: 7589669147023840450}
+  - component: {fileID: 1990741962}
   m_Layer: 0
   m_Name: Door2
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -140,7 +141,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9173414166681488169}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0.00000061035155, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -208,3 +209,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: -878780873799726442, guid: ce051e5c098bc5c4196391fe9080b57a, type: 3}
+--- !u!95 &1990741962
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9173414166681488169}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2a79320afbb7a3040bf16d9991831e51, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

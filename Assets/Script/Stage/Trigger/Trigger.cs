@@ -5,13 +5,14 @@ using UnityEngine;
 
 public class Trigger : MonoBehaviour
 {
+    public TriggerType type;
     Transform triggerPoint;
-    TriggerType type;
     Action performAction;
 
     private void Start()
     {
-        triggerPoint = this.transform;   
+        triggerPoint = this.transform;
+        this.gameObject.AddComponent<SphereCollider>().isTrigger = true;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -19,6 +20,8 @@ public class Trigger : MonoBehaviour
         if(other.tag == "Player")
         {
             performAction();
+            this.gameObject.SetActive(false);
+            
         }
     }
 

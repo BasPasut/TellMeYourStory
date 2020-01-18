@@ -9,14 +9,9 @@ public class TriggerSpawnController : MonoBehaviour
     public List<Transform> spawnPointList;
     public List<Monster> monstersList;
 
-    private void Start()
-    {
-        spawnPointList = new List<Transform>();
-        monstersList = new List<Monster>();
-    }
-
     public void Spawn(int triggerIndex)
     {
-        Instantiate(monstersList[triggerIndex], spawnPointList[triggerIndex]);
+        Debug.Log(triggerIndex);
+        Instantiate(monstersList[0], spawnPointList[0]);
     }
 }

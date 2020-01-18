@@ -10,7 +10,7 @@ public class TriggerController : MonoBehaviour
     public List<Trigger> triggerPointList;
 
     // Start is called before the first frame update
-    void Start()
+    public void Awake()
     {
         for(int i = 0; i < triggerPointList.Count; i++) { 
             switch (triggerPointList[i].GetTriggerType())
@@ -19,6 +19,7 @@ public class TriggerController : MonoBehaviour
                     //trigger.SetTriggerAction();
                     break;
                 case TriggerType.Spawn:
+                    Debug.Log(i);
                     triggerPointList[i].SetTriggerAction(() => triggerSpawnController.Spawn(i));
                     break;
                 default:
