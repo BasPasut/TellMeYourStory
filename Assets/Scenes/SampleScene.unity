@@ -363,7 +363,7 @@ PrefabInstance:
     - target: {fileID: 519071854900624288, guid: cd75f3af984545e40a0f4d916001f213,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 519071854900624288, guid: cd75f3af984545e40a0f4d916001f213,
         type: 3}
@@ -434,6 +434,80 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dbde965c5f2f334583a5010f84f801e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1631007136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1631007138}
+  - component: {fileID: 1631007137}
+  - component: {fileID: 1631007140}
+  - component: {fileID: 1631007139}
+  m_Layer: 0
+  m_Name: MainController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1631007137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631007136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f082f6bf228a74f4591b554aab6b747b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerSpawnController: {fileID: 1631007139}
+  triggerItemController: {fileID: 0}
+  triggerPointList: []
+--- !u!4 &1631007138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631007136}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.964565, y: -11.417684, z: 73.692825}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1631007139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631007136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49523d84c91c5d64b94c2b8de2d07dff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPointList: []
+  monstersList: []
+--- !u!114 &1631007140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631007136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 035c0cab4ed854f4db3748a5bb2ee04c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1947247886 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1947247886, guid: ef0305abbd2115e468ffe97994a82ad5,
@@ -496,7 +570,7 @@ PrefabInstance:
     - target: {fileID: 2635463883303502170, guid: 43aae08bbc6024d4c932c233d17c9633,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2635463883303502170, guid: 43aae08bbc6024d4c932c233d17c9633,
         type: 3}
@@ -605,7 +679,7 @@ PrefabInstance:
     - target: {fileID: 2657740355209246087, guid: ef0305abbd2115e468ffe97994a82ad5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2657740355209246087, guid: ef0305abbd2115e468ffe97994a82ad5,
         type: 3}
