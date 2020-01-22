@@ -12,8 +12,7 @@ GameObject:
   - component: {fileID: 2635463883303502171}
   - component: {fileID: 2635463883303502172}
   - component: {fileID: 2635463883303502173}
-  - component: {fileID: 2635463883303502168}
-  - component: {fileID: 2635463883303502169}
+  - component: {fileID: 1190220360}
   - component: {fileID: 1985990370}
   - component: {fileID: 4418206608411912005}
   m_Layer: 0
@@ -99,25 +98,7 @@ CapsuleCollider:
   m_Height: 1.8
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!143 &2635463883303502168
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2635463883303502174}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 1.8
-  m_Radius: 1
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2635463883303502169
+--- !u!114 &1190220360
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,17 +107,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2635463883303502174}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef9d0e99944a3824d8b75cb08f108d6f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9214ebdb40c801b4899aee2d14c211fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 2635463883303502168}
   speed: 2
-  gravity: -9.81
-  groundCheck: {fileID: 2635463884198630432}
-  groundDistance: 0.4
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 256
+  gravity: 10
+  maxVelocityChange: 5
+  canJump: 1
+  jumpHeight: 2
 --- !u!54 &1985990370
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -194,7 +172,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2635463883498459887}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.08, z: -0.236}
+  m_LocalPosition: {x: 0, y: 0.962, z: -0.236}
   m_LocalScale: {x: 2, y: 1, z: 2}
   m_Children:
   - {fileID: 7055373419702448869}
@@ -368,6 +346,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 9349f10340c4c2a41b73ca09dbb186ac, type: 2}
+    - target: {fileID: -8378514245527006202, guid: 70c964fd46812554a9becd09173d9315,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e25c0a94226a2bd4987240059283b102, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70c964fd46812554a9becd09173d9315, type: 3}
 --- !u!4 &7055373419702448869 stripped

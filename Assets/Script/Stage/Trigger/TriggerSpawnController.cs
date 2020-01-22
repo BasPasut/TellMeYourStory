@@ -11,7 +11,6 @@ public class TriggerSpawnController : MonoBehaviour
 
     public void Spawn(int triggerIndex)
     {
-        Debug.Log(triggerIndex);
-        Instantiate(monstersList[0], spawnPointList[0]);
+        Instantiate(monstersList[triggerIndex], spawnPointList[triggerIndex]);
     }
 }

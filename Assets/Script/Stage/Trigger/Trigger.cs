@@ -9,8 +9,11 @@ public class Trigger : MonoBehaviour
     Transform triggerPoint;
     Action performAction;
 
+    private bool IsTrigger;
+
     private void Start()
     {
+        IsTrigger = false;
         triggerPoint = this.transform;
         this.gameObject.AddComponent<SphereCollider>().isTrigger = true;
     }
@@ -21,7 +24,7 @@ public class Trigger : MonoBehaviour
         {
             performAction();
             this.gameObject.SetActive(false);
-            
+            IsTrigger = true;
         }
     }
 
@@ -35,5 +38,14 @@ public class Trigger : MonoBehaviour
         this.performAction = action;
     }
 
+    public bool GetIsTrigger()
+    {
+        return IsTrigger;
+    }
+
+    public void DestroyTriggerPoint()
+    {
+        Destroy(this);
+    }
 
 }

@@ -32,6 +32,7 @@ public class InteractController : MonoBehaviour
                 {
                     bool doorStatus = collision.gameObject.GetComponent<Animator>().GetBool("IsOpen");
                     collision.gameObject.GetComponent<Animator>().SetBool("IsOpen", !doorStatus);
+
                 }
             }
         }
