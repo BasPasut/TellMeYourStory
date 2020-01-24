@@ -59,7 +59,7 @@ public class Mutant : Monster
             }
             if (animator.GetCurrentAnimatorStateInfo(0).IsName("turn_right_90"))
             {
-                transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(new Vector3(0, 0, -45)), 0.02f);
+                transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(new Vector3(0, 0, -60)), 0.02f);
             }
             if (animator.GetCurrentAnimatorStateInfo(0).IsName("walk"))
             {

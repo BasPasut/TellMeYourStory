@@ -2194,7 +2194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efe52009d3360424aa96673cd0d7ae15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 4
+  range: 5
   angleRange: 60
   resolution: 20
   seeingObj: []

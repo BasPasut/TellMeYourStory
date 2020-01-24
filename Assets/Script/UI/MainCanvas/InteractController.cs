@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class InteractController : MonoBehaviour
 {
-
-    public InstructorController instructorController;
     public InteractGuideController guideController;
 
     public void OnCollisionEnter(Collision collision)
@@ -28,7 +26,7 @@ public class InteractController : MonoBehaviour
             if (collision.gameObject.name.Contains("Door"))
             {
                 guideController.SetInteractGuideText("Open");
-                if (Input.GetMouseButtonDown(0))
+                if (Input.GetKey(KeyCode.E))
                 {
                     bool doorStatus = collision.gameObject.GetComponent<Animator>().GetBool("IsOpen");
                     collision.gameObject.GetComponent<Animator>().SetBool("IsOpen", !doorStatus);
