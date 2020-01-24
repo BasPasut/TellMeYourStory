@@ -7,6 +7,7 @@ public class TriggerController : MonoBehaviour
 {
     public TriggerSpawnController triggerSpawnController;
     public TriggerItemController triggerItemController;
+    public TriggerActionController triggerActionController;
     public List<Trigger> triggerPointList;
 
     private static int currentTriggerIndex;
@@ -17,15 +18,18 @@ public class TriggerController : MonoBehaviour
         currentTriggerIndex = 0;
         for(int i = 0; i < triggerPointList.Count; i++) {
             triggerPointList[i].gameObject.SetActive(false);
+            int index = i;
             switch (triggerPointList[i].GetTriggerType())
             {
                 case TriggerType.Item:
                     //trigger.SetTriggerAction();
                     break;
-                case TriggerType.Spawn:
-                    int index = i;
-                    triggerPointList[i].SetTriggerAction(() => triggerSpawnController.Spawn(index));
+                case TriggerType.Spawn:                   
+                    triggerPointList[i].PerformActionWithoutObject(() => triggerSpawnController.Spawn(index));
                     //Debug.Log(i);
+                    break;
+                case TriggerType.Action:
+                    triggerActionController.ReceivedTargetObject(triggerPointList[i].PerformActionWithObject(() => triggerActionController.StartTargetAction())); 
                     break;
                 default:
                     break;
@@ -57,5 +61,4 @@ public class TriggerController : MonoBehaviour
     {
         return currentTriggerIndex;
     }
-
 }

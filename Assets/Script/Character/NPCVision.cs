@@ -51,13 +51,13 @@ public class NPCVision : MonoBehaviour
                 {
                     if (seeingPlayer.Count > 0)
                     {
-                        Debug.Log("see");
+                        //Debug.Log("see");
                         IsPlayerSeen = true;
                         playerPosition = new Vector3(seeingPlayer[0].gameObject.transform.position.x, 0, seeingPlayer[0].gameObject.transform.position.z);
                     }
                     else
                     {
-                        Debug.Log("not see");
+                        //Debug.Log("not see");
                         IsPlayerSeen = false;
                     }
                 }
