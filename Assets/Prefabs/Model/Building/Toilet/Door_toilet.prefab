@@ -27,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 816369120386625814}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.07, y: 0, z: -0.053}
-  m_LocalScale: {x: 1, y: 1.455, z: 1}
+  m_LocalPosition: {x: 0.1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1.33, z: 1}
   m_Children: []
   m_Father: {fileID: 3020872262129277236}
   m_RootOrder: 0
@@ -212,7 +212,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3020872262129277235}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -6.96}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4399747160005460741}
@@ -228,6 +228,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3020872262129277236}
     m_Modifications:
+    - target: {fileID: 2328015252444905132, guid: f0e3aacc9b6d27745a06a0087193b429,
+        type: 3}
+      propertyPath: m_Name
+      value: Door2_white 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063665200511896934, guid: f0e3aacc9b6d27745a06a0087193b429,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063665200511896934, guid: f0e3aacc9b6d27745a06a0087193b429,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063665200511896934, guid: f0e3aacc9b6d27745a06a0087193b429,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063665200511896934, guid: f0e3aacc9b6d27745a06a0087193b429,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063665200511896934, guid: f0e3aacc9b6d27745a06a0087193b429,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1591349916230061247, guid: f0e3aacc9b6d27745a06a0087193b429,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -287,11 +317,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 1.455
-      objectReference: {fileID: 0}
-    - target: {fileID: 2328015252444905132, guid: f0e3aacc9b6d27745a06a0087193b429,
-        type: 3}
-      propertyPath: m_Name
-      value: Door2_white 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0e3aacc9b6d27745a06a0087193b429, type: 3}
