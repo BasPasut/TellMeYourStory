@@ -2,6 +2,7 @@
 using UnityEngine;
 using System;
 
+#if UNITY_EDITOR
 [CustomEditor(typeof(Trigger))]
 public class TriggerEditor : Editor
 {
@@ -22,5 +23,5 @@ public class TriggerEditor : Editor
             }
         }
     }
-    
 }
+#endif
