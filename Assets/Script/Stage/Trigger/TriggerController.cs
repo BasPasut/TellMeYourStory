@@ -6,7 +6,6 @@ using UnityEngine;
 public class TriggerController : MonoBehaviour
 {
     public TriggerSpawnController triggerSpawnController;
-    public TriggerItemController triggerItemController;
     public TriggerActionController triggerActionController;
     public List<Trigger> triggerPointList;
 
@@ -21,15 +20,11 @@ public class TriggerController : MonoBehaviour
             int index = i;
             switch (triggerPointList[i].GetTriggerType())
             {
-                case TriggerType.Item:
-                    //trigger.SetTriggerAction();
+                case TriggerType.Action:
+                    triggerActionController.ReceivedTargetObject(triggerPointList[i].PerformActionWithItem(() => triggerActionController.StartTargetAction()));
                     break;
                 case TriggerType.Spawn:                   
                     triggerPointList[i].PerformActionWithoutObject(() => triggerSpawnController.Spawn(index));
-                    //Debug.Log(i);
-                    break;
-                case TriggerType.Action:
-                    triggerActionController.ReceivedTargetObject(triggerPointList[i].PerformActionWithObject(() => triggerActionController.StartTargetAction())); 
                     break;
                 default:
                     break;

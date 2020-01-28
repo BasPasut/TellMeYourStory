@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class TriggerActionController : MonoBehaviour
 {
-    GameObject targetObject;
+    GameObject obj;
 
-    public void ReceivedTargetObject(GameObject targetObject)
+    public void ReceivedTargetObject(GameObject obj)
     {
-        this.targetObject = targetObject;
+        this.obj = obj;
     }
 
     public void StartTargetAction()
     {
-
+       
     }
 }
