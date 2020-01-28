@@ -5,27 +5,25 @@ using UnityEngine;
 
 public class Trigger : MonoBehaviour
 {
-    public TriggerType type;
-
+    public TriggerType triggerType;
     public GameObject obj;
-
 
     Transform triggerPoint;
     Action performAction;
 
 
-    private bool IsTrigger;
+    private bool isTrigger;
 
     protected void Start()
     {
-        IsTrigger = false;
+        isTrigger = false;
         triggerPoint = this.transform;
         this.gameObject.AddComponent<SphereCollider>().isTrigger = true;    
     }
 
     private void OnValidate()
     {
-        if (type != TriggerType.Action)
+        if (triggerType != TriggerType.Action)
         {
             obj = null;
         }
@@ -35,15 +33,36 @@ public class Trigger : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-            performAction();
-            this.gameObject.SetActive(false);
-            IsTrigger = true;
+            if (triggerType == TriggerType.Spawn)
+            {
+                performAction();
+                this.gameObject.SetActive(false);
+                isTrigger = true;
+            }
+        }
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            if (triggerType == TriggerType.Action)
+            {
+                performAction();
+                this.gameObject.SetActive(false);
+                isTrigger = true;
+            }
         }
     }
 
     public TriggerType GetTriggerType()
     {
-        return type;
+        return triggerType;
+    }
+
+    public void SetIsTrigger(bool isTrigger)
+    {
+        this.isTrigger = isTrigger;
     }
 
     public void PerformActionWithoutObject(Action action)
@@ -51,7 +70,7 @@ public class Trigger : MonoBehaviour
         performAction = action;
     }
 
-    public GameObject PerformActionWithObject(Action action)
+    public GameObject PerformActionWithItem(Action action)
     {
         performAction = action;
         return obj;
@@ -64,7 +83,7 @@ public class Trigger : MonoBehaviour
 
     public bool GetIsTrigger()
     {
-        return IsTrigger;
+        return isTrigger;
     }
 
     public void DestroyTriggerPoint()

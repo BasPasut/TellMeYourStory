@@ -10,7 +10,7 @@ public class HeartrateWithThread : MonoBehaviour
 {
     Thread bpmThread;
 
-    public SerialPort serial = new SerialPort("COM3", 9600);//create new serial port
+    public SerialPort serial = new SerialPort("COM3", 115200);//create new serial port
     public Text bpmText;
 
     private string beat = "0";// string to hols the data in

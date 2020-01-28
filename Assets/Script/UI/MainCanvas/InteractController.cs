@@ -5,6 +5,7 @@ using UnityEngine;
 public class InteractController : MonoBehaviour
 {
     public InteractGuideController guideController;
+    public NotePanelController notePanelController;
 
     public void OnCollisionEnter(Collision collision)
     { 
@@ -20,10 +21,11 @@ public class InteractController : MonoBehaviour
 
     public void OnCollisionStay(Collision collision)
     {
+        GameObject obj = collision.gameObject;
         if(collision.gameObject.tag == "Interactable")
         {
             guideController.gameObject.SetActive(true);
-            if (collision.gameObject.name.Contains("Door"))
+            if (obj.name.Contains("Door"))
             {
                 guideController.SetInteractGuideText("Open");
                 if (Input.GetKey(KeyCode.E))
@@ -33,6 +35,37 @@ public class InteractController : MonoBehaviour
 
                 }
             }
+            else if (obj.name.Contains("item"))
+            {      
+                    Item item = obj.GetComponent<Item>();
+                    switch (item.itemType)
+                    {
+                        case ItemType.equipment:
+                            break;
+                        case ItemType.note:
+                            guideController.SetInteractGuideText("Read");
+                        if (Input.GetKey(KeyCode.E))
+                        {
+                            this.GetComponent<PlayerController>().enabled = false;
+                            Note note = (Note)item;
+                            
+                            notePanelController.SetNote(note);
+                            notePanelController.gameObject.SetActive(true);
+                            
+                        }
+                        else if (Input.GetKey(KeyCode.Q))
+                        {
+                            this.GetComponent<PlayerController>().enabled = true;
+                            notePanelController.gameObject.SetActive(false);
+                        }
+                            break;
+                        default:
+                            break;
+                    }
+                    item.GetPerformAction();
+                
+            }
+            
         }
     }
 
