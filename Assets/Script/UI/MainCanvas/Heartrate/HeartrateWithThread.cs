@@ -13,10 +13,13 @@ public class HeartrateWithThread : MonoBehaviour
     public SerialPort serial = new SerialPort("COM3", 115200);//create new serial port
     public Text bpmText;
 
+    public static bool isConnect;
+
     private string beat = "0";// string to hols the data in
 
     void Start()
     {
+        isConnect = false;
         OpenConnection();
         // declare thread, and reference sampleFunction
         bpmThread = new Thread(new ThreadStart(ReceivedBPM));
@@ -34,6 +37,7 @@ public class HeartrateWithThread : MonoBehaviour
 
     public void ReceivedBPM()
     {
+        string beatTemp = "0";
         while (bpmThread.IsAlive)
         {
             // execute operation
@@ -41,10 +45,11 @@ public class HeartrateWithThread : MonoBehaviour
             try
             {
                 beat = serial.ReadLine();
+                beatTemp = beat;
             }
             catch(TimeoutException e)
             {
-                beat = "0";
+                beat = beatTemp;
             }
         }
     }
@@ -54,6 +59,7 @@ public class HeartrateWithThread : MonoBehaviour
 
         if (serial != null)
         {
+            isConnect = true;
             if (serial.IsOpen)
             {
                 serial.Close();
@@ -77,6 +83,7 @@ public class HeartrateWithThread : MonoBehaviour
             }
             else
             {
+                isConnect = false;
                 print("Port == null");
             }
         }

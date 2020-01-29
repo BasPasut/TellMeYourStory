@@ -21,7 +21,7 @@ public class Butler : Monster
         {
             if (Vector3.Distance(transform.position, playerPosition) > 2) {
                 this.transform.LookAt(playerPosition);
-                transform.Translate(0, 0, 0.005f);
+                transform.Translate(0, 0, 0.03f);
             }
             else
             {

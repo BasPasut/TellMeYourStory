@@ -31,7 +31,7 @@ public class Mutant : Monster
                 transform.LookAt(playerPosition);
                 if (direction.magnitude > 1.5)
                 {
-                    transform.Translate(0, 0, 0.02f);
+                    transform.Translate(0, 0, 0.1f);
                 }
                 else
                 {
@@ -63,7 +63,7 @@ public class Mutant : Monster
             }
             if (animator.GetCurrentAnimatorStateInfo(0).IsName("walk"))
             {
-                transform.Translate(0, 0, 0.01f);
+                transform.Translate(0, 0, 0.5f);
             }
         }
     }

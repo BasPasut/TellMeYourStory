@@ -14,17 +14,18 @@ public class TriggerController : MonoBehaviour
     // Start is called before the first frame update
     public void Awake()
     {
+        
         currentTriggerIndex = 0;
-        for(int i = 0; i < triggerPointList.Count; i++) {
+        int index = 0;
+        for (int i = 0; i < triggerPointList.Count; i++) {
             triggerPointList[i].gameObject.SetActive(false);
-            int index = i;
             switch (triggerPointList[i].GetTriggerType())
             {
                 case TriggerType.Action:
                     triggerActionController.ReceivedTargetObject(triggerPointList[i].PerformActionWithItem(() => triggerActionController.StartTargetAction()));
                     break;
                 case TriggerType.Spawn:                   
-                    triggerPointList[i].PerformActionWithoutObject(() => triggerSpawnController.Spawn(index));
+                    triggerPointList[i].PerformActionWithoutObject(() => triggerSpawnController.Spawn(index++));
                     break;
                 default:
                     break;
