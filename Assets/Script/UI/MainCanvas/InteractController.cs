@@ -28,7 +28,7 @@ public class InteractController : MonoBehaviour
             if (obj.name.Contains("Door"))
             {
                 guideController.SetInteractGuideText("Open");
-                if (Input.GetKey(KeyCode.E))
+                if (Input.GetKeyDown(KeyCode.E))
                 {
                     bool doorStatus = collision.gameObject.GetComponent<Animator>().GetBool("IsOpen");
                     collision.gameObject.GetComponent<Animator>().SetBool("IsOpen", !doorStatus);

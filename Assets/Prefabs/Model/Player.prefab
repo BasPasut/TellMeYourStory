@@ -110,10 +110,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9214ebdb40c801b4899aee2d14c211fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 3
   gravity: 10
-  maxVelocityChange: 2
-  canJump: 1
+  maxVelocityChange: 3
+  canJump: 0
   jumpHeight: 1.8
 --- !u!54 &1985990370
 Rigidbody:
