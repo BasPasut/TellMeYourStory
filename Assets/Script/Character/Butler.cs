@@ -17,10 +17,10 @@ public class Butler : Monster
     void Update()
     {
         Vector3 playerPosition = new Vector3(player.transform.position.x, 0, player.transform.position.z);
+        this.transform.LookAt(playerPosition);
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("walk_1"))
         {
             if (Vector3.Distance(transform.position, playerPosition) > 2) {
-                this.transform.LookAt(playerPosition);
                 transform.Translate(0, 0, 0.03f);
             }
             else

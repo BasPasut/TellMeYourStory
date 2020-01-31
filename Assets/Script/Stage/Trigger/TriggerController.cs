@@ -7,6 +7,8 @@ public class TriggerController : MonoBehaviour
 {
     public TriggerSpawnController triggerSpawnController;
     public TriggerActionController triggerActionController;
+    public TriggerTimelineController triggerTimelineController;
+
     public List<Trigger> triggerPointList;
 
     private static int currentTriggerIndex;
@@ -16,7 +18,8 @@ public class TriggerController : MonoBehaviour
     {
         
         currentTriggerIndex = 0;
-        int index = 0;
+        int indexSpawn = 0;
+        int indexTimeline = 0;
         for (int i = 0; i < triggerPointList.Count; i++) {
             triggerPointList[i].gameObject.SetActive(false);
             switch (triggerPointList[i].GetTriggerType())
@@ -25,7 +28,10 @@ public class TriggerController : MonoBehaviour
                     triggerActionController.ReceivedTargetObject(triggerPointList[i].PerformActionWithItem(() => triggerActionController.StartTargetAction()));
                     break;
                 case TriggerType.Spawn:                   
-                    triggerPointList[i].PerformActionWithoutObject(() => triggerSpawnController.Spawn(index++));
+                    triggerPointList[i].PerformActionWithoutObject(() => triggerSpawnController.Spawn(indexSpawn++));
+                    break;
+                case TriggerType.Timeline:
+                    triggerTimelineController.ReceivedTargetBool(triggerPointList[i].PerformActionWithBool(() => triggerTimelineController.PlayTimeline(indexTimeline++)));
                     break;
                 default:
                     break;

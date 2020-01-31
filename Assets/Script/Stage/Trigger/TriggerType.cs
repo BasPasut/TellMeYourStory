@@ -5,6 +5,7 @@ using UnityEngine;
 public enum TriggerType
 {
     Spawn = 1,
-    Action = 2
+    Action = 2,
+    Timeline = 3
 
 }

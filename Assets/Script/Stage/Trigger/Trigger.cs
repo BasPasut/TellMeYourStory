@@ -2,11 +2,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class Trigger : MonoBehaviour
 {
     public TriggerType triggerType;
     public GameObject obj;
+
+    public bool CanPlayerMove;
 
     Transform triggerPoint;
     Action performAction;
@@ -18,7 +21,7 @@ public class Trigger : MonoBehaviour
     {
         isTrigger = false;
         triggerPoint = this.transform;
-        this.gameObject.AddComponent<SphereCollider>().isTrigger = true;    
+        this.gameObject.AddComponent<SphereCollider>().isTrigger = true;
     }
 
     private void OnValidate()
@@ -33,7 +36,7 @@ public class Trigger : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-            if (triggerType == TriggerType.Spawn)
+            if (triggerType == TriggerType.Spawn || triggerType == TriggerType.Timeline)
             {
                 performAction();
                 this.gameObject.SetActive(false);
@@ -74,6 +77,12 @@ public class Trigger : MonoBehaviour
     {
         performAction = action;
         return obj;
+    }
+
+    public bool PerformActionWithBool(Action action)
+    {
+        performAction = action;
+        return CanPlayerMove;
     }
 
     public void SetTriggerAction(Action action)
