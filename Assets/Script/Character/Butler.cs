@@ -7,12 +7,14 @@ public class Butler : Monster
 {
     public Transform roomPosition;
     public GameObject player;
+    public GameObject smokeParticle;
 
     // Start is called before the first frame update
     void Start()
     {
         base.Start();
-        StartWalking();
+        //StartWalking();
+        Transform();
     }
 
     private void Update()
@@ -44,11 +46,7 @@ public class Butler : Monster
 
     public void LeadToRoom()
     {
-        var lookDirection = roomPosition.position - transform.position;
-        lookDirection.y = 0;
-        transform.rotation = Quaternion.Slerp(transform.rotation,
-        Quaternion.LookRotation(lookDirection), 0.0008f * Time.deltaTime);
-        transform.LookAt(roomPosition);
+        TurnRotate(roomPosition, 5f);
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("walk_2"))
         {
             if (Vector3.Distance(transform.position, roomPosition.position) > 0.2f)
@@ -58,9 +56,14 @@ public class Butler : Monster
             else
             {
                 animator.SetBool("IsCloseToRoom", true);
-                this.transform.LookAt(player.transform);
+                TurnRotate(player.transform, 180f);
             }
         }
+    }
+    public void Transform()
+    {
+        TransformToMonster();
+        Instantiate(smokeParticle, transform.position, transform.rotation);
     }
 
     public void StartWalking()
@@ -71,5 +74,13 @@ public class Butler : Monster
     public void TalkingFinish()
     {
         animator.SetBool("IsTalkingFinish", true);
+    }
+
+    private void TurnRotate(Transform target, float angle)
+    {
+        var lookDirection = target.position - transform.position;
+        lookDirection.y = 0;
+        transform.rotation = Quaternion.Slerp(transform.rotation,
+        Quaternion.LookRotation(lookDirection), Time.deltaTime * angle);
     }
 }

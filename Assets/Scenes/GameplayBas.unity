@@ -3032,7 +3032,7 @@ PrefabInstance:
     - target: {fileID: 246497360457519334, guid: c2b96f3854ad5b24793bcf758ed664ee,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.629
+      value: 6.47
       objectReference: {fileID: 0}
     - target: {fileID: 246497360457519334, guid: c2b96f3854ad5b24793bcf758ed664ee,
         type: 3}
@@ -3042,7 +3042,7 @@ PrefabInstance:
     - target: {fileID: 246497360457519334, guid: c2b96f3854ad5b24793bcf758ed664ee,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.69
+      value: -0.45
       objectReference: {fileID: 0}
     - target: {fileID: 246497360457519334, guid: c2b96f3854ad5b24793bcf758ed664ee,
         type: 3}
@@ -3094,6 +3094,12 @@ PrefabInstance:
       propertyPath: roomPosition
       value: 
       objectReference: {fileID: 1379660916}
+    - target: {fileID: 6788601782777395551, guid: c2b96f3854ad5b24793bcf758ed664ee,
+        type: 3}
+      propertyPath: smokeParticle
+      value: 
+      objectReference: {fileID: 6547835477754468001, guid: 48aa68cbe3817bd4fb86dbe28576cb41,
+        type: 3}
     - target: {fileID: 7917820497255005596, guid: c2b96f3854ad5b24793bcf758ed664ee,
         type: 3}
       propertyPath: m_ApplyRootMotion

@@ -14,7 +14,7 @@ public class Monster : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    protected void TransfromToMonster()
+    protected void TransformToMonster()
     {
         animator.SetBool("Transform", true);
     }
