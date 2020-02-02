@@ -48,7 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerSpawnController: {fileID: 1905794017350148570}
   triggerActionController: {fileID: 1905794017350148569}
-  triggerTimelineController: {fileID: 0}
+  triggerTimelineController: {fileID: 1905794017350148575}
   triggerPointList:
   - {fileID: 0}
   - {fileID: 0}
