@@ -18,6 +18,7 @@ public class TriggerTimelineController : MonoBehaviour
     {
         player.enabled = canPlayerMove;
         playableList[index].Play();
+        
         //if(timeline finish) player.enabled = true;
     }
 }
