@@ -7,10 +7,10 @@ public class TriggerSpawnController : MonoBehaviour
 {
 
     public List<Transform> spawnPointList;
-    public List<Monster> monstersList;
+    public List<GameObject> prefabsList;
 
     public void Spawn(int triggerIndex)
     {
-        Instantiate(monstersList[triggerIndex], spawnPointList[triggerIndex]);
+        Instantiate(prefabsList[triggerIndex], spawnPointList[triggerIndex]);
     }
 }
