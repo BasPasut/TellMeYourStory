@@ -38,4 +38,6 @@ public class MeshCombiner : MonoBehaviour
         transform.rotation = Quaternion.identity;
         transform.position = Vector3.zero;
     }
+
+
 }
