@@ -6,9 +6,8 @@ using UnityEngine.Timeline;
 
 public class TriggerTimelineController : MonoBehaviour
 {
-    public PlayerController player;
+    public PlayerController2D player;
     public List<PlayableDirector> playableList;
-    public List<TimelineAsset> timelineList;
     bool canPlayerMove;
 
     public void ReceivedTargetBool(bool canPlayerMove)
@@ -19,7 +18,8 @@ public class TriggerTimelineController : MonoBehaviour
     public void PlayTimeline(int index)
     {
         player.enabled = canPlayerMove;
-        playableList[index].Play(timelineList[index]);
+        playableList[index].Play();
+        Debug.Log(playableList[index].state);
         //if(timeline finish) player.enabled = true;
     }
 }
