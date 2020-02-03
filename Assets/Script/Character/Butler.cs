@@ -13,7 +13,7 @@ public class Butler : Monster
     void Start()
     {
         base.Start();
-       // StartWalking();
+        StartWalking();
         //Transform();
     }
 
