@@ -21,7 +21,16 @@ public class Trigger : MonoBehaviour
     {
         isTrigger = false;
         triggerPoint = this.transform;
-        this.gameObject.AddComponent<SphereCollider>().isTrigger = true;
+        if (TriggerController.GetCurrentTriggerIndex() == 0)
+        {
+            CapsuleCollider trigger = this.gameObject.AddComponent<CapsuleCollider>();
+            trigger.isTrigger = true;
+            trigger.direction = 2;
+        }
+        else
+        {
+            this.gameObject.AddComponent<SphereCollider>().isTrigger = true;
+        }
     }
 
     private void OnValidate()
