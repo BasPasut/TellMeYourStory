@@ -22,7 +22,7 @@ public class Butler : Monster
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("walk_1"))
         {
             WalkToPlayer();
-            TalkingFinish();
+            //TalkingFinish();
         }
         else if (animator.GetCurrentAnimatorStateInfo(0).IsName("walk_2"))
         {
@@ -36,7 +36,7 @@ public class Butler : Monster
         this.transform.LookAt(playerPosition);
         if (Vector3.Distance(transform.position, playerPosition) > 2)
         {
-            transform.Translate(0, 0, 0.03f);
+            transform.Translate(0, 0, 0.06f);
         }
         else
         {
@@ -51,7 +51,7 @@ public class Butler : Monster
         {
             if (Vector3.Distance(transform.position, roomPosition.position) > 0.2f)
             {
-                transform.Translate(0, 0, 0.03f);
+                transform.Translate(0, 0, 0.06f);
             }
             else
             {
