@@ -46,7 +46,7 @@ public class InteractController : MonoBehaviour
                             guideController.SetInteractGuideText("Read");
                         if (Input.GetKey(KeyCode.E))
                         {
-                            this.GetComponent<PlayerController>().enabled = false;
+                            this.GetComponent<PlayerController2D>().enabled = false;
                             Note note = (Note)item;
                             
                             notePanelController.SetNote(note);
@@ -55,7 +55,7 @@ public class InteractController : MonoBehaviour
                         }
                         else if (Input.GetKey(KeyCode.Q))
                         {
-                            this.GetComponent<PlayerController>().enabled = true;
+                            this.GetComponent<PlayerController2D>().enabled = true;
                             notePanelController.gameObject.SetActive(false);
                         }
                             break;

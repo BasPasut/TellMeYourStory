@@ -2,6 +2,7 @@
 using UnityEditor;
 using System.Collections.Generic;
 
+#if UNITY_EDITOR
 public class MeshCombineWizard : ScriptableWizard
 {
     public GameObject parentOfObjectsToCombine;
@@ -83,3 +84,4 @@ public class MeshCombineWizard : ScriptableWizard
         resultGO.transform.position = originalPosition;
     }
 }
+#endif

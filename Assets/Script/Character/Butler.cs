@@ -8,6 +8,7 @@ public class Butler : Monster
     public Transform roomPosition;
     public GameObject player;
     public GameObject smokeParticle;
+    public GameObject mutant;
 
     // Start is called before the first frame update
     void Start()
@@ -36,7 +37,7 @@ public class Butler : Monster
         this.transform.LookAt(playerPosition);
         if (Vector3.Distance(transform.position, playerPosition) > 2)
         {
-            transform.Translate(0, 0, 0.06f);
+            transform.Translate(0, 0, 0.03f);
         }
         else
         {
@@ -51,7 +52,7 @@ public class Butler : Monster
         {
             if (Vector3.Distance(transform.position, roomPosition.position) > 0.2f)
             {
-                transform.Translate(0, 0, 0.06f);
+                transform.Translate(0, 0, 0.03f);
             }
             else
             {
@@ -64,6 +65,8 @@ public class Butler : Monster
     {
         TransformToMonster();
         Instantiate(smokeParticle, transform.position, transform.rotation);
+        Instantiate(mutant, transform.position, transform.rotation);
+        Destroy(this.gameObject);
     }
 
     public void StartWalking()

@@ -1044,6 +1044,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   roomPosition: {fileID: 0}
   player: {fileID: 0}
+  smokeParticle: {fileID: 6547835477754468001, guid: 48aa68cbe3817bd4fb86dbe28576cb41,
+    type: 3}
+  mutant: {fileID: 1099833728182649046, guid: 8674bc1b19e98f64eb78234e4013bfcd, type: 3}
 --- !u!54 &1283831558361209402
 Rigidbody:
   m_ObjectHideFlags: 0
