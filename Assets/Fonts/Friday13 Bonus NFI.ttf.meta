@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: a51dcd99535b9764aaacc6bd16006a0f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Friday13 Bonus NFI
+  fontNames:
+  - Friday13 Bonus NFI
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 3c3eb1dbcb5627b4397b5ca86b5e1985, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
