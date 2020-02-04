@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Materials/Owner.meta
 guid: 5bf9cd165788e4d4c930497400990fd4
+=======
+guid: 3e9a87b9dca7d664bba198af94a316f7
+>>>>>>> f525352c67ee25dcaed360ba0eaf82f1dc770028:Assets/Fonts.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
