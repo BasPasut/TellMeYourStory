@@ -31,7 +31,7 @@ public class Mutant : Monster
                 transform.LookAt(playerPosition);
                 if (direction.magnitude > 1.5)
                 {
-                    transform.Translate(0, 0, 0.1f);
+                    transform.Translate(0, 0, 0.05f);
                 }
                 else
                 {

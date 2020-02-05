@@ -25,7 +25,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d51e8135f1c0b4743830bcd96a9ced4d, type: 3}
   m_Name: SubtitleClip
   m_EditorClassIdentifier: 
-  subtitleText: 'Butler: You should not here...grrrr'
+  subtitleText: 'Butler: You should not go in there...grrrr!!'
 --- !u!114 &-3233129722547451066
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -9,10 +9,10 @@ public class Trigger : MonoBehaviour
     public TriggerType triggerType;
     public GameObject obj;
 
-    public bool CanPlayerMove;
-
     Transform triggerPoint;
     Action performAction;
+
+    bool testBool;
 
 
     private bool isTrigger;
@@ -86,12 +86,6 @@ public class Trigger : MonoBehaviour
     {
         performAction = action;
         return obj;
-    }
-
-    public bool PerformActionWithBool(Action action)
-    {
-        performAction = action;
-        return CanPlayerMove;
     }
 
     public void SetTriggerAction(Action action)
