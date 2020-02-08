@@ -4,7 +4,7 @@ using System.Collections;
 [RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(CapsuleCollider))]
 
-public class PlayerController2D : MonoBehaviour
+public class PlayerController2D: MonoBehaviour
 {
 
     public float speed = 10.0f;
@@ -18,7 +18,7 @@ public class PlayerController2D : MonoBehaviour
 
 
 
-    void Awake()
+    void Start()
     {
         rigidbody = this.GetComponent<Rigidbody>();
         rigidbody.freezeRotation = true;
