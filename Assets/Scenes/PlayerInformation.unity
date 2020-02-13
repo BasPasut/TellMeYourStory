@@ -2459,7 +2459,8 @@ MonoBehaviour:
   playerAge: {fileID: 1289088329}
   playerGender: {fileID: 1972733028}
   submit: {fileID: 694987614}
-  playerReportPanel: {fileID: 0}
+  playerReportPanel: {fileID: 1905794017350148571, guid: d9b9a009910003b4d96e7cd1c4ceb468,
+    type: 3}
 --- !u!1 &1722162888
 GameObject:
   m_ObjectHideFlags: 0

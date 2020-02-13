@@ -6,20 +6,13 @@ using UnityEngine.Timeline;
 
 public class TriggerTimelineController : MonoBehaviour
 {
-    public PlayerController2D player;
-    public List<PlayableDirector> playableList;
-    bool canPlayerMove;
-
-    public void ReceivedTargetBool(bool canPlayerMove)
-    {
-        this.canPlayerMove = canPlayerMove;
-    }
+    public OVRPlayerController player;
+    public PlayableDirector director;
+    public List<TimelineAsset> playableList;
 
     public void PlayTimeline(int index)
     {
-        player.enabled = canPlayerMove;
-        playableList[index].Play();
-        //if(timeline finish) player.enabled = true;
+        director.Play(playableList[index]);
     }
 
 }

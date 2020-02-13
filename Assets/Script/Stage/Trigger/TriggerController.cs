@@ -14,9 +14,8 @@ public class TriggerController : MonoBehaviour
     private static int currentTriggerIndex;
 
     // Start is called before the first frame update
-    public void Awake()
-    {
-        
+    public void Start()
+    {       
         currentTriggerIndex = 0;
         int indexSpawn = 0;
         int indexTimeline = 0;
@@ -31,7 +30,7 @@ public class TriggerController : MonoBehaviour
                     triggerPointList[i].PerformActionWithoutObject(() => triggerSpawnController.Spawn(indexSpawn++));
                     break;
                 case TriggerType.Timeline:
-                    triggerTimelineController.ReceivedTargetBool(triggerPointList[i].PerformActionWithBool(() => triggerTimelineController.PlayTimeline(indexTimeline++)));
+                    triggerPointList[i].PerformActionWithoutObject(() => triggerTimelineController.PlayTimeline(indexTimeline++));
                     break;
                 default:
                     break;

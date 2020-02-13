@@ -23,7 +23,8 @@ public class PlayerInformationController : MonoBehaviour
         {
             Debug.Log(playerName.text);
             GameManager.instance.currentPlayerReport.SetPlayerBasicInform(playerName.text, playerAge.text, playerGender.captionText.text);
-            SceneManager.LoadScene("Gameplay", LoadSceneMode.Single);
+            //SceneManager.LoadScene("GameplayBas", LoadSceneMode.Single);
+            SceneManager.LoadScene(1, LoadSceneMode.Single);
         }
     }
 }
