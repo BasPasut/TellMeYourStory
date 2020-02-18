@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3022292399418104207}
   - component: {fileID: 214254467028343137}
   - component: {fileID: 1265380524366747395}
-  - component: {fileID: 128117462605202037}
   - component: {fileID: 128117462605202038}
   m_Layer: 10
   m_Name: Kitchen_Locker7_Door2
@@ -95,70 +94,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: -9134450018094068671, guid: 8a8a616c03b72074794ef4781a2386c0, type: 3}
---- !u!114 &128117462605202037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2136405173250007051}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebeea973c9b1c584e967067915b4c2e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dynamicType: 0
-  useType: 0
-  interactType: 1
-  keyType: 0
-  m_Animation: {fileID: 3561623855361021160}
-  IgnoreColliders: []
-  InteractEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  DisabledEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  customText: 
-  keyID: 0
-  useAnim: Kitchen_Locker7_Door2_Open
-  backUseAnim: Kitchen_Locker7_Door2_Close
-  useJammedPlanks: 0
-  Planks: []
-  knobAnim: 
-  useSR: 0
-  startingRotation: {x: 0, y: 0, z: 0}
-  isOpened: 0
-  toPlayerAngle: 0
-  moveWithX: 0
-  minMaxMove: {x: 0, y: 0}
-  reverseMove: 0
-  InteractPos: 0
-  stopAngle: 0
-  lockOnUp: 0
-  isUp: 0
-  valveTurnSounds: []
-  valveSoundAfter: 0
-  valveTurnSpeed: 0
-  valveTurnTime: 0
-  m_Volume: 1
-  Open: {fileID: 0}
-  Close: {fileID: 0}
-  LockedTry: {fileID: 0}
-  UnlockSound: {fileID: 0}
-  LeverUpSound: {fileID: 0}
-  DebugAngle: 0
-  rotateValue: 0
-  isHolding: 0
-  Hold: 0
-  hasKey: 0
-  isLocked: 0
-  isInvoked: 0
-  Angle: 0
 --- !u!111 &128117462605202038
 Animation:
   m_ObjectHideFlags: 0
@@ -189,7 +124,6 @@ GameObject:
   - component: {fileID: 5852617649321287808}
   - component: {fileID: 7623567867740197219}
   - component: {fileID: 4892464621307170891}
-  - component: {fileID: 128117463069597751}
   - component: {fileID: 128117463069597736}
   m_Layer: 10
   m_Name: Kitchen_Locker7_Door1
@@ -272,70 +206,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: -5859885583393900069, guid: b2cfea6b05d00e446ab681f65c9ca3e7, type: 3}
---- !u!114 &128117463069597751
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5911512879375178385}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebeea973c9b1c584e967067915b4c2e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dynamicType: 0
-  useType: 0
-  interactType: 1
-  keyType: 0
-  m_Animation: {fileID: 3561623854944876202}
-  IgnoreColliders: []
-  InteractEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  DisabledEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  customText: 
-  keyID: 0
-  useAnim: Kitchen_Locker7_Door1_Open
-  backUseAnim: Kitchen_Locker7_Door1_Close
-  useJammedPlanks: 0
-  Planks: []
-  knobAnim: 
-  useSR: 0
-  startingRotation: {x: 0, y: 0, z: 0}
-  isOpened: 0
-  toPlayerAngle: 0
-  moveWithX: 0
-  minMaxMove: {x: 0, y: 0}
-  reverseMove: 0
-  InteractPos: 0
-  stopAngle: 0
-  lockOnUp: 0
-  isUp: 0
-  valveTurnSounds: []
-  valveSoundAfter: 0
-  valveTurnSpeed: 0
-  valveTurnTime: 0
-  m_Volume: 1
-  Open: {fileID: 0}
-  Close: {fileID: 0}
-  LockedTry: {fileID: 0}
-  UnlockSound: {fileID: 0}
-  LeverUpSound: {fileID: 0}
-  DebugAngle: 0
-  rotateValue: 0
-  isHolding: 0
-  Hold: 0
-  hasKey: 0
-  isLocked: 0
-  isInvoked: 0
-  Angle: 0
 --- !u!111 &128117463069597736
 Animation:
   m_ObjectHideFlags: 0
@@ -366,7 +236,6 @@ GameObject:
   - component: {fileID: 1639236732937943720}
   - component: {fileID: 7420980397751865970}
   - component: {fileID: 1539590825131747348}
-  - component: {fileID: 128117461975898849}
   - component: {fileID: 128117461975898850}
   m_Layer: 10
   m_Name: Faucet1_L
@@ -449,70 +318,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 5085571358789718547, guid: 5ac561e056b5a9946ae63280a858566d, type: 3}
---- !u!114 &128117461975898849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7523281815991174741}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebeea973c9b1c584e967067915b4c2e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dynamicType: 0
-  useType: 0
-  interactType: 1
-  keyType: 0
-  m_Animation: {fileID: 3561623856007040101}
-  IgnoreColliders: []
-  InteractEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  DisabledEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  customText: 
-  keyID: 0
-  useAnim: Faucet1_L_Open
-  backUseAnim: Faucet1_L_Close
-  useJammedPlanks: 0
-  Planks: []
-  knobAnim: 
-  useSR: 0
-  startingRotation: {x: 0, y: 0, z: 0}
-  isOpened: 0
-  toPlayerAngle: 0
-  moveWithX: 0
-  minMaxMove: {x: 0, y: 0}
-  reverseMove: 0
-  InteractPos: 0
-  stopAngle: 0
-  lockOnUp: 0
-  isUp: 0
-  valveTurnSounds: []
-  valveSoundAfter: 0
-  valveTurnSpeed: 0
-  valveTurnTime: 0
-  m_Volume: 1
-  Open: {fileID: 0}
-  Close: {fileID: 0}
-  LockedTry: {fileID: 0}
-  UnlockSound: {fileID: 0}
-  LeverUpSound: {fileID: 0}
-  DebugAngle: 0
-  rotateValue: 0
-  isHolding: 0
-  Hold: 0
-  hasKey: 0
-  isLocked: 0
-  isInvoked: 0
-  Angle: 0
 --- !u!111 &128117461975898850
 Animation:
   m_ObjectHideFlags: 0
@@ -997,7 +802,6 @@ GameObject:
   - component: {fileID: 8961176754612262450}
   - component: {fileID: 1598653747826584835}
   - component: {fileID: 7837207234672279050}
-  - component: {fileID: 128117462019674105}
   - component: {fileID: 128117462019674106}
   m_Layer: 10
   m_Name: Faucet1_R
@@ -1080,70 +884,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 349455963744827233, guid: adc6bf53f3a0f9741af5a7c732ee2986, type: 3}
---- !u!114 &128117462019674105
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9197751075830840256}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebeea973c9b1c584e967067915b4c2e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dynamicType: 0
-  useType: 0
-  interactType: 1
-  keyType: 0
-  m_Animation: {fileID: 3561623856117930365}
-  IgnoreColliders: []
-  InteractEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  DisabledEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  customText: 
-  keyID: 0
-  useAnim: Faucet1_R_Open
-  backUseAnim: Faucet1_R_Close
-  useJammedPlanks: 0
-  Planks: []
-  knobAnim: 
-  useSR: 0
-  startingRotation: {x: 0, y: 0, z: 0}
-  isOpened: 0
-  toPlayerAngle: 0
-  moveWithX: 0
-  minMaxMove: {x: 0, y: 0}
-  reverseMove: 0
-  InteractPos: 0
-  stopAngle: 0
-  lockOnUp: 0
-  isUp: 0
-  valveTurnSounds: []
-  valveSoundAfter: 0
-  valveTurnSpeed: 0
-  valveTurnTime: 0
-  m_Volume: 1
-  Open: {fileID: 0}
-  Close: {fileID: 0}
-  LockedTry: {fileID: 0}
-  UnlockSound: {fileID: 0}
-  LeverUpSound: {fileID: 0}
-  DebugAngle: 0
-  rotateValue: 0
-  isHolding: 0
-  Hold: 0
-  hasKey: 0
-  isLocked: 0
-  isInvoked: 0
-  Angle: 0
 --- !u!111 &128117462019674106
 Animation:
   m_ObjectHideFlags: 0

@@ -6,7 +6,6 @@ using UnityEngine.Timeline;
 
 public class TriggerTimelineController : MonoBehaviour
 {
-    public OVRPlayerController player;
     public PlayableDirector director;
     public List<TimelineAsset> playableList;
 

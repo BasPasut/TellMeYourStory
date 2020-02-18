@@ -37,7 +37,7 @@ public class Butler : Monster
         this.transform.LookAt(playerPosition);
         if (Vector3.Distance(transform.position, playerPosition) > 2)
         {
-            transform.Translate(0, 0, 0.05f);
+            transform.Translate(0, 0, 0.04f);
         }
         else
         {
@@ -52,7 +52,7 @@ public class Butler : Monster
         {
             if (Vector3.Distance(transform.position, roomPosition.position) > 0.2f)
             {
-                transform.Translate(0, 0, 0.05f);
+                transform.Translate(0, 0, 0.03f);
             }
             else
             {

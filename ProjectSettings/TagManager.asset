@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Floor
   - Interactable
+  - Wood
+  - Metal
+  - Paper
+  - Character
   layers:
   - Default
   - TransparentFX

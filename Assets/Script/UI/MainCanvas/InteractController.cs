@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using Valve.VR;
 
 public class InteractController : MonoBehaviour
 {
@@ -6,17 +7,27 @@ public class InteractController : MonoBehaviour
     public InteractGuideController guideController;
     public NotePanelController notePanelController;
 
-    private void Update()
-    {
-        if (OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger))
-        {
+    public SteamVR_Action_Boolean triggerAnimAction;
+    public SteamVR_Action_Boolean readNoteAction;
+    public SteamVR_Action_Boolean stopReadNoteAction;
 
-            Debug.Log("Pass");
-        }
-    }
+    //public void OnCollisionEnter(Collision collision)
+    //{
+    //    Debug.Log(collision.gameObject.name);
+    //    //if (collision.gameObject.tag == "Interactable")
+    //    //{
+    //    //    guideController.gameObject.SetActive(true);
+    //    //    if (collision.gameObject.name.Contains("Door"))
+    //    //    {
+    //    //        guideController.SetInteractGuideText("Open");
+    //    //    }             
+    //    //}
+    //}
 
-    private void OnControllerColliderHit(ControllerColliderHit collision)
+    public void OnCollisionStay(Collision collision)
     {
+        bool triggerDown = triggerAnimAction.GetStateDown(SteamVR_Input_Sources.Any);
+
         GameObject obj = collision.gameObject;
         if (collision.gameObject.tag == "Interactable")
         {
@@ -24,7 +35,7 @@ public class InteractController : MonoBehaviour
             if (obj.name.Contains("Door"))
             {
                 guideController.SetInteractGuideText("Open");
-                if (Input.GetKeyDown(KeyCode.E) || OVRInput.GetDown(OVRInput.Button.SecondaryIndexTrigger))
+                if (triggerDown)
                 {
                     bool doorStatus = collision.gameObject.GetComponent<Animator>().GetBool("IsOpen");
                     collision.gameObject.GetComponent<Animator>().SetBool("IsOpen", !doorStatus);
@@ -40,21 +51,24 @@ public class InteractController : MonoBehaviour
                         break;
                     case ItemType.note:
                         guideController.SetInteractGuideText("Read");
-                        if (Input.GetKey(KeyCode.E) || OVRInput.GetDown(OVRInput.Button.SecondaryIndexTrigger))
+                        if (readNoteAction.state)
                         {
-                            this.GetComponent<OVRPlayerController>().enabled = false;
+                            Debug.Log("true");
+                            this.GetComponent<PlayerMovementVR>().enabled = false;
                             Note note = (Note)item;
 
                             notePanelController.SetNote(note);
                             notePanelController.gameObject.SetActive(true);
+                            break;
 
                         }
-                        else if (Input.GetKey(KeyCode.Q) || OVRInput.GetDown(OVRInput.Button.SecondaryHandTrigger))
+                        else
                         {
-                            this.GetComponent<OVRPlayerController>().enabled = true;
+                            Debug.Log("false");
+                            this.GetComponent<PlayerMovementVR>().enabled = true;
                             notePanelController.gameObject.SetActive(false);
+                            break;
                         }
-                        break;
                     default:
                         break;
                 }
@@ -62,69 +76,6 @@ public class InteractController : MonoBehaviour
 
             }
 
-        }
-    }
-
-    public void OnCollisionEnter(Collision collision)
-    {
-        Debug.Log(collision.gameObject.name);
-        //if (collision.gameObject.tag == "Interactable")
-        //{
-        //    guideController.gameObject.SetActive(true);
-        //    if (collision.gameObject.name.Contains("Door"))
-        //    {
-        //        guideController.SetInteractGuideText("Open");
-        //    }             
-        //}
-    }
-
-    public void OnCollisionStay(Collision collision)
-    {
-        GameObject obj = collision.gameObject;
-        if(collision.gameObject.tag == "Interactable")
-        {
-            guideController.gameObject.SetActive(true);
-            if (obj.name.Contains("Door"))
-            {
-                guideController.SetInteractGuideText("Open");
-                if (Input.GetKeyDown(KeyCode.E) || OVRInput.GetDown(OVRInput.Button.SecondaryIndexTrigger))
-                {
-                    bool doorStatus = collision.gameObject.GetComponent<Animator>().GetBool("IsOpen");
-                    collision.gameObject.GetComponent<Animator>().SetBool("IsOpen", !doorStatus);
-
-                }
-            }
-            else if (obj.name.Contains("item"))
-            {      
-                    Item item = obj.GetComponent<Item>();
-                    switch (item.itemType)
-                    {
-                        case ItemType.equipment:
-                            break;
-                        case ItemType.note:
-                            guideController.SetInteractGuideText("Read");
-                        if (Input.GetKey(KeyCode.E) || OVRInput.GetDown(OVRInput.Button.SecondaryIndexTrigger))
-                        {
-                            this.GetComponent<OVRPlayerController>().enabled = false;
-                            Note note = (Note)item;
-                            
-                            notePanelController.SetNote(note);
-                            notePanelController.gameObject.SetActive(true);
-                            
-                        }
-                        else if (Input.GetKey(KeyCode.Q) || OVRInput.GetDown(OVRInput.Button.SecondaryHandTrigger))
-                        {
-                            this.GetComponent<OVRPlayerController>().enabled = true;
-                            notePanelController.gameObject.SetActive(false);
-                        }
-                            break;
-                        default:
-                            break;
-                    }
-                    item.GetPerformAction();
-                
-            }
-            
         }
     }
 

@@ -52,6 +52,12 @@ MonoBehaviour:
   triggerPointList:
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &1905794017350148569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76,10 +82,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49523d84c91c5d64b94c2b8de2d07dff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPointList:
-  - {fileID: 0}
-  monstersList:
-  - {fileID: 8962877823825828288, guid: 8674bc1b19e98f64eb78234e4013bfcd, type: 3}
+  spawnPointList: []
+  prefabsList: []
 --- !u!114 &1905794017350148575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93,4 +97,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  playableList: []
+  director: {fileID: 0}
+  playableList:
+  - {fileID: 11400000, guid: 8b1adb522973b7340b65380e8391a810, type: 2}
+  - {fileID: 11400000, guid: 7c2d4a0431997994caf14081859033bf, type: 2}
+  - {fileID: 11400000, guid: b73cbb7ca481b1a4dab3df2b4d94e8ab, type: 2}
+  - {fileID: 11400000, guid: 170a96514f2dcb84692320bf06517fe8, type: 2}
+  - {fileID: 11400000, guid: 8e6a916a5b3a3b241984b56612730fb8, type: 2}
+  - {fileID: 11400000, guid: 3e195788187255f46a1cfc82ecaf39e2, type: 2}
+  - {fileID: 11400000, guid: 6242a2ca3f3d5ec428146b25ac24fe75, type: 2}
+  - {fileID: 11400000, guid: f992a543a79ff2d4fa864f1a14fee371, type: 2}

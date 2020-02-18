@@ -106,7 +106,6 @@ GameObject:
   - component: {fileID: 7322976213968874808}
   - component: {fileID: 3334434989781694788}
   - component: {fileID: 204066330719131248}
-  - component: {fileID: 4408013903045406642}
   m_Layer: 10
   m_Name: Cooker1_Door2
   m_TagString: Metal
@@ -207,70 +206,6 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
---- !u!114 &4408013903045406642
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3724658518607124172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebeea973c9b1c584e967067915b4c2e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dynamicType: 0
-  useType: 0
-  interactType: 1
-  keyType: 0
-  m_Animation: {fileID: 7153178642385908117}
-  IgnoreColliders: []
-  InteractEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  DisabledEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  customText: 
-  keyID: 0
-  useAnim: Cooker1_Door2_Open
-  backUseAnim: Cooker1_Door2_Close
-  useJammedPlanks: 0
-  Planks: []
-  knobAnim: 
-  useSR: 0
-  startingRotation: {x: 0, y: 0, z: 0}
-  isOpened: 0
-  toPlayerAngle: 0
-  moveWithX: 0
-  minMaxMove: {x: 0, y: 0}
-  reverseMove: 0
-  InteractPos: 0
-  stopAngle: 0
-  lockOnUp: 0
-  isUp: 0
-  valveTurnSounds: []
-  valveSoundAfter: 0
-  valveTurnSpeed: 0
-  valveTurnTime: 0
-  m_Volume: 1
-  Open: {fileID: 0}
-  Close: {fileID: 0}
-  LockedTry: {fileID: 0}
-  UnlockSound: {fileID: 0}
-  LeverUpSound: {fileID: 0}
-  DebugAngle: 0
-  rotateValue: 0
-  isHolding: 0
-  Hold: 0
-  hasKey: 0
-  isLocked: 0
-  isInvoked: 0
-  Angle: 0
 --- !u!1 &4251509177140509039
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,7 +270,6 @@ GameObject:
   - component: {fileID: 8242020839331887978}
   - component: {fileID: 5304777944222932062}
   - component: {fileID: 5760644757422386269}
-  - component: {fileID: 44716578768515036}
   m_Layer: 10
   m_Name: Cooker1_Door1
   m_TagString: Metal
@@ -436,70 +370,6 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
---- !u!114 &44716578768515036
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6108522606114322318}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebeea973c9b1c584e967067915b4c2e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dynamicType: 0
-  useType: 0
-  interactType: 1
-  keyType: 0
-  m_Animation: {fileID: 8304048143313287266}
-  IgnoreColliders: []
-  InteractEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  DisabledEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  customText: 
-  keyID: 0
-  useAnim: Cooker1_Door1_Open
-  backUseAnim: Cooker1_Door1_Close
-  useJammedPlanks: 0
-  Planks: []
-  knobAnim: 
-  useSR: 0
-  startingRotation: {x: 0, y: 0, z: 0}
-  isOpened: 0
-  toPlayerAngle: 0
-  moveWithX: 0
-  minMaxMove: {x: 0, y: 0}
-  reverseMove: 0
-  InteractPos: 0
-  stopAngle: 0
-  lockOnUp: 0
-  isUp: 0
-  valveTurnSounds: []
-  valveSoundAfter: 0
-  valveTurnSpeed: 0
-  valveTurnTime: 0
-  m_Volume: 1
-  Open: {fileID: 0}
-  Close: {fileID: 0}
-  LockedTry: {fileID: 0}
-  UnlockSound: {fileID: 0}
-  LeverUpSound: {fileID: 0}
-  DebugAngle: 0
-  rotateValue: 0
-  isHolding: 0
-  Hold: 0
-  hasKey: 0
-  isLocked: 0
-  isInvoked: 0
-  Angle: 0
 --- !u!1 &6217689358167943693
 GameObject:
   m_ObjectHideFlags: 0

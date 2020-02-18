@@ -397,7 +397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d51e8135f1c0b4743830bcd96a9ced4d, type: 3}
   m_Name: SubtitleClip
   m_EditorClassIdentifier: 
-  subtitleText: "He even know my name\u2026."
+  subtitleText: How did he know my name..
 --- !u!114 &7882710606207908614
 MonoBehaviour:
   m_ObjectHideFlags: 1

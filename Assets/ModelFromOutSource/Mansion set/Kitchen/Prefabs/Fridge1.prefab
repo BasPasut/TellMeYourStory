@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 2064290022108836275}
   - component: {fileID: 1572807322809275234}
   - component: {fileID: 7106538190756145308}
-  - component: {fileID: 1351278874890404035}
   m_Layer: 10
   m_Name: Fridge1_Door1
   m_TagString: Metal
@@ -114,70 +113,6 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
---- !u!114 &1351278874890404035
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 813918968963847589}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebeea973c9b1c584e967067915b4c2e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dynamicType: 0
-  useType: 0
-  interactType: 1
-  keyType: 0
-  m_Animation: {fileID: 3553045674649386142}
-  IgnoreColliders: []
-  InteractEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  DisabledEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  customText: 
-  keyID: 0
-  useAnim: Fridge1_Door1_Open
-  backUseAnim: Fridge1_Door1_Close
-  useJammedPlanks: 0
-  Planks: []
-  knobAnim: 
-  useSR: 0
-  startingRotation: {x: 0, y: 0, z: 0}
-  isOpened: 0
-  toPlayerAngle: 0
-  moveWithX: 0
-  minMaxMove: {x: 0, y: 0}
-  reverseMove: 0
-  InteractPos: 0
-  stopAngle: 0
-  lockOnUp: 0
-  isUp: 0
-  valveTurnSounds: []
-  valveSoundAfter: 0
-  valveTurnSpeed: 0
-  valveTurnTime: 0
-  m_Volume: 1
-  Open: {fileID: 0}
-  Close: {fileID: 0}
-  LockedTry: {fileID: 0}
-  UnlockSound: {fileID: 0}
-  LeverUpSound: {fileID: 0}
-  DebugAngle: 0
-  rotateValue: 0
-  isHolding: 0
-  Hold: 0
-  hasKey: 0
-  isLocked: 0
-  isInvoked: 0
-  Angle: 0
 --- !u!1 &1266346347899370496
 GameObject:
   m_ObjectHideFlags: 0
@@ -191,7 +126,6 @@ GameObject:
   - component: {fileID: 6573403089410977317}
   - component: {fileID: 2979117765264251387}
   - component: {fileID: 6832743816848125813}
-  - component: {fileID: 6495629148559063221}
   m_Layer: 10
   m_Name: Fridge1_Drawer1
   m_TagString: Paper
@@ -291,70 +225,6 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
---- !u!114 &6495629148559063221
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1266346347899370496}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebeea973c9b1c584e967067915b4c2e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dynamicType: 0
-  useType: 0
-  interactType: 1
-  keyType: 0
-  m_Animation: {fileID: 1332005004781080544}
-  IgnoreColliders: []
-  InteractEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  DisabledEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  customText: 
-  keyID: 0
-  useAnim: Fridge1_Drawer1_Open
-  backUseAnim: Fridge1_Drawer1_Close
-  useJammedPlanks: 0
-  Planks: []
-  knobAnim: 
-  useSR: 0
-  startingRotation: {x: 0, y: 0, z: 0}
-  isOpened: 0
-  toPlayerAngle: 0
-  moveWithX: 0
-  minMaxMove: {x: 0, y: 0}
-  reverseMove: 0
-  InteractPos: 0
-  stopAngle: 0
-  lockOnUp: 0
-  isUp: 0
-  valveTurnSounds: []
-  valveSoundAfter: 0
-  valveTurnSpeed: 0
-  valveTurnTime: 0
-  m_Volume: 1
-  Open: {fileID: 0}
-  Close: {fileID: 0}
-  LockedTry: {fileID: 0}
-  UnlockSound: {fileID: 0}
-  LeverUpSound: {fileID: 0}
-  DebugAngle: 0
-  rotateValue: 0
-  isHolding: 0
-  Hold: 0
-  hasKey: 0
-  isLocked: 0
-  isInvoked: 0
-  Angle: 0
 --- !u!1 &5787428165123641144
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,7 +388,6 @@ GameObject:
   - component: {fileID: 1936027539452331623}
   - component: {fileID: 7499437000434525884}
   - component: {fileID: 3553801120895256121}
-  - component: {fileID: 1722884449689160128}
   m_Layer: 10
   m_Name: Fridge1_Drawer2
   m_TagString: Paper
@@ -618,70 +487,6 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
---- !u!114 &1722884449689160128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7101657896880187183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebeea973c9b1c584e967067915b4c2e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dynamicType: 0
-  useType: 0
-  interactType: 1
-  keyType: 0
-  m_Animation: {fileID: 6612546736733040612}
-  IgnoreColliders: []
-  InteractEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  DisabledEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  customText: 
-  keyID: 0
-  useAnim: Fridge1_Drawer2_Open
-  backUseAnim: Fridge1_Drawer2_Close
-  useJammedPlanks: 0
-  Planks: []
-  knobAnim: 
-  useSR: 0
-  startingRotation: {x: 0, y: 0, z: 0}
-  isOpened: 0
-  toPlayerAngle: 0
-  moveWithX: 0
-  minMaxMove: {x: 0, y: 0}
-  reverseMove: 0
-  InteractPos: 0
-  stopAngle: 0
-  lockOnUp: 0
-  isUp: 0
-  valveTurnSounds: []
-  valveSoundAfter: 0
-  valveTurnSpeed: 0
-  valveTurnTime: 0
-  m_Volume: 1
-  Open: {fileID: 0}
-  Close: {fileID: 0}
-  LockedTry: {fileID: 0}
-  UnlockSound: {fileID: 0}
-  LeverUpSound: {fileID: 0}
-  DebugAngle: 0
-  rotateValue: 0
-  isHolding: 0
-  Hold: 0
-  hasKey: 0
-  isLocked: 0
-  isInvoked: 0
-  Angle: 0
 --- !u!1 &7499681765359651303
 GameObject:
   m_ObjectHideFlags: 0
@@ -793,7 +598,6 @@ GameObject:
   - component: {fileID: 9010459148691669717}
   - component: {fileID: 2230989908480381304}
   - component: {fileID: 4717728286535939889}
-  - component: {fileID: 2818423896429062035}
   m_Layer: 10
   m_Name: Fridge1_Door_F
   m_TagString: Paper
@@ -893,70 +697,6 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
---- !u!114 &2818423896429062035
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7802580781636494674}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebeea973c9b1c584e967067915b4c2e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dynamicType: 0
-  useType: 0
-  interactType: 1
-  keyType: 0
-  m_Animation: {fileID: 3671149872226202354}
-  IgnoreColliders: []
-  InteractEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  DisabledEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  customText: 
-  keyID: 0
-  useAnim: Fridge1_Door_F_Open
-  backUseAnim: Fridge1_Door_F_Close
-  useJammedPlanks: 0
-  Planks: []
-  knobAnim: 
-  useSR: 0
-  startingRotation: {x: 0, y: 0, z: 0}
-  isOpened: 0
-  toPlayerAngle: 0
-  moveWithX: 0
-  minMaxMove: {x: 0, y: 0}
-  reverseMove: 0
-  InteractPos: 0
-  stopAngle: 0
-  lockOnUp: 0
-  isUp: 0
-  valveTurnSounds: []
-  valveSoundAfter: 0
-  valveTurnSpeed: 0
-  valveTurnTime: 0
-  m_Volume: 1
-  Open: {fileID: 0}
-  Close: {fileID: 0}
-  LockedTry: {fileID: 0}
-  UnlockSound: {fileID: 0}
-  LeverUpSound: {fileID: 0}
-  DebugAngle: 0
-  rotateValue: 0
-  isHolding: 0
-  Hold: 0
-  hasKey: 0
-  isLocked: 0
-  isInvoked: 0
-  Angle: 0
 --- !u!1 &8535948815637255344
 GameObject:
   m_ObjectHideFlags: 0

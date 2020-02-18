@@ -43,7 +43,7 @@ public class Trigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Player")
+        if (other.tag == "Player" || other.tag == "Character")
         {
             if (triggerType == TriggerType.Spawn || triggerType == TriggerType.Timeline)
             {
