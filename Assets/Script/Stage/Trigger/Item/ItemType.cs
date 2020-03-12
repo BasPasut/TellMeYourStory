@@ -4,6 +4,5 @@ using UnityEngine;
 
 public enum ItemType
 {
-    equipment = 1,
-    note = 2
+    piano = 1
 }

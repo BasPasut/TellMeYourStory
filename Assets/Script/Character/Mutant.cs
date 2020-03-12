@@ -14,7 +14,7 @@ public class Mutant : Monster
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (mutantVision.GetIsPlayerSeen())
         {
@@ -31,7 +31,7 @@ public class Mutant : Monster
                 transform.LookAt(playerPosition);
                 if (direction.magnitude > 1.5)
                 {
-                    transform.Translate(0, 0, 0.05f);
+                    transform.Translate(0, 0, 0.04f);
                 }
                 else
                 {

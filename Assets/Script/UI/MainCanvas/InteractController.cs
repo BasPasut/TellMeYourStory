@@ -9,7 +9,6 @@ public class InteractController : MonoBehaviour
 
     public SteamVR_Action_Boolean triggerAnimAction;
     public SteamVR_Action_Boolean readNoteAction;
-    public SteamVR_Action_Boolean stopReadNoteAction;
 
     //public void OnCollisionEnter(Collision collision)
     //{
@@ -42,40 +41,26 @@ public class InteractController : MonoBehaviour
 
                 }
             }
-            else if (obj.name.Contains("item"))
+            else if (obj.name.Contains("note"))
             {
-                Item item = obj.GetComponent<Item>();
-                switch (item.itemType)
+                guideController.SetInteractGuideText("Read");
+                if (readNoteAction.state)
                 {
-                    case ItemType.equipment:
-                        break;
-                    case ItemType.note:
-                        guideController.SetInteractGuideText("Read");
-                        if (readNoteAction.state)
-                        {
-                            Debug.Log("true");
-                            this.GetComponent<PlayerMovementVR>().enabled = false;
-                            Note note = (Note)item;
+                    Debug.Log("true");
+                    this.GetComponent<PlayerMovementVR>().enabled = false;
+                    Note note = this.GetComponent<Note>();
+                    notePanelController.SetNote(note);
+                    notePanelController.gameObject.SetActive(true);
 
-                            notePanelController.SetNote(note);
-                            notePanelController.gameObject.SetActive(true);
-                            break;
-
-                        }
-                        else
-                        {
-                            Debug.Log("false");
-                            this.GetComponent<PlayerMovementVR>().enabled = true;
-                            notePanelController.gameObject.SetActive(false);
-                            break;
-                        }
-                    default:
-                        break;
                 }
-                item.GetPerformAction();
+                else
+                {
+                    Debug.Log("false");
+                    this.GetComponent<PlayerMovementVR>().enabled = true;
+                    notePanelController.gameObject.SetActive(false);
+                }
 
             }
-
         }
     }
 
