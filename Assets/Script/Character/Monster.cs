@@ -37,4 +37,14 @@ public class Monster : MonoBehaviour
     {
         animator.SetBool("Attack", false);
     }
+
+    protected void StartFinding()
+    {
+        animator.SetBool("Find", true);
+    }
+
+    protected void StopFinding()
+    {
+        animator.SetBool("Find", false);
+    }
 }
