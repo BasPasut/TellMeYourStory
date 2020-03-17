@@ -412,5 +412,10 @@ namespace Valve.VR.InteractionSystem
 		{
 			//Do something appropriate here
 		}
-	}
+
+        public bool IsDebug()
+        {
+            return rig2DFallback.activeSelf;
+        }
+    }
 }

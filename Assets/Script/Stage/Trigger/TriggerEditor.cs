@@ -19,7 +19,7 @@ public class TriggerEditor : Editor
             {
                 EditorGUI.indentLevel++;              
                 EditorGUILayout.PrefixLabel("Perform Object");
-                trigger.obj = (GameObject)EditorGUILayout.ObjectField(trigger.obj, typeof(GameObject), true);
+                trigger.obj = (Item)EditorGUILayout.ObjectField(trigger.obj, typeof(Item), true);
                 EditorGUI.indentLevel--;
             }
         }

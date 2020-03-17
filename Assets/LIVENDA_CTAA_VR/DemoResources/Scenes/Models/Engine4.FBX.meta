@@ -1,0 +1,5095 @@
+fileFormatVersion: 2
+guid: 70d7ea1d11da2824f8778ed2f7f8cc73
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 1
+    100002: 1 1
+    100004: 1 2
+    100006: 1 3
+    100008: 1 4
+    100010: 1 5
+    100012: 1 6
+    100014: 1 7
+    100016: 1 8
+    100018: ?????-????????3
+    100020: ?????-????????3 1
+    100022: ?????-????????3 2
+    100024: ?????-????????3 3
+    100026: ?????-????????3 4
+    100028: ?????-????????3 5
+    100030: ?????-????????3 6
+    100032: ?????-????????3 7
+    100034: ?????-????????3 8
+    100036: ?????-????????3 9
+    100038: ?????2
+    100040: ?????2 1
+    100042: ?????2 2
+    100044: ?????2 3
+    100046: ?????2 4
+    100048: ?????2 5
+    100050: ?????2 6
+    100052: ?????2 7
+    100054: ?????2 8
+    100056: ?????2 9
+    100058: ?????3
+    100060: ?????3 1
+    100062: ?????3 2
+    100064: ?????3 3
+    100066: ?????3 4
+    100068: ?????3 5
+    100070: ?????3 6
+    100072: ?????3 7
+    100074: ?????3 8
+    100076: ?????3 9
+    100078: ?????7
+    100080: ???????? ??????1
+    100082: ???????? ??????1 1
+    100084: ???????? ??????1 2
+    100086: ???????? ??????1 3
+    100088: ???????? ??????1 4
+    100090: ???????? ??????1 5
+    100092: ???????? ??????1 6
+    100094: ???????? ??????1 7
+    100096: ???????? ??????1 8
+    100098: ???????? ??????1 9
+    100100: ?????????1
+    100102: ?????????1 1
+    100104: ?????????1 10
+    100106: ?????????1 11
+    100108: ?????????1 12
+    100110: ?????????1 13
+    100112: ?????????1 14
+    100114: ?????????1 15
+    100116: ?????????1 16
+    100118: ?????????1 17
+    100120: ?????????1 18
+    100122: ?????????1 19
+    100124: ?????????1 2
+    100126: ?????????1 3
+    100128: ?????????1 4
+    100130: ?????????1 5
+    100132: ?????????1 6
+    100134: ?????????1 7
+    100136: ?????????1 8
+    100138: ?????????1 9
+    100140: ??????????3
+    100142: ??????????3 1
+    100144: ??????????3 2
+    100146: ??????????3 3
+    100148: ??????????3 4
+    100150: ??????????3 5
+    100152: ??????????3 6
+    100154: ??????????3 7
+    100156: ??????????3 8
+    100158: ??????????3 9
+    100160: Base-Revolve
+    100162: Base-Revolve 1
+    100164: Base-Revolve 10
+    100166: Base-Revolve 11
+    100168: Base-Revolve 12
+    100170: Base-Revolve 13
+    100172: Base-Revolve 14
+    100174: Base-Revolve 15
+    100176: Base-Revolve 16
+    100178: Base-Revolve 17
+    100180: Base-Revolve 18
+    100182: Base-Revolve 19
+    100184: Base-Revolve 2
+    100186: Base-Revolve 20
+    100188: Base-Revolve 21
+    100190: Base-Revolve 22
+    100192: Base-Revolve 23
+    100194: Base-Revolve 24
+    100196: Base-Revolve 25
+    100198: Base-Revolve 26
+    100200: Base-Revolve 27
+    100202: Base-Revolve 28
+    100204: Base-Revolve 29
+    100206: Base-Revolve 3
+    100208: Base-Revolve 30
+    100210: Base-Revolve 31
+    100212: Base-Revolve 32
+    100214: Base-Revolve 33
+    100216: Base-Revolve 34
+    100218: Base-Revolve 35
+    100220: Base-Revolve 36
+    100222: Base-Revolve 37
+    100224: Base-Revolve 38
+    100226: Base-Revolve 39
+    100228: Base-Revolve 4
+    100230: Base-Revolve 40
+    100232: Base-Revolve 41
+    100234: Base-Revolve 42
+    100236: Base-Revolve 43
+    100238: Base-Revolve 44
+    100240: Base-Revolve 45
+    100242: Base-Revolve 46
+    100244: Base-Revolve 47
+    100246: Base-Revolve 48
+    100248: Base-Revolve 49
+    100250: Base-Revolve 5
+    100252: Base-Revolve 50
+    100254: Base-Revolve 51
+    100256: Base-Revolve 6
+    100258: Base-Revolve 7
+    100260: Base-Revolve 8
+    100262: Base-Revolve 9
+    100264: Body
+    100266: Body 1
+    100268: Body 2
+    100270: Body 3
+    100272: body-flange
+    100274: body-flange 1
+    100276: body-flange 2
+    100278: body-flange 3
+    100280: body-flange 4
+    100282: body-flange 5
+    100284: body-flange 6
+    100286: Body-Move/Copy1[1]
+    100288: Body-Move/Copy1[2]
+    100290: Boss-Extrude1
+    100292: Boss-Extrude1 1
+    100294: Boss-Extrude1 10
+    100296: Boss-Extrude1 11
+    100298: Boss-Extrude1 12
+    100300: Boss-Extrude1 13
+    100302: Boss-Extrude1 14
+    100304: Boss-Extrude1 15
+    100306: Boss-Extrude1 16
+    100308: Boss-Extrude1 17
+    100310: Boss-Extrude1 18
+    100312: Boss-Extrude1 19
+    100314: Boss-Extrude1 2
+    100316: Boss-Extrude1 20
+    100318: Boss-Extrude1 21
+    100320: Boss-Extrude1 22
+    100322: Boss-Extrude1 23
+    100324: Boss-Extrude1 24
+    100326: Boss-Extrude1 25
+    100328: Boss-Extrude1 26
+    100330: Boss-Extrude1 27
+    100332: Boss-Extrude1 28
+    100334: Boss-Extrude1 29
+    100336: Boss-Extrude1 3
+    100338: Boss-Extrude1 30
+    100340: Boss-Extrude1 4
+    100342: Boss-Extrude1 5
+    100344: Boss-Extrude1 6
+    100346: Boss-Extrude1 7
+    100348: Boss-Extrude1 8
+    100350: Boss-Extrude1 9
+    100352: Boss-Extrude2
+    100354: Boss-Extrude2 1
+    100356: Boss-Extrude2 2
+    100358: Boss-Extrude2 3
+    100360: Boss-Extrude3
+    100362: CageSpine
+    100364: CageSpine 1
+    100366: CageSpine 2
+    100368: Chamfer1
+    100370: Chamfer1 1
+    100372: Chamfer1 10
+    100374: Chamfer1 11
+    100376: Chamfer1 12
+    100378: Chamfer1 13
+    100380: Chamfer1 14
+    100382: Chamfer1 15
+    100384: Chamfer1 16
+    100386: Chamfer1 17
+    100388: Chamfer1 18
+    100390: Chamfer1 19
+    100392: Chamfer1 2
+    100394: Chamfer1 20
+    100396: Chamfer1 21
+    100398: Chamfer1 22
+    100400: Chamfer1 23
+    100402: Chamfer1 24
+    100404: Chamfer1 25
+    100406: Chamfer1 26
+    100408: Chamfer1 27
+    100410: Chamfer1 28
+    100412: Chamfer1 29
+    100414: Chamfer1 3
+    100416: Chamfer1 30
+    100418: Chamfer1 31
+    100420: Chamfer1 32
+    100422: Chamfer1 33
+    100424: Chamfer1 34
+    100426: Chamfer1 35
+    100428: Chamfer1 36
+    100430: Chamfer1 37
+    100432: Chamfer1 38
+    100434: Chamfer1 39
+    100436: Chamfer1 4
+    100438: Chamfer1 40
+    100440: Chamfer1 41
+    100442: Chamfer1 42
+    100444: Chamfer1 43
+    100446: Chamfer1 44
+    100448: Chamfer1 45
+    100450: Chamfer1 46
+    100452: Chamfer1 5
+    100454: Chamfer1 6
+    100456: Chamfer1 7
+    100458: Chamfer1 8
+    100460: Chamfer1 9
+    100462: Chamfer2
+    100464: Chamfer2 1
+    100466: Chamfer2 10
+    100468: Chamfer2 11
+    100470: Chamfer2 12
+    100472: Chamfer2 13
+    100474: Chamfer2 14
+    100476: Chamfer2 15
+    100478: Chamfer2 16
+    100480: Chamfer2 17
+    100482: Chamfer2 18
+    100484: Chamfer2 19
+    100486: Chamfer2 2
+    100488: Chamfer2 20
+    100490: Chamfer2 3
+    100492: Chamfer2 4
+    100494: Chamfer2 5
+    100496: Chamfer2 6
+    100498: Chamfer2 7
+    100500: Chamfer2 8
+    100502: Chamfer2 9
+    100504: Chamfer4
+    100506: Chamfer4 1
+    100508: Chamfer4 2
+    100510: Chamfer4 3
+    100512: CirPattern1
+    100514: CirPattern1 1
+    100516: CirPattern1 2
+    100518: CirPattern1 3
+    100520: CirPattern2
+    100522: CirPattern2 1
+    100524: CirPattern2 2
+    100526: CirPattern2 3
+    100528: CirPattern2[1]
+    100530: CirPattern2[1] 1
+    100532: CirPattern2[2]
+    100534: CirPattern2[2] 1
+    100536: CirPattern2[3]
+    100538: CirPattern2[3] 1
+    100540: Combine1
+    100542: Combine1 1
+    100544: Combine1 2
+    100546: Combine1 3
+    100548: Cosmetic-Chamfer
+    100550: Cosmetic-Chamfer 1
+    100552: Cosmetic-Chamfer 2
+    100554: Cosmetic-Chamfer 3
+    100556: Cut-Extrude1
+    100558: Cut-Extrude1 1
+    100560: Cut-Extrude1 10
+    100562: Cut-Extrude1 11
+    100564: Cut-Extrude1 12
+    100566: Cut-Extrude1 13
+    100568: Cut-Extrude1 14
+    100570: Cut-Extrude1 15
+    100572: Cut-Extrude1 16
+    100574: Cut-Extrude1 17
+    100576: Cut-Extrude1 18
+    100578: Cut-Extrude1 19
+    100580: Cut-Extrude1 2
+    100582: Cut-Extrude1 20
+    100584: Cut-Extrude1 21
+    100586: Cut-Extrude1 22
+    100588: Cut-Extrude1 23
+    100590: Cut-Extrude1 24
+    100592: Cut-Extrude1 25
+    100594: Cut-Extrude1 26
+    100596: Cut-Extrude1 27
+    100598: Cut-Extrude1 28
+    100600: Cut-Extrude1 29
+    100602: Cut-Extrude1 3
+    100604: Cut-Extrude1 30
+    100606: Cut-Extrude1 31
+    100608: Cut-Extrude1 32
+    100610: Cut-Extrude1 33
+    100612: Cut-Extrude1 34
+    100614: Cut-Extrude1 35
+    100616: Cut-Extrude1 36
+    100618: Cut-Extrude1 37
+    100620: Cut-Extrude1 38
+    100622: Cut-Extrude1 39
+    100624: Cut-Extrude1 4
+    100626: Cut-Extrude1 40
+    100628: Cut-Extrude1 41
+    100630: Cut-Extrude1 42
+    100632: Cut-Extrude1 43
+    100634: Cut-Extrude1 44
+    100636: Cut-Extrude1 5
+    100638: Cut-Extrude1 6
+    100640: Cut-Extrude1 7
+    100642: Cut-Extrude1 8
+    100644: Cut-Extrude1 9
+    100646: Cut-Extrude11
+    100648: Cut-Extrude11 1
+    100650: Cut-Extrude16
+    100652: Cut-Extrude2
+    100654: Cut-Extrude2 1
+    100656: Cut-Extrude2 10
+    100658: Cut-Extrude2 11
+    100660: Cut-Extrude2 12
+    100662: Cut-Extrude2 13
+    100664: Cut-Extrude2 14
+    100666: Cut-Extrude2 15
+    100668: Cut-Extrude2 16
+    100670: Cut-Extrude2 17
+    100672: Cut-Extrude2 2
+    100674: Cut-Extrude2 3
+    100676: Cut-Extrude2 4
+    100678: Cut-Extrude2 5
+    100680: Cut-Extrude2 6
+    100682: Cut-Extrude2 7
+    100684: Cut-Extrude2 8
+    100686: Cut-Extrude2 9
+    100688: Cut-Extrude20
+    100690: Cut-Extrude3
+    100692: Cut-Extrude3 1
+    100694: Cut-Extrude3 2
+    100696: Cut-Extrude3 3
+    100698: Cut-Extrude6
+    100700: Cut-Extrude7
+    100702: Cut-Extrude7 1
+    100704: Cut-Revolve1
+    100706: Cut-Revolve1 1
+    100708: Cut-Revolve1 2
+    100710: Cut-Revolve1 3
+    100712: Cut-Revolve1 4
+    100714: Cut-Revolve1 5
+    100716: Cut-Revolve1 6
+    100718: Cut-Revolve1 7
+    100720: Cut-Revolve1 8
+    100722: Cut-Revolve1 9
+    100724: Cut-Sweep1
+    100726: Cut-Sweep1 1
+    100728: Cut-Sweep1 2
+    100730: Cut-Sweep1 3
+    100732: E1064
+    100734: E1064 1
+    100736: E1064 2
+    100738: E1064 3
+    100740: E1064 4
+    100742: E1064 5
+    100744: E1688
+    100746: E1688 1
+    100748: E1688 2
+    100750: E1688 3
+    100752: //RootNode
+    100754: Face2
+    100756: Face2 1
+    100758: Fillet1
+    100760: Fillet1 1
+    100762: Fillet1 10
+    100764: Fillet1 11
+    100766: Fillet1 12
+    100768: Fillet1 13
+    100770: Fillet1 14
+    100772: Fillet1 15
+    100774: Fillet1 16
+    100776: Fillet1 17
+    100778: Fillet1 18
+    100780: Fillet1 19
+    100782: Fillet1 2
+    100784: Fillet1 20
+    100786: Fillet1 21
+    100788: Fillet1 22
+    100790: Fillet1 23
+    100792: Fillet1 24
+    100794: Fillet1 25
+    100796: Fillet1 26
+    100798: Fillet1 27
+    100800: Fillet1 28
+    100802: Fillet1 29
+    100804: Fillet1 3
+    100806: Fillet1 30
+    100808: Fillet1 31
+    100810: Fillet1 32
+    100812: Fillet1 33
+    100814: Fillet1 34
+    100816: Fillet1 35
+    100818: Fillet1 36
+    100820: Fillet1 37
+    100822: Fillet1 38
+    100824: Fillet1 39
+    100826: Fillet1 4
+    100828: Fillet1 40
+    100830: Fillet1 41
+    100832: Fillet1 42
+    100834: Fillet1 43
+    100836: Fillet1 44
+    100838: Fillet1 45
+    100840: Fillet1 46
+    100842: Fillet1 47
+    100844: Fillet1 48
+    100846: Fillet1 49
+    100848: Fillet1 5
+    100850: Fillet1 50
+    100852: Fillet1 51
+    100854: Fillet1 52
+    100856: Fillet1 53
+    100858: Fillet1 54
+    100860: Fillet1 55
+    100862: Fillet1 56
+    100864: Fillet1 57
+    100866: Fillet1 58
+    100868: Fillet1 59
+    100870: Fillet1 6
+    100872: Fillet1 60
+    100874: Fillet1 61
+    100876: Fillet1 62
+    100878: Fillet1 63
+    100880: Fillet1 64
+    100882: Fillet1 65
+    100884: Fillet1 66
+    100886: Fillet1 67
+    100888: Fillet1 68
+    100890: Fillet1 69
+    100892: Fillet1 7
+    100894: Fillet1 70
+    100896: Fillet1 71
+    100898: Fillet1 72
+    100900: Fillet1 73
+    100902: Fillet1 74
+    100904: Fillet1 75
+    100906: Fillet1 76
+    100908: Fillet1 77
+    100910: Fillet1 78
+    100912: Fillet1 8
+    100914: Fillet1 9
+    100916: Fillet11
+    100918: Fillet16
+    100920: Fillet2
+    100922: Fillet2 1
+    100924: Fillet2 2
+    100926: Fillet2 3
+    100928: Fillet2 4
+    100930: Fillet2 5
+    100932: Fillet2 6
+    100934: Fillet2 7
+    100936: Fillet2 8
+    100938: Fillet2 9
+    100940: Fillet24
+    100942: Fillet3
+    100944: Fillet3 1
+    100946: Fillet3 10
+    100948: Fillet3 11
+    100950: Fillet3 12
+    100952: Fillet3 2
+    100954: Fillet3 3
+    100956: Fillet3 4
+    100958: Fillet3 5
+    100960: Fillet3 6
+    100962: Fillet3 7
+    100964: Fillet3 8
+    100966: Fillet3 9
+    100968: Fillet4
+    100970: Fillet4 1
+    100972: Fillet4 2
+    100974: Fillet5
+    100976: Fillet6
+    100978: Fillet6 1
+    100980: Fillet6 2
+    100982: Fillet6 3
+    100984: Fillet7
+    100986: Fillet7 1
+    100988: Fillet7 2
+    100990: Fillet7 3
+    100992: Gap
+    100994: Gap 1
+    100996: Gap 10
+    100998: Gap 11
+    101000: Gap 12
+    101002: Gap 13
+    101004: Gap 14
+    101006: Gap 15
+    101008: Gap 16
+    101010: Gap 17
+    101012: Gap 18
+    101014: Gap 19
+    101016: Gap 2
+    101018: Gap 20
+    101020: Gap 21
+    101022: Gap 22
+    101024: Gap 23
+    101026: Gap 24
+    101028: Gap 25
+    101030: Gap 26
+    101032: Gap 27
+    101034: Gap 28
+    101036: Gap 29
+    101038: Gap 3
+    101040: Gap 30
+    101042: Gap 31
+    101044: Gap 32
+    101046: Gap 33
+    101048: Gap 34
+    101050: Gap 35
+    101052: Gap 36
+    101054: Gap 37
+    101056: Gap 38
+    101058: Gap 39
+    101060: Gap 4
+    101062: Gap 40
+    101064: Gap 41
+    101066: Gap 42
+    101068: Gap 43
+    101070: Gap 44
+    101072: Gap 45
+    101074: Gap 46
+    101076: Gap 47
+    101078: Gap 5
+    101080: Gap 6
+    101082: Gap 7
+    101084: Gap 8
+    101086: Gap 9
+    101088: Imported1
+    101090: Imported1 1
+    101092: Imported1 10
+    101094: Imported1 11
+    101096: Imported1 12
+    101098: Imported1 13
+    101100: Imported1 14
+    101102: Imported1 15
+    101104: Imported1 16
+    101106: Imported1 17
+    101108: Imported1 18
+    101110: Imported1 19
+    101112: Imported1 2
+    101114: Imported1 20
+    101116: Imported1 21
+    101118: Imported1 22
+    101120: Imported1 23
+    101122: Imported1 24
+    101124: Imported1 25
+    101126: Imported1 26
+    101128: Imported1 27
+    101130: Imported1 3
+    101132: Imported1 4
+    101134: Imported1 5
+    101136: Imported1 6
+    101138: Imported1 7
+    101140: Imported1 8
+    101142: Imported1 9
+    101144: Imported5
+    101146: Imported5 1
+    101148: Imported5 2
+    101150: Imported5 3
+    101152: Imported6
+    101154: Imported6 1
+    101156: Imported6 2
+    101158: Imported6 3
+    101160: Imported7
+    101162: Imported7 1
+    101164: Imported7 2
+    101166: Imported7 3
+    101168: Imported8
+    101170: Imported8 1
+    101172: Imported8 2
+    101174: Imported8 3
+    101176: LPattern1
+    101178: LPattern1 1
+    101180: M2.5 Clearance Hole1
+    101182: M2.5 Clearance Hole1 1
+    101184: M2.5 Clearance Hole1 2
+    101186: M2.5 Clearance Hole1 3
+    101188: M5 Clearance Hole1
+    101190: M5 Clearance Hole1 1
+    101192: Mirror1
+    101194: Mirror1 1
+    101196: Mirror1 10
+    101198: Mirror1 2
+    101200: Mirror1 3
+    101202: Mirror1 4
+    101204: Mirror1 5
+    101206: Mirror1 6
+    101208: Mirror1 7
+    101210: Mirror1 8
+    101212: Mirror1 9
+    101214: Mirror4
+    101216: Move Face1
+    101218: Move Face2
+    101220: Notch
+    101222: Notch 1
+    101224: Notch 2
+    101226: Notch 3
+    101228: Notch 4
+    101230: Notch 5
+    101232: Notch 6
+    101234: Notch 7
+    101236: Revolve1
+    101238: Revolve1 1
+    101240: Revolve1 10
+    101242: Revolve1 11
+    101244: Revolve1 12
+    101246: Revolve1 13
+    101248: Revolve1 14
+    101250: Revolve1 15
+    101252: Revolve1 16
+    101254: Revolve1 17
+    101256: Revolve1 18
+    101258: Revolve1 19
+    101260: Revolve1 2
+    101262: Revolve1 20
+    101264: Revolve1 21
+    101266: Revolve1 22
+    101268: Revolve1 23
+    101270: Revolve1 24
+    101272: Revolve1 3
+    101274: Revolve1 4
+    101276: Revolve1 5
+    101278: Revolve1 6
+    101280: Revolve1 7
+    101282: Revolve1 8
+    101284: Revolve1 9
+    101286: RollersDetailed
+    101288: RollersDetailed 1
+    101290: RollersDetailed 10
+    101292: RollersDetailed 11
+    101294: RollersDetailed 12
+    101296: RollersDetailed 13
+    101298: RollersDetailed 14
+    101300: RollersDetailed 15
+    101302: RollersDetailed 2
+    101304: RollersDetailed 3
+    101306: RollersDetailed 4
+    101308: RollersDetailed 5
+    101310: RollersDetailed 6
+    101312: RollersDetailed 7
+    101314: RollersDetailed 8
+    101316: RollersDetailed 9
+    101318: Sweep1
+    101320: Sweep1 1
+    101322: Sweep1 10
+    101324: Sweep1 11
+    101326: Sweep1 12
+    101328: Sweep1 13
+    101330: Sweep1 14
+    101332: Sweep1 15
+    101334: Sweep1 16
+    101336: Sweep1 17
+    101338: Sweep1 18
+    101340: Sweep1 19
+    101342: Sweep1 2
+    101344: Sweep1 20
+    101346: Sweep1 21
+    101348: Sweep1 22
+    101350: Sweep1 23
+    101352: Sweep1 24
+    101354: Sweep1 25
+    101356: Sweep1 26
+    101358: Sweep1 27
+    101360: Sweep1 28
+    101362: Sweep1 29
+    101364: Sweep1 3
+    101366: Sweep1 30
+    101368: Sweep1 31
+    101370: Sweep1 32
+    101372: Sweep1 33
+    101374: Sweep1 34
+    101376: Sweep1 35
+    101378: Sweep1 36
+    101380: Sweep1 4
+    101382: Sweep1 5
+    101384: Sweep1 6
+    101386: Sweep1 7
+    101388: Sweep1 8
+    101390: Sweep1 9
+    101392: Sweep2
+    101394: Sweep2 1
+    101396: ThdSchPat
+    101398: ThdSchPat 1
+    101400: ThdSchPat 10
+    101402: ThdSchPat 100
+    101404: ThdSchPat 101
+    101406: ThdSchPat 102
+    101408: ThdSchPat 103
+    101410: ThdSchPat 104
+    101412: ThdSchPat 105
+    101414: ThdSchPat 106
+    101416: ThdSchPat 107
+    101418: ThdSchPat 108
+    101420: ThdSchPat 109
+    101422: ThdSchPat 11
+    101424: ThdSchPat 110
+    101426: ThdSchPat 111
+    101428: ThdSchPat 112
+    101430: ThdSchPat 113
+    101432: ThdSchPat 114
+    101434: ThdSchPat 115
+    101436: ThdSchPat 116
+    101438: ThdSchPat 117
+    101440: ThdSchPat 118
+    101442: ThdSchPat 119
+    101444: ThdSchPat 12
+    101446: ThdSchPat 120
+    101448: ThdSchPat 121
+    101450: ThdSchPat 122
+    101452: ThdSchPat 123
+    101454: ThdSchPat 124
+    101456: ThdSchPat 125
+    101458: ThdSchPat 126
+    101460: ThdSchPat 127
+    101462: ThdSchPat 128
+    101464: ThdSchPat 129
+    101466: ThdSchPat 13
+    101468: ThdSchPat 130
+    101470: ThdSchPat 131
+    101472: ThdSchPat 132
+    101474: ThdSchPat 133
+    101476: ThdSchPat 134
+    101478: ThdSchPat 135
+    101480: ThdSchPat 136
+    101482: ThdSchPat 137
+    101484: ThdSchPat 138
+    101486: ThdSchPat 139
+    101488: ThdSchPat 14
+    101490: ThdSchPat 140
+    101492: ThdSchPat 141
+    101494: ThdSchPat 142
+    101496: ThdSchPat 143
+    101498: ThdSchPat 144
+    101500: ThdSchPat 145
+    101502: ThdSchPat 146
+    101504: ThdSchPat 147
+    101506: ThdSchPat 148
+    101508: ThdSchPat 149
+    101510: ThdSchPat 15
+    101512: ThdSchPat 150
+    101514: ThdSchPat 151
+    101516: ThdSchPat 152
+    101518: ThdSchPat 153
+    101520: ThdSchPat 154
+    101522: ThdSchPat 155
+    101524: ThdSchPat 156
+    101526: ThdSchPat 157
+    101528: ThdSchPat 158
+    101530: ThdSchPat 159
+    101532: ThdSchPat 16
+    101534: ThdSchPat 160
+    101536: ThdSchPat 161
+    101538: ThdSchPat 162
+    101540: ThdSchPat 163
+    101542: ThdSchPat 164
+    101544: ThdSchPat 165
+    101546: ThdSchPat 166
+    101548: ThdSchPat 167
+    101550: ThdSchPat 168
+    101552: ThdSchPat 169
+    101554: ThdSchPat 17
+    101556: ThdSchPat 170
+    101558: ThdSchPat 171
+    101560: ThdSchPat 172
+    101562: ThdSchPat 173
+    101564: ThdSchPat 174
+    101566: ThdSchPat 175
+    101568: ThdSchPat 176
+    101570: ThdSchPat 177
+    101572: ThdSchPat 178
+    101574: ThdSchPat 179
+    101576: ThdSchPat 18
+    101578: ThdSchPat 180
+    101580: ThdSchPat 181
+    101582: ThdSchPat 182
+    101584: ThdSchPat 183
+    101586: ThdSchPat 184
+    101588: ThdSchPat 185
+    101590: ThdSchPat 186
+    101592: ThdSchPat 187
+    101594: ThdSchPat 188
+    101596: ThdSchPat 189
+    101598: ThdSchPat 19
+    101600: ThdSchPat 190
+    101602: ThdSchPat 191
+    101604: ThdSchPat 192
+    101606: ThdSchPat 193
+    101608: ThdSchPat 194
+    101610: ThdSchPat 195
+    101612: ThdSchPat 196
+    101614: ThdSchPat 197
+    101616: ThdSchPat 198
+    101618: ThdSchPat 199
+    101620: ThdSchPat 2
+    101622: ThdSchPat 20
+    101624: ThdSchPat 200
+    101626: ThdSchPat 201
+    101628: ThdSchPat 202
+    101630: ThdSchPat 203
+    101632: ThdSchPat 204
+    101634: ThdSchPat 205
+    101636: ThdSchPat 206
+    101638: ThdSchPat 207
+    101640: ThdSchPat 208
+    101642: ThdSchPat 209
+    101644: ThdSchPat 21
+    101646: ThdSchPat 210
+    101648: ThdSchPat 211
+    101650: ThdSchPat 212
+    101652: ThdSchPat 213
+    101654: ThdSchPat 214
+    101656: ThdSchPat 215
+    101658: ThdSchPat 216
+    101660: ThdSchPat 217
+    101662: ThdSchPat 218
+    101664: ThdSchPat 219
+    101666: ThdSchPat 22
+    101668: ThdSchPat 220
+    101670: ThdSchPat 221
+    101672: ThdSchPat 222
+    101674: ThdSchPat 23
+    101676: ThdSchPat 24
+    101678: ThdSchPat 25
+    101680: ThdSchPat 26
+    101682: ThdSchPat 27
+    101684: ThdSchPat 28
+    101686: ThdSchPat 29
+    101688: ThdSchPat 3
+    101690: ThdSchPat 30
+    101692: ThdSchPat 31
+    101694: ThdSchPat 32
+    101696: ThdSchPat 33
+    101698: ThdSchPat 34
+    101700: ThdSchPat 35
+    101702: ThdSchPat 36
+    101704: ThdSchPat 37
+    101706: ThdSchPat 38
+    101708: ThdSchPat 39
+    101710: ThdSchPat 4
+    101712: ThdSchPat 40
+    101714: ThdSchPat 41
+    101716: ThdSchPat 42
+    101718: ThdSchPat 43
+    101720: ThdSchPat 44
+    101722: ThdSchPat 45
+    101724: ThdSchPat 46
+    101726: ThdSchPat 47
+    101728: ThdSchPat 48
+    101730: ThdSchPat 49
+    101732: ThdSchPat 5
+    101734: ThdSchPat 50
+    101736: ThdSchPat 51
+    101738: ThdSchPat 52
+    101740: ThdSchPat 53
+    101742: ThdSchPat 54
+    101744: ThdSchPat 55
+    101746: ThdSchPat 56
+    101748: ThdSchPat 57
+    101750: ThdSchPat 58
+    101752: ThdSchPat 59
+    101754: ThdSchPat 6
+    101756: ThdSchPat 60
+    101758: ThdSchPat 61
+    101760: ThdSchPat 62
+    101762: ThdSchPat 63
+    101764: ThdSchPat 64
+    101766: ThdSchPat 65
+    101768: ThdSchPat 66
+    101770: ThdSchPat 67
+    101772: ThdSchPat 68
+    101774: ThdSchPat 69
+    101776: ThdSchPat 7
+    101778: ThdSchPat 70
+    101780: ThdSchPat 71
+    101782: ThdSchPat 72
+    101784: ThdSchPat 73
+    101786: ThdSchPat 74
+    101788: ThdSchPat 75
+    101790: ThdSchPat 76
+    101792: ThdSchPat 77
+    101794: ThdSchPat 78
+    101796: ThdSchPat 79
+    101798: ThdSchPat 8
+    101800: ThdSchPat 80
+    101802: ThdSchPat 81
+    101804: ThdSchPat 82
+    101806: ThdSchPat 83
+    101808: ThdSchPat 84
+    101810: ThdSchPat 85
+    101812: ThdSchPat 86
+    101814: ThdSchPat 87
+    101816: ThdSchPat 88
+    101818: ThdSchPat 89
+    101820: ThdSchPat 9
+    101822: ThdSchPat 90
+    101824: ThdSchPat 91
+    101826: ThdSchPat 92
+    101828: ThdSchPat 93
+    101830: ThdSchPat 94
+    101832: ThdSchPat 95
+    101834: ThdSchPat 96
+    101836: ThdSchPat 97
+    101838: ThdSchPat 98
+    101840: ThdSchPat 99
+    101842: Wrap1
+    101844: Wrap2
+    101846: Wrap2 1
+    101848: Wrap2 10
+    101850: Wrap2 11
+    101852: Wrap2 12
+    101854: Wrap2 13
+    101856: Wrap2 14
+    101858: Wrap2 15
+    101860: Wrap2 2
+    101862: Wrap2 3
+    101864: Wrap2 4
+    101866: Wrap2 5
+    101868: Wrap2 6
+    101870: Wrap2 7
+    101872: Wrap2 8
+    101874: Wrap2 9
+    101876: "\xD80.5 (0.5) Diameter Hole1"
+    101878: "\xD80.5 (0.5) Diameter Hole1 1"
+    101880: "\xD80.5 (0.5) Diameter Hole2"
+    101882: "\xD80.5 (0.5) Diameter Hole2 1"
+    101884: "\xD80.5 (0.5) Diameter Hole2 2"
+    101886: "\xD80.5 (0.5) Diameter Hole2 3"
+    101888: "\xD812.0 (12) Diameter Hole1"
+    101890: "\xD816.0 (16) Diameter Hole1"
+    101892: "\xD82.0 (2) Diameter Hole1"
+    101894: "\xD82.0 (2) Diameter Hole1 1"
+    101896: "\xD82.0 (2) Diameter Hole1 2"
+    101898: "\xD83.0 (3) Diameter Hole2"
+    101900: "\xD83.0 (3) Diameter Hole2 1"
+    101902: "\xD83.0 (3) Diameter Hole2 2"
+    101904: "\xD83.0 (3) Diameter Hole2 3"
+    101906: "\xD88.0 (8) Diameter Hole1"
+    101908: "\xD88.0 (8) Diameter Hole1 1"
+    101910: "\xD88.0 (8) Diameter Hole1 2"
+    101912: "\xD88.0 (8) Diameter Hole1 3"
+    400000: 1
+    400002: 1 1
+    400004: 1 2
+    400006: 1 3
+    400008: 1 4
+    400010: 1 5
+    400012: 1 6
+    400014: 1 7
+    400016: 1 8
+    400018: ?????-????????3
+    400020: ?????-????????3 1
+    400022: ?????-????????3 2
+    400024: ?????-????????3 3
+    400026: ?????-????????3 4
+    400028: ?????-????????3 5
+    400030: ?????-????????3 6
+    400032: ?????-????????3 7
+    400034: ?????-????????3 8
+    400036: ?????-????????3 9
+    400038: ?????2
+    400040: ?????2 1
+    400042: ?????2 2
+    400044: ?????2 3
+    400046: ?????2 4
+    400048: ?????2 5
+    400050: ?????2 6
+    400052: ?????2 7
+    400054: ?????2 8
+    400056: ?????2 9
+    400058: ?????3
+    400060: ?????3 1
+    400062: ?????3 2
+    400064: ?????3 3
+    400066: ?????3 4
+    400068: ?????3 5
+    400070: ?????3 6
+    400072: ?????3 7
+    400074: ?????3 8
+    400076: ?????3 9
+    400078: ?????7
+    400080: ???????? ??????1
+    400082: ???????? ??????1 1
+    400084: ???????? ??????1 2
+    400086: ???????? ??????1 3
+    400088: ???????? ??????1 4
+    400090: ???????? ??????1 5
+    400092: ???????? ??????1 6
+    400094: ???????? ??????1 7
+    400096: ???????? ??????1 8
+    400098: ???????? ??????1 9
+    400100: ?????????1
+    400102: ?????????1 1
+    400104: ?????????1 10
+    400106: ?????????1 11
+    400108: ?????????1 12
+    400110: ?????????1 13
+    400112: ?????????1 14
+    400114: ?????????1 15
+    400116: ?????????1 16
+    400118: ?????????1 17
+    400120: ?????????1 18
+    400122: ?????????1 19
+    400124: ?????????1 2
+    400126: ?????????1 3
+    400128: ?????????1 4
+    400130: ?????????1 5
+    400132: ?????????1 6
+    400134: ?????????1 7
+    400136: ?????????1 8
+    400138: ?????????1 9
+    400140: ??????????3
+    400142: ??????????3 1
+    400144: ??????????3 2
+    400146: ??????????3 3
+    400148: ??????????3 4
+    400150: ??????????3 5
+    400152: ??????????3 6
+    400154: ??????????3 7
+    400156: ??????????3 8
+    400158: ??????????3 9
+    400160: Base-Revolve
+    400162: Base-Revolve 1
+    400164: Base-Revolve 10
+    400166: Base-Revolve 11
+    400168: Base-Revolve 12
+    400170: Base-Revolve 13
+    400172: Base-Revolve 14
+    400174: Base-Revolve 15
+    400176: Base-Revolve 16
+    400178: Base-Revolve 17
+    400180: Base-Revolve 18
+    400182: Base-Revolve 19
+    400184: Base-Revolve 2
+    400186: Base-Revolve 20
+    400188: Base-Revolve 21
+    400190: Base-Revolve 22
+    400192: Base-Revolve 23
+    400194: Base-Revolve 24
+    400196: Base-Revolve 25
+    400198: Base-Revolve 26
+    400200: Base-Revolve 27
+    400202: Base-Revolve 28
+    400204: Base-Revolve 29
+    400206: Base-Revolve 3
+    400208: Base-Revolve 30
+    400210: Base-Revolve 31
+    400212: Base-Revolve 32
+    400214: Base-Revolve 33
+    400216: Base-Revolve 34
+    400218: Base-Revolve 35
+    400220: Base-Revolve 36
+    400222: Base-Revolve 37
+    400224: Base-Revolve 38
+    400226: Base-Revolve 39
+    400228: Base-Revolve 4
+    400230: Base-Revolve 40
+    400232: Base-Revolve 41
+    400234: Base-Revolve 42
+    400236: Base-Revolve 43
+    400238: Base-Revolve 44
+    400240: Base-Revolve 45
+    400242: Base-Revolve 46
+    400244: Base-Revolve 47
+    400246: Base-Revolve 48
+    400248: Base-Revolve 49
+    400250: Base-Revolve 5
+    400252: Base-Revolve 50
+    400254: Base-Revolve 51
+    400256: Base-Revolve 6
+    400258: Base-Revolve 7
+    400260: Base-Revolve 8
+    400262: Base-Revolve 9
+    400264: Body
+    400266: Body 1
+    400268: Body 2
+    400270: Body 3
+    400272: body-flange
+    400274: body-flange 1
+    400276: body-flange 2
+    400278: body-flange 3
+    400280: body-flange 4
+    400282: body-flange 5
+    400284: body-flange 6
+    400286: Body-Move/Copy1[1]
+    400288: Body-Move/Copy1[2]
+    400290: Boss-Extrude1
+    400292: Boss-Extrude1 1
+    400294: Boss-Extrude1 10
+    400296: Boss-Extrude1 11
+    400298: Boss-Extrude1 12
+    400300: Boss-Extrude1 13
+    400302: Boss-Extrude1 14
+    400304: Boss-Extrude1 15
+    400306: Boss-Extrude1 16
+    400308: Boss-Extrude1 17
+    400310: Boss-Extrude1 18
+    400312: Boss-Extrude1 19
+    400314: Boss-Extrude1 2
+    400316: Boss-Extrude1 20
+    400318: Boss-Extrude1 21
+    400320: Boss-Extrude1 22
+    400322: Boss-Extrude1 23
+    400324: Boss-Extrude1 24
+    400326: Boss-Extrude1 25
+    400328: Boss-Extrude1 26
+    400330: Boss-Extrude1 27
+    400332: Boss-Extrude1 28
+    400334: Boss-Extrude1 29
+    400336: Boss-Extrude1 3
+    400338: Boss-Extrude1 30
+    400340: Boss-Extrude1 4
+    400342: Boss-Extrude1 5
+    400344: Boss-Extrude1 6
+    400346: Boss-Extrude1 7
+    400348: Boss-Extrude1 8
+    400350: Boss-Extrude1 9
+    400352: Boss-Extrude2
+    400354: Boss-Extrude2 1
+    400356: Boss-Extrude2 2
+    400358: Boss-Extrude2 3
+    400360: Boss-Extrude3
+    400362: CageSpine
+    400364: CageSpine 1
+    400366: CageSpine 2
+    400368: Chamfer1
+    400370: Chamfer1 1
+    400372: Chamfer1 10
+    400374: Chamfer1 11
+    400376: Chamfer1 12
+    400378: Chamfer1 13
+    400380: Chamfer1 14
+    400382: Chamfer1 15
+    400384: Chamfer1 16
+    400386: Chamfer1 17
+    400388: Chamfer1 18
+    400390: Chamfer1 19
+    400392: Chamfer1 2
+    400394: Chamfer1 20
+    400396: Chamfer1 21
+    400398: Chamfer1 22
+    400400: Chamfer1 23
+    400402: Chamfer1 24
+    400404: Chamfer1 25
+    400406: Chamfer1 26
+    400408: Chamfer1 27
+    400410: Chamfer1 28
+    400412: Chamfer1 29
+    400414: Chamfer1 3
+    400416: Chamfer1 30
+    400418: Chamfer1 31
+    400420: Chamfer1 32
+    400422: Chamfer1 33
+    400424: Chamfer1 34
+    400426: Chamfer1 35
+    400428: Chamfer1 36
+    400430: Chamfer1 37
+    400432: Chamfer1 38
+    400434: Chamfer1 39
+    400436: Chamfer1 4
+    400438: Chamfer1 40
+    400440: Chamfer1 41
+    400442: Chamfer1 42
+    400444: Chamfer1 43
+    400446: Chamfer1 44
+    400448: Chamfer1 45
+    400450: Chamfer1 46
+    400452: Chamfer1 5
+    400454: Chamfer1 6
+    400456: Chamfer1 7
+    400458: Chamfer1 8
+    400460: Chamfer1 9
+    400462: Chamfer2
+    400464: Chamfer2 1
+    400466: Chamfer2 10
+    400468: Chamfer2 11
+    400470: Chamfer2 12
+    400472: Chamfer2 13
+    400474: Chamfer2 14
+    400476: Chamfer2 15
+    400478: Chamfer2 16
+    400480: Chamfer2 17
+    400482: Chamfer2 18
+    400484: Chamfer2 19
+    400486: Chamfer2 2
+    400488: Chamfer2 20
+    400490: Chamfer2 3
+    400492: Chamfer2 4
+    400494: Chamfer2 5
+    400496: Chamfer2 6
+    400498: Chamfer2 7
+    400500: Chamfer2 8
+    400502: Chamfer2 9
+    400504: Chamfer4
+    400506: Chamfer4 1
+    400508: Chamfer4 2
+    400510: Chamfer4 3
+    400512: CirPattern1
+    400514: CirPattern1 1
+    400516: CirPattern1 2
+    400518: CirPattern1 3
+    400520: CirPattern2
+    400522: CirPattern2 1
+    400524: CirPattern2 2
+    400526: CirPattern2 3
+    400528: CirPattern2[1]
+    400530: CirPattern2[1] 1
+    400532: CirPattern2[2]
+    400534: CirPattern2[2] 1
+    400536: CirPattern2[3]
+    400538: CirPattern2[3] 1
+    400540: Combine1
+    400542: Combine1 1
+    400544: Combine1 2
+    400546: Combine1 3
+    400548: Cosmetic-Chamfer
+    400550: Cosmetic-Chamfer 1
+    400552: Cosmetic-Chamfer 2
+    400554: Cosmetic-Chamfer 3
+    400556: Cut-Extrude1
+    400558: Cut-Extrude1 1
+    400560: Cut-Extrude1 10
+    400562: Cut-Extrude1 11
+    400564: Cut-Extrude1 12
+    400566: Cut-Extrude1 13
+    400568: Cut-Extrude1 14
+    400570: Cut-Extrude1 15
+    400572: Cut-Extrude1 16
+    400574: Cut-Extrude1 17
+    400576: Cut-Extrude1 18
+    400578: Cut-Extrude1 19
+    400580: Cut-Extrude1 2
+    400582: Cut-Extrude1 20
+    400584: Cut-Extrude1 21
+    400586: Cut-Extrude1 22
+    400588: Cut-Extrude1 23
+    400590: Cut-Extrude1 24
+    400592: Cut-Extrude1 25
+    400594: Cut-Extrude1 26
+    400596: Cut-Extrude1 27
+    400598: Cut-Extrude1 28
+    400600: Cut-Extrude1 29
+    400602: Cut-Extrude1 3
+    400604: Cut-Extrude1 30
+    400606: Cut-Extrude1 31
+    400608: Cut-Extrude1 32
+    400610: Cut-Extrude1 33
+    400612: Cut-Extrude1 34
+    400614: Cut-Extrude1 35
+    400616: Cut-Extrude1 36
+    400618: Cut-Extrude1 37
+    400620: Cut-Extrude1 38
+    400622: Cut-Extrude1 39
+    400624: Cut-Extrude1 4
+    400626: Cut-Extrude1 40
+    400628: Cut-Extrude1 41
+    400630: Cut-Extrude1 42
+    400632: Cut-Extrude1 43
+    400634: Cut-Extrude1 44
+    400636: Cut-Extrude1 5
+    400638: Cut-Extrude1 6
+    400640: Cut-Extrude1 7
+    400642: Cut-Extrude1 8
+    400644: Cut-Extrude1 9
+    400646: Cut-Extrude11
+    400648: Cut-Extrude11 1
+    400650: Cut-Extrude16
+    400652: Cut-Extrude2
+    400654: Cut-Extrude2 1
+    400656: Cut-Extrude2 10
+    400658: Cut-Extrude2 11
+    400660: Cut-Extrude2 12
+    400662: Cut-Extrude2 13
+    400664: Cut-Extrude2 14
+    400666: Cut-Extrude2 15
+    400668: Cut-Extrude2 16
+    400670: Cut-Extrude2 17
+    400672: Cut-Extrude2 2
+    400674: Cut-Extrude2 3
+    400676: Cut-Extrude2 4
+    400678: Cut-Extrude2 5
+    400680: Cut-Extrude2 6
+    400682: Cut-Extrude2 7
+    400684: Cut-Extrude2 8
+    400686: Cut-Extrude2 9
+    400688: Cut-Extrude20
+    400690: Cut-Extrude3
+    400692: Cut-Extrude3 1
+    400694: Cut-Extrude3 2
+    400696: Cut-Extrude3 3
+    400698: Cut-Extrude6
+    400700: Cut-Extrude7
+    400702: Cut-Extrude7 1
+    400704: Cut-Revolve1
+    400706: Cut-Revolve1 1
+    400708: Cut-Revolve1 2
+    400710: Cut-Revolve1 3
+    400712: Cut-Revolve1 4
+    400714: Cut-Revolve1 5
+    400716: Cut-Revolve1 6
+    400718: Cut-Revolve1 7
+    400720: Cut-Revolve1 8
+    400722: Cut-Revolve1 9
+    400724: Cut-Sweep1
+    400726: Cut-Sweep1 1
+    400728: Cut-Sweep1 2
+    400730: Cut-Sweep1 3
+    400732: E1064
+    400734: E1064 1
+    400736: E1064 2
+    400738: E1064 3
+    400740: E1064 4
+    400742: E1064 5
+    400744: E1688
+    400746: E1688 1
+    400748: E1688 2
+    400750: E1688 3
+    400752: //RootNode
+    400754: Face2
+    400756: Face2 1
+    400758: Fillet1
+    400760: Fillet1 1
+    400762: Fillet1 10
+    400764: Fillet1 11
+    400766: Fillet1 12
+    400768: Fillet1 13
+    400770: Fillet1 14
+    400772: Fillet1 15
+    400774: Fillet1 16
+    400776: Fillet1 17
+    400778: Fillet1 18
+    400780: Fillet1 19
+    400782: Fillet1 2
+    400784: Fillet1 20
+    400786: Fillet1 21
+    400788: Fillet1 22
+    400790: Fillet1 23
+    400792: Fillet1 24
+    400794: Fillet1 25
+    400796: Fillet1 26
+    400798: Fillet1 27
+    400800: Fillet1 28
+    400802: Fillet1 29
+    400804: Fillet1 3
+    400806: Fillet1 30
+    400808: Fillet1 31
+    400810: Fillet1 32
+    400812: Fillet1 33
+    400814: Fillet1 34
+    400816: Fillet1 35
+    400818: Fillet1 36
+    400820: Fillet1 37
+    400822: Fillet1 38
+    400824: Fillet1 39
+    400826: Fillet1 4
+    400828: Fillet1 40
+    400830: Fillet1 41
+    400832: Fillet1 42
+    400834: Fillet1 43
+    400836: Fillet1 44
+    400838: Fillet1 45
+    400840: Fillet1 46
+    400842: Fillet1 47
+    400844: Fillet1 48
+    400846: Fillet1 49
+    400848: Fillet1 5
+    400850: Fillet1 50
+    400852: Fillet1 51
+    400854: Fillet1 52
+    400856: Fillet1 53
+    400858: Fillet1 54
+    400860: Fillet1 55
+    400862: Fillet1 56
+    400864: Fillet1 57
+    400866: Fillet1 58
+    400868: Fillet1 59
+    400870: Fillet1 6
+    400872: Fillet1 60
+    400874: Fillet1 61
+    400876: Fillet1 62
+    400878: Fillet1 63
+    400880: Fillet1 64
+    400882: Fillet1 65
+    400884: Fillet1 66
+    400886: Fillet1 67
+    400888: Fillet1 68
+    400890: Fillet1 69
+    400892: Fillet1 7
+    400894: Fillet1 70
+    400896: Fillet1 71
+    400898: Fillet1 72
+    400900: Fillet1 73
+    400902: Fillet1 74
+    400904: Fillet1 75
+    400906: Fillet1 76
+    400908: Fillet1 77
+    400910: Fillet1 78
+    400912: Fillet1 8
+    400914: Fillet1 9
+    400916: Fillet11
+    400918: Fillet16
+    400920: Fillet2
+    400922: Fillet2 1
+    400924: Fillet2 2
+    400926: Fillet2 3
+    400928: Fillet2 4
+    400930: Fillet2 5
+    400932: Fillet2 6
+    400934: Fillet2 7
+    400936: Fillet2 8
+    400938: Fillet2 9
+    400940: Fillet24
+    400942: Fillet3
+    400944: Fillet3 1
+    400946: Fillet3 10
+    400948: Fillet3 11
+    400950: Fillet3 12
+    400952: Fillet3 2
+    400954: Fillet3 3
+    400956: Fillet3 4
+    400958: Fillet3 5
+    400960: Fillet3 6
+    400962: Fillet3 7
+    400964: Fillet3 8
+    400966: Fillet3 9
+    400968: Fillet4
+    400970: Fillet4 1
+    400972: Fillet4 2
+    400974: Fillet5
+    400976: Fillet6
+    400978: Fillet6 1
+    400980: Fillet6 2
+    400982: Fillet6 3
+    400984: Fillet7
+    400986: Fillet7 1
+    400988: Fillet7 2
+    400990: Fillet7 3
+    400992: Gap
+    400994: Gap 1
+    400996: Gap 10
+    400998: Gap 11
+    401000: Gap 12
+    401002: Gap 13
+    401004: Gap 14
+    401006: Gap 15
+    401008: Gap 16
+    401010: Gap 17
+    401012: Gap 18
+    401014: Gap 19
+    401016: Gap 2
+    401018: Gap 20
+    401020: Gap 21
+    401022: Gap 22
+    401024: Gap 23
+    401026: Gap 24
+    401028: Gap 25
+    401030: Gap 26
+    401032: Gap 27
+    401034: Gap 28
+    401036: Gap 29
+    401038: Gap 3
+    401040: Gap 30
+    401042: Gap 31
+    401044: Gap 32
+    401046: Gap 33
+    401048: Gap 34
+    401050: Gap 35
+    401052: Gap 36
+    401054: Gap 37
+    401056: Gap 38
+    401058: Gap 39
+    401060: Gap 4
+    401062: Gap 40
+    401064: Gap 41
+    401066: Gap 42
+    401068: Gap 43
+    401070: Gap 44
+    401072: Gap 45
+    401074: Gap 46
+    401076: Gap 47
+    401078: Gap 5
+    401080: Gap 6
+    401082: Gap 7
+    401084: Gap 8
+    401086: Gap 9
+    401088: Imported1
+    401090: Imported1 1
+    401092: Imported1 10
+    401094: Imported1 11
+    401096: Imported1 12
+    401098: Imported1 13
+    401100: Imported1 14
+    401102: Imported1 15
+    401104: Imported1 16
+    401106: Imported1 17
+    401108: Imported1 18
+    401110: Imported1 19
+    401112: Imported1 2
+    401114: Imported1 20
+    401116: Imported1 21
+    401118: Imported1 22
+    401120: Imported1 23
+    401122: Imported1 24
+    401124: Imported1 25
+    401126: Imported1 26
+    401128: Imported1 27
+    401130: Imported1 3
+    401132: Imported1 4
+    401134: Imported1 5
+    401136: Imported1 6
+    401138: Imported1 7
+    401140: Imported1 8
+    401142: Imported1 9
+    401144: Imported5
+    401146: Imported5 1
+    401148: Imported5 2
+    401150: Imported5 3
+    401152: Imported6
+    401154: Imported6 1
+    401156: Imported6 2
+    401158: Imported6 3
+    401160: Imported7
+    401162: Imported7 1
+    401164: Imported7 2
+    401166: Imported7 3
+    401168: Imported8
+    401170: Imported8 1
+    401172: Imported8 2
+    401174: Imported8 3
+    401176: LPattern1
+    401178: LPattern1 1
+    401180: M2.5 Clearance Hole1
+    401182: M2.5 Clearance Hole1 1
+    401184: M2.5 Clearance Hole1 2
+    401186: M2.5 Clearance Hole1 3
+    401188: M5 Clearance Hole1
+    401190: M5 Clearance Hole1 1
+    401192: Mirror1
+    401194: Mirror1 1
+    401196: Mirror1 10
+    401198: Mirror1 2
+    401200: Mirror1 3
+    401202: Mirror1 4
+    401204: Mirror1 5
+    401206: Mirror1 6
+    401208: Mirror1 7
+    401210: Mirror1 8
+    401212: Mirror1 9
+    401214: Mirror4
+    401216: Move Face1
+    401218: Move Face2
+    401220: Notch
+    401222: Notch 1
+    401224: Notch 2
+    401226: Notch 3
+    401228: Notch 4
+    401230: Notch 5
+    401232: Notch 6
+    401234: Notch 7
+    401236: Revolve1
+    401238: Revolve1 1
+    401240: Revolve1 10
+    401242: Revolve1 11
+    401244: Revolve1 12
+    401246: Revolve1 13
+    401248: Revolve1 14
+    401250: Revolve1 15
+    401252: Revolve1 16
+    401254: Revolve1 17
+    401256: Revolve1 18
+    401258: Revolve1 19
+    401260: Revolve1 2
+    401262: Revolve1 20
+    401264: Revolve1 21
+    401266: Revolve1 22
+    401268: Revolve1 23
+    401270: Revolve1 24
+    401272: Revolve1 3
+    401274: Revolve1 4
+    401276: Revolve1 5
+    401278: Revolve1 6
+    401280: Revolve1 7
+    401282: Revolve1 8
+    401284: Revolve1 9
+    401286: RollersDetailed
+    401288: RollersDetailed 1
+    401290: RollersDetailed 10
+    401292: RollersDetailed 11
+    401294: RollersDetailed 12
+    401296: RollersDetailed 13
+    401298: RollersDetailed 14
+    401300: RollersDetailed 15
+    401302: RollersDetailed 2
+    401304: RollersDetailed 3
+    401306: RollersDetailed 4
+    401308: RollersDetailed 5
+    401310: RollersDetailed 6
+    401312: RollersDetailed 7
+    401314: RollersDetailed 8
+    401316: RollersDetailed 9
+    401318: Sweep1
+    401320: Sweep1 1
+    401322: Sweep1 10
+    401324: Sweep1 11
+    401326: Sweep1 12
+    401328: Sweep1 13
+    401330: Sweep1 14
+    401332: Sweep1 15
+    401334: Sweep1 16
+    401336: Sweep1 17
+    401338: Sweep1 18
+    401340: Sweep1 19
+    401342: Sweep1 2
+    401344: Sweep1 20
+    401346: Sweep1 21
+    401348: Sweep1 22
+    401350: Sweep1 23
+    401352: Sweep1 24
+    401354: Sweep1 25
+    401356: Sweep1 26
+    401358: Sweep1 27
+    401360: Sweep1 28
+    401362: Sweep1 29
+    401364: Sweep1 3
+    401366: Sweep1 30
+    401368: Sweep1 31
+    401370: Sweep1 32
+    401372: Sweep1 33
+    401374: Sweep1 34
+    401376: Sweep1 35
+    401378: Sweep1 36
+    401380: Sweep1 4
+    401382: Sweep1 5
+    401384: Sweep1 6
+    401386: Sweep1 7
+    401388: Sweep1 8
+    401390: Sweep1 9
+    401392: Sweep2
+    401394: Sweep2 1
+    401396: ThdSchPat
+    401398: ThdSchPat 1
+    401400: ThdSchPat 10
+    401402: ThdSchPat 100
+    401404: ThdSchPat 101
+    401406: ThdSchPat 102
+    401408: ThdSchPat 103
+    401410: ThdSchPat 104
+    401412: ThdSchPat 105
+    401414: ThdSchPat 106
+    401416: ThdSchPat 107
+    401418: ThdSchPat 108
+    401420: ThdSchPat 109
+    401422: ThdSchPat 11
+    401424: ThdSchPat 110
+    401426: ThdSchPat 111
+    401428: ThdSchPat 112
+    401430: ThdSchPat 113
+    401432: ThdSchPat 114
+    401434: ThdSchPat 115
+    401436: ThdSchPat 116
+    401438: ThdSchPat 117
+    401440: ThdSchPat 118
+    401442: ThdSchPat 119
+    401444: ThdSchPat 12
+    401446: ThdSchPat 120
+    401448: ThdSchPat 121
+    401450: ThdSchPat 122
+    401452: ThdSchPat 123
+    401454: ThdSchPat 124
+    401456: ThdSchPat 125
+    401458: ThdSchPat 126
+    401460: ThdSchPat 127
+    401462: ThdSchPat 128
+    401464: ThdSchPat 129
+    401466: ThdSchPat 13
+    401468: ThdSchPat 130
+    401470: ThdSchPat 131
+    401472: ThdSchPat 132
+    401474: ThdSchPat 133
+    401476: ThdSchPat 134
+    401478: ThdSchPat 135
+    401480: ThdSchPat 136
+    401482: ThdSchPat 137
+    401484: ThdSchPat 138
+    401486: ThdSchPat 139
+    401488: ThdSchPat 14
+    401490: ThdSchPat 140
+    401492: ThdSchPat 141
+    401494: ThdSchPat 142
+    401496: ThdSchPat 143
+    401498: ThdSchPat 144
+    401500: ThdSchPat 145
+    401502: ThdSchPat 146
+    401504: ThdSchPat 147
+    401506: ThdSchPat 148
+    401508: ThdSchPat 149
+    401510: ThdSchPat 15
+    401512: ThdSchPat 150
+    401514: ThdSchPat 151
+    401516: ThdSchPat 152
+    401518: ThdSchPat 153
+    401520: ThdSchPat 154
+    401522: ThdSchPat 155
+    401524: ThdSchPat 156
+    401526: ThdSchPat 157
+    401528: ThdSchPat 158
+    401530: ThdSchPat 159
+    401532: ThdSchPat 16
+    401534: ThdSchPat 160
+    401536: ThdSchPat 161
+    401538: ThdSchPat 162
+    401540: ThdSchPat 163
+    401542: ThdSchPat 164
+    401544: ThdSchPat 165
+    401546: ThdSchPat 166
+    401548: ThdSchPat 167
+    401550: ThdSchPat 168
+    401552: ThdSchPat 169
+    401554: ThdSchPat 17
+    401556: ThdSchPat 170
+    401558: ThdSchPat 171
+    401560: ThdSchPat 172
+    401562: ThdSchPat 173
+    401564: ThdSchPat 174
+    401566: ThdSchPat 175
+    401568: ThdSchPat 176
+    401570: ThdSchPat 177
+    401572: ThdSchPat 178
+    401574: ThdSchPat 179
+    401576: ThdSchPat 18
+    401578: ThdSchPat 180
+    401580: ThdSchPat 181
+    401582: ThdSchPat 182
+    401584: ThdSchPat 183
+    401586: ThdSchPat 184
+    401588: ThdSchPat 185
+    401590: ThdSchPat 186
+    401592: ThdSchPat 187
+    401594: ThdSchPat 188
+    401596: ThdSchPat 189
+    401598: ThdSchPat 19
+    401600: ThdSchPat 190
+    401602: ThdSchPat 191
+    401604: ThdSchPat 192
+    401606: ThdSchPat 193
+    401608: ThdSchPat 194
+    401610: ThdSchPat 195
+    401612: ThdSchPat 196
+    401614: ThdSchPat 197
+    401616: ThdSchPat 198
+    401618: ThdSchPat 199
+    401620: ThdSchPat 2
+    401622: ThdSchPat 20
+    401624: ThdSchPat 200
+    401626: ThdSchPat 201
+    401628: ThdSchPat 202
+    401630: ThdSchPat 203
+    401632: ThdSchPat 204
+    401634: ThdSchPat 205
+    401636: ThdSchPat 206
+    401638: ThdSchPat 207
+    401640: ThdSchPat 208
+    401642: ThdSchPat 209
+    401644: ThdSchPat 21
+    401646: ThdSchPat 210
+    401648: ThdSchPat 211
+    401650: ThdSchPat 212
+    401652: ThdSchPat 213
+    401654: ThdSchPat 214
+    401656: ThdSchPat 215
+    401658: ThdSchPat 216
+    401660: ThdSchPat 217
+    401662: ThdSchPat 218
+    401664: ThdSchPat 219
+    401666: ThdSchPat 22
+    401668: ThdSchPat 220
+    401670: ThdSchPat 221
+    401672: ThdSchPat 222
+    401674: ThdSchPat 23
+    401676: ThdSchPat 24
+    401678: ThdSchPat 25
+    401680: ThdSchPat 26
+    401682: ThdSchPat 27
+    401684: ThdSchPat 28
+    401686: ThdSchPat 29
+    401688: ThdSchPat 3
+    401690: ThdSchPat 30
+    401692: ThdSchPat 31
+    401694: ThdSchPat 32
+    401696: ThdSchPat 33
+    401698: ThdSchPat 34
+    401700: ThdSchPat 35
+    401702: ThdSchPat 36
+    401704: ThdSchPat 37
+    401706: ThdSchPat 38
+    401708: ThdSchPat 39
+    401710: ThdSchPat 4
+    401712: ThdSchPat 40
+    401714: ThdSchPat 41
+    401716: ThdSchPat 42
+    401718: ThdSchPat 43
+    401720: ThdSchPat 44
+    401722: ThdSchPat 45
+    401724: ThdSchPat 46
+    401726: ThdSchPat 47
+    401728: ThdSchPat 48
+    401730: ThdSchPat 49
+    401732: ThdSchPat 5
+    401734: ThdSchPat 50
+    401736: ThdSchPat 51
+    401738: ThdSchPat 52
+    401740: ThdSchPat 53
+    401742: ThdSchPat 54
+    401744: ThdSchPat 55
+    401746: ThdSchPat 56
+    401748: ThdSchPat 57
+    401750: ThdSchPat 58
+    401752: ThdSchPat 59
+    401754: ThdSchPat 6
+    401756: ThdSchPat 60
+    401758: ThdSchPat 61
+    401760: ThdSchPat 62
+    401762: ThdSchPat 63
+    401764: ThdSchPat 64
+    401766: ThdSchPat 65
+    401768: ThdSchPat 66
+    401770: ThdSchPat 67
+    401772: ThdSchPat 68
+    401774: ThdSchPat 69
+    401776: ThdSchPat 7
+    401778: ThdSchPat 70
+    401780: ThdSchPat 71
+    401782: ThdSchPat 72
+    401784: ThdSchPat 73
+    401786: ThdSchPat 74
+    401788: ThdSchPat 75
+    401790: ThdSchPat 76
+    401792: ThdSchPat 77
+    401794: ThdSchPat 78
+    401796: ThdSchPat 79
+    401798: ThdSchPat 8
+    401800: ThdSchPat 80
+    401802: ThdSchPat 81
+    401804: ThdSchPat 82
+    401806: ThdSchPat 83
+    401808: ThdSchPat 84
+    401810: ThdSchPat 85
+    401812: ThdSchPat 86
+    401814: ThdSchPat 87
+    401816: ThdSchPat 88
+    401818: ThdSchPat 89
+    401820: ThdSchPat 9
+    401822: ThdSchPat 90
+    401824: ThdSchPat 91
+    401826: ThdSchPat 92
+    401828: ThdSchPat 93
+    401830: ThdSchPat 94
+    401832: ThdSchPat 95
+    401834: ThdSchPat 96
+    401836: ThdSchPat 97
+    401838: ThdSchPat 98
+    401840: ThdSchPat 99
+    401842: Wrap1
+    401844: Wrap2
+    401846: Wrap2 1
+    401848: Wrap2 10
+    401850: Wrap2 11
+    401852: Wrap2 12
+    401854: Wrap2 13
+    401856: Wrap2 14
+    401858: Wrap2 15
+    401860: Wrap2 2
+    401862: Wrap2 3
+    401864: Wrap2 4
+    401866: Wrap2 5
+    401868: Wrap2 6
+    401870: Wrap2 7
+    401872: Wrap2 8
+    401874: Wrap2 9
+    401876: "\xD80.5 (0.5) Diameter Hole1"
+    401878: "\xD80.5 (0.5) Diameter Hole1 1"
+    401880: "\xD80.5 (0.5) Diameter Hole2"
+    401882: "\xD80.5 (0.5) Diameter Hole2 1"
+    401884: "\xD80.5 (0.5) Diameter Hole2 2"
+    401886: "\xD80.5 (0.5) Diameter Hole2 3"
+    401888: "\xD812.0 (12) Diameter Hole1"
+    401890: "\xD816.0 (16) Diameter Hole1"
+    401892: "\xD82.0 (2) Diameter Hole1"
+    401894: "\xD82.0 (2) Diameter Hole1 1"
+    401896: "\xD82.0 (2) Diameter Hole1 2"
+    401898: "\xD83.0 (3) Diameter Hole2"
+    401900: "\xD83.0 (3) Diameter Hole2 1"
+    401902: "\xD83.0 (3) Diameter Hole2 2"
+    401904: "\xD83.0 (3) Diameter Hole2 3"
+    401906: "\xD88.0 (8) Diameter Hole1"
+    401908: "\xD88.0 (8) Diameter Hole1 1"
+    401910: "\xD88.0 (8) Diameter Hole1 2"
+    401912: "\xD88.0 (8) Diameter Hole1 3"
+    2100000: 'Material #27'
+    2100002: 'Material #28'
+    2100004: 'Material #29'
+    2100006: 'Material #30'
+    2100008: 'Material #31'
+    2100010: 'Material #32'
+    2100012: 'Material #35'
+    2100014: 'Material #36'
+    2100016: 'Material #37'
+    2100018: 'Material #38'
+    2100020: 'Material #39'
+    2100022: 'Material #40'
+    2100024: 'Material #41'
+    2100026: 'Material #42'
+    2100028: 'Material #43'
+    2100030: 'Material #44'
+    2100032: 'Material #45'
+    2100034: 'Material #46'
+    2100036: 'Material #47'
+    2100038: 'Material #48'
+    2100040: 'Material #51'
+    2100042: 'Material #55'
+    2100044: 'Material #56'
+    2100046: 'Material #59'
+    2100048: 'Material #60'
+    2100050: 'Material #65'
+    2100052: 'Material #66'
+    2100054: 'Material #67'
+    2100056: 'Material #70'
+    2100058: 'Material #71'
+    2100060: 'Material #72'
+    2100062: 'Material #75'
+    2100064: 'Material #76'
+    2100066: 'Material #82'
+    2100068: 'Material #83'
+    2100070: 'Material #89'
+    2100072: 'Material #93'
+    2300000: 1
+    2300002: 1 1
+    2300004: 1 2
+    2300006: 1 3
+    2300008: 1 4
+    2300010: 1 5
+    2300012: 1 6
+    2300014: 1 7
+    2300016: 1 8
+    2300018: ?????-????????3
+    2300020: ?????-????????3 1
+    2300022: ?????-????????3 2
+    2300024: ?????-????????3 3
+    2300026: ?????-????????3 4
+    2300028: ?????-????????3 5
+    2300030: ?????-????????3 6
+    2300032: ?????-????????3 7
+    2300034: ?????-????????3 8
+    2300036: ?????-????????3 9
+    2300038: ?????2
+    2300040: ?????2 1
+    2300042: ?????2 2
+    2300044: ?????2 3
+    2300046: ?????2 4
+    2300048: ?????2 5
+    2300050: ?????2 6
+    2300052: ?????2 7
+    2300054: ?????2 8
+    2300056: ?????2 9
+    2300058: ?????3
+    2300060: ?????3 1
+    2300062: ?????3 2
+    2300064: ?????3 3
+    2300066: ?????3 4
+    2300068: ?????3 5
+    2300070: ?????3 6
+    2300072: ?????3 7
+    2300074: ?????3 8
+    2300076: ?????3 9
+    2300078: ?????7
+    2300080: ???????? ??????1
+    2300082: ???????? ??????1 1
+    2300084: ???????? ??????1 2
+    2300086: ???????? ??????1 3
+    2300088: ???????? ??????1 4
+    2300090: ???????? ??????1 5
+    2300092: ???????? ??????1 6
+    2300094: ???????? ??????1 7
+    2300096: ???????? ??????1 8
+    2300098: ???????? ??????1 9
+    2300100: ?????????1
+    2300102: ?????????1 1
+    2300104: ?????????1 10
+    2300106: ?????????1 11
+    2300108: ?????????1 12
+    2300110: ?????????1 13
+    2300112: ?????????1 14
+    2300114: ?????????1 15
+    2300116: ?????????1 16
+    2300118: ?????????1 17
+    2300120: ?????????1 18
+    2300122: ?????????1 19
+    2300124: ?????????1 2
+    2300126: ?????????1 3
+    2300128: ?????????1 4
+    2300130: ?????????1 5
+    2300132: ?????????1 6
+    2300134: ?????????1 7
+    2300136: ?????????1 8
+    2300138: ?????????1 9
+    2300140: ??????????3
+    2300142: ??????????3 1
+    2300144: ??????????3 2
+    2300146: ??????????3 3
+    2300148: ??????????3 4
+    2300150: ??????????3 5
+    2300152: ??????????3 6
+    2300154: ??????????3 7
+    2300156: ??????????3 8
+    2300158: ??????????3 9
+    2300160: Base-Revolve
+    2300162: Base-Revolve 1
+    2300164: Base-Revolve 10
+    2300166: Base-Revolve 11
+    2300168: Base-Revolve 12
+    2300170: Base-Revolve 13
+    2300172: Base-Revolve 14
+    2300174: Base-Revolve 15
+    2300176: Base-Revolve 16
+    2300178: Base-Revolve 17
+    2300180: Base-Revolve 18
+    2300182: Base-Revolve 19
+    2300184: Base-Revolve 2
+    2300186: Base-Revolve 20
+    2300188: Base-Revolve 21
+    2300190: Base-Revolve 22
+    2300192: Base-Revolve 23
+    2300194: Base-Revolve 24
+    2300196: Base-Revolve 25
+    2300198: Base-Revolve 26
+    2300200: Base-Revolve 27
+    2300202: Base-Revolve 28
+    2300204: Base-Revolve 29
+    2300206: Base-Revolve 3
+    2300208: Base-Revolve 30
+    2300210: Base-Revolve 31
+    2300212: Base-Revolve 32
+    2300214: Base-Revolve 33
+    2300216: Base-Revolve 34
+    2300218: Base-Revolve 35
+    2300220: Base-Revolve 36
+    2300222: Base-Revolve 37
+    2300224: Base-Revolve 38
+    2300226: Base-Revolve 39
+    2300228: Base-Revolve 4
+    2300230: Base-Revolve 40
+    2300232: Base-Revolve 41
+    2300234: Base-Revolve 42
+    2300236: Base-Revolve 43
+    2300238: Base-Revolve 44
+    2300240: Base-Revolve 45
+    2300242: Base-Revolve 46
+    2300244: Base-Revolve 47
+    2300246: Base-Revolve 48
+    2300248: Base-Revolve 49
+    2300250: Base-Revolve 5
+    2300252: Base-Revolve 50
+    2300254: Base-Revolve 51
+    2300256: Base-Revolve 6
+    2300258: Base-Revolve 7
+    2300260: Base-Revolve 8
+    2300262: Base-Revolve 9
+    2300264: Body
+    2300266: Body 1
+    2300268: Body 2
+    2300270: Body 3
+    2300272: body-flange
+    2300274: body-flange 1
+    2300276: body-flange 2
+    2300278: body-flange 3
+    2300280: body-flange 4
+    2300282: body-flange 5
+    2300284: body-flange 6
+    2300286: Body-Move/Copy1[1]
+    2300288: Body-Move/Copy1[2]
+    2300290: Boss-Extrude1
+    2300292: Boss-Extrude1 1
+    2300294: Boss-Extrude1 10
+    2300296: Boss-Extrude1 11
+    2300298: Boss-Extrude1 12
+    2300300: Boss-Extrude1 13
+    2300302: Boss-Extrude1 14
+    2300304: Boss-Extrude1 15
+    2300306: Boss-Extrude1 16
+    2300308: Boss-Extrude1 17
+    2300310: Boss-Extrude1 18
+    2300312: Boss-Extrude1 19
+    2300314: Boss-Extrude1 2
+    2300316: Boss-Extrude1 20
+    2300318: Boss-Extrude1 21
+    2300320: Boss-Extrude1 22
+    2300322: Boss-Extrude1 23
+    2300324: Boss-Extrude1 24
+    2300326: Boss-Extrude1 25
+    2300328: Boss-Extrude1 26
+    2300330: Boss-Extrude1 27
+    2300332: Boss-Extrude1 28
+    2300334: Boss-Extrude1 29
+    2300336: Boss-Extrude1 3
+    2300338: Boss-Extrude1 30
+    2300340: Boss-Extrude1 4
+    2300342: Boss-Extrude1 5
+    2300344: Boss-Extrude1 6
+    2300346: Boss-Extrude1 7
+    2300348: Boss-Extrude1 8
+    2300350: Boss-Extrude1 9
+    2300352: Boss-Extrude2
+    2300354: Boss-Extrude2 1
+    2300356: Boss-Extrude2 2
+    2300358: Boss-Extrude2 3
+    2300360: Boss-Extrude3
+    2300362: CageSpine
+    2300364: CageSpine 1
+    2300366: CageSpine 2
+    2300368: Chamfer1
+    2300370: Chamfer1 1
+    2300372: Chamfer1 10
+    2300374: Chamfer1 11
+    2300376: Chamfer1 12
+    2300378: Chamfer1 13
+    2300380: Chamfer1 14
+    2300382: Chamfer1 15
+    2300384: Chamfer1 16
+    2300386: Chamfer1 17
+    2300388: Chamfer1 18
+    2300390: Chamfer1 19
+    2300392: Chamfer1 2
+    2300394: Chamfer1 20
+    2300396: Chamfer1 21
+    2300398: Chamfer1 22
+    2300400: Chamfer1 23
+    2300402: Chamfer1 24
+    2300404: Chamfer1 25
+    2300406: Chamfer1 26
+    2300408: Chamfer1 27
+    2300410: Chamfer1 28
+    2300412: Chamfer1 29
+    2300414: Chamfer1 3
+    2300416: Chamfer1 30
+    2300418: Chamfer1 31
+    2300420: Chamfer1 32
+    2300422: Chamfer1 33
+    2300424: Chamfer1 34
+    2300426: Chamfer1 35
+    2300428: Chamfer1 36
+    2300430: Chamfer1 37
+    2300432: Chamfer1 38
+    2300434: Chamfer1 39
+    2300436: Chamfer1 4
+    2300438: Chamfer1 40
+    2300440: Chamfer1 41
+    2300442: Chamfer1 42
+    2300444: Chamfer1 43
+    2300446: Chamfer1 44
+    2300448: Chamfer1 45
+    2300450: Chamfer1 46
+    2300452: Chamfer1 5
+    2300454: Chamfer1 6
+    2300456: Chamfer1 7
+    2300458: Chamfer1 8
+    2300460: Chamfer1 9
+    2300462: Chamfer2
+    2300464: Chamfer2 1
+    2300466: Chamfer2 10
+    2300468: Chamfer2 11
+    2300470: Chamfer2 12
+    2300472: Chamfer2 13
+    2300474: Chamfer2 14
+    2300476: Chamfer2 15
+    2300478: Chamfer2 16
+    2300480: Chamfer2 17
+    2300482: Chamfer2 18
+    2300484: Chamfer2 19
+    2300486: Chamfer2 2
+    2300488: Chamfer2 20
+    2300490: Chamfer2 3
+    2300492: Chamfer2 4
+    2300494: Chamfer2 5
+    2300496: Chamfer2 6
+    2300498: Chamfer2 7
+    2300500: Chamfer2 8
+    2300502: Chamfer2 9
+    2300504: Chamfer4
+    2300506: Chamfer4 1
+    2300508: Chamfer4 2
+    2300510: Chamfer4 3
+    2300512: CirPattern1
+    2300514: CirPattern1 1
+    2300516: CirPattern1 2
+    2300518: CirPattern1 3
+    2300520: CirPattern2
+    2300522: CirPattern2 1
+    2300524: CirPattern2 2
+    2300526: CirPattern2 3
+    2300528: CirPattern2[1]
+    2300530: CirPattern2[1] 1
+    2300532: CirPattern2[2]
+    2300534: CirPattern2[2] 1
+    2300536: CirPattern2[3]
+    2300538: CirPattern2[3] 1
+    2300540: Combine1
+    2300542: Combine1 1
+    2300544: Combine1 2
+    2300546: Combine1 3
+    2300548: Cosmetic-Chamfer
+    2300550: Cosmetic-Chamfer 1
+    2300552: Cosmetic-Chamfer 2
+    2300554: Cosmetic-Chamfer 3
+    2300556: Cut-Extrude1
+    2300558: Cut-Extrude1 1
+    2300560: Cut-Extrude1 10
+    2300562: Cut-Extrude1 11
+    2300564: Cut-Extrude1 12
+    2300566: Cut-Extrude1 13
+    2300568: Cut-Extrude1 14
+    2300570: Cut-Extrude1 15
+    2300572: Cut-Extrude1 16
+    2300574: Cut-Extrude1 17
+    2300576: Cut-Extrude1 18
+    2300578: Cut-Extrude1 19
+    2300580: Cut-Extrude1 2
+    2300582: Cut-Extrude1 20
+    2300584: Cut-Extrude1 21
+    2300586: Cut-Extrude1 22
+    2300588: Cut-Extrude1 23
+    2300590: Cut-Extrude1 24
+    2300592: Cut-Extrude1 25
+    2300594: Cut-Extrude1 26
+    2300596: Cut-Extrude1 27
+    2300598: Cut-Extrude1 28
+    2300600: Cut-Extrude1 29
+    2300602: Cut-Extrude1 3
+    2300604: Cut-Extrude1 30
+    2300606: Cut-Extrude1 31
+    2300608: Cut-Extrude1 32
+    2300610: Cut-Extrude1 33
+    2300612: Cut-Extrude1 34
+    2300614: Cut-Extrude1 35
+    2300616: Cut-Extrude1 36
+    2300618: Cut-Extrude1 37
+    2300620: Cut-Extrude1 38
+    2300622: Cut-Extrude1 39
+    2300624: Cut-Extrude1 4
+    2300626: Cut-Extrude1 40
+    2300628: Cut-Extrude1 41
+    2300630: Cut-Extrude1 42
+    2300632: Cut-Extrude1 43
+    2300634: Cut-Extrude1 44
+    2300636: Cut-Extrude1 5
+    2300638: Cut-Extrude1 6
+    2300640: Cut-Extrude1 7
+    2300642: Cut-Extrude1 8
+    2300644: Cut-Extrude1 9
+    2300646: Cut-Extrude11
+    2300648: Cut-Extrude11 1
+    2300650: Cut-Extrude16
+    2300652: Cut-Extrude2
+    2300654: Cut-Extrude2 1
+    2300656: Cut-Extrude2 10
+    2300658: Cut-Extrude2 11
+    2300660: Cut-Extrude2 12
+    2300662: Cut-Extrude2 13
+    2300664: Cut-Extrude2 14
+    2300666: Cut-Extrude2 15
+    2300668: Cut-Extrude2 16
+    2300670: Cut-Extrude2 17
+    2300672: Cut-Extrude2 2
+    2300674: Cut-Extrude2 3
+    2300676: Cut-Extrude2 4
+    2300678: Cut-Extrude2 5
+    2300680: Cut-Extrude2 6
+    2300682: Cut-Extrude2 7
+    2300684: Cut-Extrude2 8
+    2300686: Cut-Extrude2 9
+    2300688: Cut-Extrude20
+    2300690: Cut-Extrude3
+    2300692: Cut-Extrude3 1
+    2300694: Cut-Extrude3 2
+    2300696: Cut-Extrude3 3
+    2300698: Cut-Extrude6
+    2300700: Cut-Extrude7
+    2300702: Cut-Extrude7 1
+    2300704: Cut-Revolve1
+    2300706: Cut-Revolve1 1
+    2300708: Cut-Revolve1 2
+    2300710: Cut-Revolve1 3
+    2300712: Cut-Revolve1 4
+    2300714: Cut-Revolve1 5
+    2300716: Cut-Revolve1 6
+    2300718: Cut-Revolve1 7
+    2300720: Cut-Revolve1 8
+    2300722: Cut-Revolve1 9
+    2300724: Cut-Sweep1
+    2300726: Cut-Sweep1 1
+    2300728: Cut-Sweep1 2
+    2300730: Cut-Sweep1 3
+    2300732: E1064
+    2300734: E1064 1
+    2300736: E1064 2
+    2300738: E1064 3
+    2300740: E1064 4
+    2300742: E1064 5
+    2300744: E1688
+    2300746: E1688 1
+    2300748: E1688 2
+    2300750: E1688 3
+    2300752: Face2
+    2300754: Face2 1
+    2300756: Fillet1
+    2300758: Fillet1 1
+    2300760: Fillet1 10
+    2300762: Fillet1 11
+    2300764: Fillet1 12
+    2300766: Fillet1 13
+    2300768: Fillet1 14
+    2300770: Fillet1 15
+    2300772: Fillet1 16
+    2300774: Fillet1 17
+    2300776: Fillet1 18
+    2300778: Fillet1 19
+    2300780: Fillet1 2
+    2300782: Fillet1 20
+    2300784: Fillet1 21
+    2300786: Fillet1 22
+    2300788: Fillet1 23
+    2300790: Fillet1 24
+    2300792: Fillet1 25
+    2300794: Fillet1 26
+    2300796: Fillet1 27
+    2300798: Fillet1 28
+    2300800: Fillet1 29
+    2300802: Fillet1 3
+    2300804: Fillet1 30
+    2300806: Fillet1 31
+    2300808: Fillet1 32
+    2300810: Fillet1 33
+    2300812: Fillet1 34
+    2300814: Fillet1 35
+    2300816: Fillet1 36
+    2300818: Fillet1 37
+    2300820: Fillet1 38
+    2300822: Fillet1 39
+    2300824: Fillet1 4
+    2300826: Fillet1 40
+    2300828: Fillet1 41
+    2300830: Fillet1 42
+    2300832: Fillet1 43
+    2300834: Fillet1 44
+    2300836: Fillet1 45
+    2300838: Fillet1 46
+    2300840: Fillet1 47
+    2300842: Fillet1 48
+    2300844: Fillet1 49
+    2300846: Fillet1 5
+    2300848: Fillet1 50
+    2300850: Fillet1 51
+    2300852: Fillet1 52
+    2300854: Fillet1 53
+    2300856: Fillet1 54
+    2300858: Fillet1 55
+    2300860: Fillet1 56
+    2300862: Fillet1 57
+    2300864: Fillet1 58
+    2300866: Fillet1 59
+    2300868: Fillet1 6
+    2300870: Fillet1 60
+    2300872: Fillet1 61
+    2300874: Fillet1 62
+    2300876: Fillet1 63
+    2300878: Fillet1 64
+    2300880: Fillet1 65
+    2300882: Fillet1 66
+    2300884: Fillet1 67
+    2300886: Fillet1 68
+    2300888: Fillet1 69
+    2300890: Fillet1 7
+    2300892: Fillet1 70
+    2300894: Fillet1 71
+    2300896: Fillet1 72
+    2300898: Fillet1 73
+    2300900: Fillet1 74
+    2300902: Fillet1 75
+    2300904: Fillet1 76
+    2300906: Fillet1 77
+    2300908: Fillet1 78
+    2300910: Fillet1 8
+    2300912: Fillet1 9
+    2300914: Fillet11
+    2300916: Fillet16
+    2300918: Fillet2
+    2300920: Fillet2 1
+    2300922: Fillet2 2
+    2300924: Fillet2 3
+    2300926: Fillet2 4
+    2300928: Fillet2 5
+    2300930: Fillet2 6
+    2300932: Fillet2 7
+    2300934: Fillet2 8
+    2300936: Fillet2 9
+    2300938: Fillet24
+    2300940: Fillet3
+    2300942: Fillet3 1
+    2300944: Fillet3 10
+    2300946: Fillet3 11
+    2300948: Fillet3 12
+    2300950: Fillet3 2
+    2300952: Fillet3 3
+    2300954: Fillet3 4
+    2300956: Fillet3 5
+    2300958: Fillet3 6
+    2300960: Fillet3 7
+    2300962: Fillet3 8
+    2300964: Fillet3 9
+    2300966: Fillet4
+    2300968: Fillet4 1
+    2300970: Fillet4 2
+    2300972: Fillet5
+    2300974: Fillet6
+    2300976: Fillet6 1
+    2300978: Fillet6 2
+    2300980: Fillet6 3
+    2300982: Fillet7
+    2300984: Fillet7 1
+    2300986: Fillet7 2
+    2300988: Fillet7 3
+    2300990: Gap
+    2300992: Gap 1
+    2300994: Gap 10
+    2300996: Gap 11
+    2300998: Gap 12
+    2301000: Gap 13
+    2301002: Gap 14
+    2301004: Gap 15
+    2301006: Gap 16
+    2301008: Gap 17
+    2301010: Gap 18
+    2301012: Gap 19
+    2301014: Gap 2
+    2301016: Gap 20
+    2301018: Gap 21
+    2301020: Gap 22
+    2301022: Gap 23
+    2301024: Gap 24
+    2301026: Gap 25
+    2301028: Gap 26
+    2301030: Gap 27
+    2301032: Gap 28
+    2301034: Gap 29
+    2301036: Gap 3
+    2301038: Gap 30
+    2301040: Gap 31
+    2301042: Gap 32
+    2301044: Gap 33
+    2301046: Gap 34
+    2301048: Gap 35
+    2301050: Gap 36
+    2301052: Gap 37
+    2301054: Gap 38
+    2301056: Gap 39
+    2301058: Gap 4
+    2301060: Gap 40
+    2301062: Gap 41
+    2301064: Gap 42
+    2301066: Gap 43
+    2301068: Gap 44
+    2301070: Gap 45
+    2301072: Gap 46
+    2301074: Gap 47
+    2301076: Gap 5
+    2301078: Gap 6
+    2301080: Gap 7
+    2301082: Gap 8
+    2301084: Gap 9
+    2301086: Imported1
+    2301088: Imported1 1
+    2301090: Imported1 10
+    2301092: Imported1 11
+    2301094: Imported1 12
+    2301096: Imported1 13
+    2301098: Imported1 14
+    2301100: Imported1 15
+    2301102: Imported1 16
+    2301104: Imported1 17
+    2301106: Imported1 18
+    2301108: Imported1 19
+    2301110: Imported1 2
+    2301112: Imported1 20
+    2301114: Imported1 21
+    2301116: Imported1 22
+    2301118: Imported1 23
+    2301120: Imported1 24
+    2301122: Imported1 25
+    2301124: Imported1 26
+    2301126: Imported1 27
+    2301128: Imported1 3
+    2301130: Imported1 4
+    2301132: Imported1 5
+    2301134: Imported1 6
+    2301136: Imported1 7
+    2301138: Imported1 8
+    2301140: Imported1 9
+    2301142: Imported5
+    2301144: Imported5 1
+    2301146: Imported5 2
+    2301148: Imported5 3
+    2301150: Imported6
+    2301152: Imported6 1
+    2301154: Imported6 2
+    2301156: Imported6 3
+    2301158: Imported7
+    2301160: Imported7 1
+    2301162: Imported7 2
+    2301164: Imported7 3
+    2301166: Imported8
+    2301168: Imported8 1
+    2301170: Imported8 2
+    2301172: Imported8 3
+    2301174: LPattern1
+    2301176: LPattern1 1
+    2301178: M2.5 Clearance Hole1
+    2301180: M2.5 Clearance Hole1 1
+    2301182: M2.5 Clearance Hole1 2
+    2301184: M2.5 Clearance Hole1 3
+    2301186: M5 Clearance Hole1
+    2301188: M5 Clearance Hole1 1
+    2301190: Mirror1
+    2301192: Mirror1 1
+    2301194: Mirror1 10
+    2301196: Mirror1 2
+    2301198: Mirror1 3
+    2301200: Mirror1 4
+    2301202: Mirror1 5
+    2301204: Mirror1 6
+    2301206: Mirror1 7
+    2301208: Mirror1 8
+    2301210: Mirror1 9
+    2301212: Mirror4
+    2301214: Move Face1
+    2301216: Move Face2
+    2301218: Notch
+    2301220: Notch 1
+    2301222: Notch 2
+    2301224: Notch 3
+    2301226: Notch 4
+    2301228: Notch 5
+    2301230: Notch 6
+    2301232: Notch 7
+    2301234: Revolve1
+    2301236: Revolve1 1
+    2301238: Revolve1 10
+    2301240: Revolve1 11
+    2301242: Revolve1 12
+    2301244: Revolve1 13
+    2301246: Revolve1 14
+    2301248: Revolve1 15
+    2301250: Revolve1 16
+    2301252: Revolve1 17
+    2301254: Revolve1 18
+    2301256: Revolve1 19
+    2301258: Revolve1 2
+    2301260: Revolve1 20
+    2301262: Revolve1 21
+    2301264: Revolve1 22
+    2301266: Revolve1 23
+    2301268: Revolve1 24
+    2301270: Revolve1 3
+    2301272: Revolve1 4
+    2301274: Revolve1 5
+    2301276: Revolve1 6
+    2301278: Revolve1 7
+    2301280: Revolve1 8
+    2301282: Revolve1 9
+    2301284: RollersDetailed
+    2301286: RollersDetailed 1
+    2301288: RollersDetailed 10
+    2301290: RollersDetailed 11
+    2301292: RollersDetailed 12
+    2301294: RollersDetailed 13
+    2301296: RollersDetailed 14
+    2301298: RollersDetailed 15
+    2301300: RollersDetailed 2
+    2301302: RollersDetailed 3
+    2301304: RollersDetailed 4
+    2301306: RollersDetailed 5
+    2301308: RollersDetailed 6
+    2301310: RollersDetailed 7
+    2301312: RollersDetailed 8
+    2301314: RollersDetailed 9
+    2301316: Sweep1
+    2301318: Sweep1 1
+    2301320: Sweep1 10
+    2301322: Sweep1 11
+    2301324: Sweep1 12
+    2301326: Sweep1 13
+    2301328: Sweep1 14
+    2301330: Sweep1 15
+    2301332: Sweep1 16
+    2301334: Sweep1 17
+    2301336: Sweep1 18
+    2301338: Sweep1 19
+    2301340: Sweep1 2
+    2301342: Sweep1 20
+    2301344: Sweep1 21
+    2301346: Sweep1 22
+    2301348: Sweep1 23
+    2301350: Sweep1 24
+    2301352: Sweep1 25
+    2301354: Sweep1 26
+    2301356: Sweep1 27
+    2301358: Sweep1 28
+    2301360: Sweep1 29
+    2301362: Sweep1 3
+    2301364: Sweep1 30
+    2301366: Sweep1 31
+    2301368: Sweep1 32
+    2301370: Sweep1 33
+    2301372: Sweep1 34
+    2301374: Sweep1 35
+    2301376: Sweep1 36
+    2301378: Sweep1 4
+    2301380: Sweep1 5
+    2301382: Sweep1 6
+    2301384: Sweep1 7
+    2301386: Sweep1 8
+    2301388: Sweep1 9
+    2301390: Sweep2
+    2301392: Sweep2 1
+    2301394: ThdSchPat
+    2301396: ThdSchPat 1
+    2301398: ThdSchPat 10
+    2301400: ThdSchPat 100
+    2301402: ThdSchPat 101
+    2301404: ThdSchPat 102
+    2301406: ThdSchPat 103
+    2301408: ThdSchPat 104
+    2301410: ThdSchPat 105
+    2301412: ThdSchPat 106
+    2301414: ThdSchPat 107
+    2301416: ThdSchPat 108
+    2301418: ThdSchPat 109
+    2301420: ThdSchPat 11
+    2301422: ThdSchPat 110
+    2301424: ThdSchPat 111
+    2301426: ThdSchPat 112
+    2301428: ThdSchPat 113
+    2301430: ThdSchPat 114
+    2301432: ThdSchPat 115
+    2301434: ThdSchPat 116
+    2301436: ThdSchPat 117
+    2301438: ThdSchPat 118
+    2301440: ThdSchPat 119
+    2301442: ThdSchPat 12
+    2301444: ThdSchPat 120
+    2301446: ThdSchPat 121
+    2301448: ThdSchPat 122
+    2301450: ThdSchPat 123
+    2301452: ThdSchPat 124
+    2301454: ThdSchPat 125
+    2301456: ThdSchPat 126
+    2301458: ThdSchPat 127
+    2301460: ThdSchPat 128
+    2301462: ThdSchPat 129
+    2301464: ThdSchPat 13
+    2301466: ThdSchPat 130
+    2301468: ThdSchPat 131
+    2301470: ThdSchPat 132
+    2301472: ThdSchPat 133
+    2301474: ThdSchPat 134
+    2301476: ThdSchPat 135
+    2301478: ThdSchPat 136
+    2301480: ThdSchPat 137
+    2301482: ThdSchPat 138
+    2301484: ThdSchPat 139
+    2301486: ThdSchPat 14
+    2301488: ThdSchPat 140
+    2301490: ThdSchPat 141
+    2301492: ThdSchPat 142
+    2301494: ThdSchPat 143
+    2301496: ThdSchPat 144
+    2301498: ThdSchPat 145
+    2301500: ThdSchPat 146
+    2301502: ThdSchPat 147
+    2301504: ThdSchPat 148
+    2301506: ThdSchPat 149
+    2301508: ThdSchPat 15
+    2301510: ThdSchPat 150
+    2301512: ThdSchPat 151
+    2301514: ThdSchPat 152
+    2301516: ThdSchPat 153
+    2301518: ThdSchPat 154
+    2301520: ThdSchPat 155
+    2301522: ThdSchPat 156
+    2301524: ThdSchPat 157
+    2301526: ThdSchPat 158
+    2301528: ThdSchPat 159
+    2301530: ThdSchPat 16
+    2301532: ThdSchPat 160
+    2301534: ThdSchPat 161
+    2301536: ThdSchPat 162
+    2301538: ThdSchPat 163
+    2301540: ThdSchPat 164
+    2301542: ThdSchPat 165
+    2301544: ThdSchPat 166
+    2301546: ThdSchPat 167
+    2301548: ThdSchPat 168
+    2301550: ThdSchPat 169
+    2301552: ThdSchPat 17
+    2301554: ThdSchPat 170
+    2301556: ThdSchPat 171
+    2301558: ThdSchPat 172
+    2301560: ThdSchPat 173
+    2301562: ThdSchPat 174
+    2301564: ThdSchPat 175
+    2301566: ThdSchPat 176
+    2301568: ThdSchPat 177
+    2301570: ThdSchPat 178
+    2301572: ThdSchPat 179
+    2301574: ThdSchPat 18
+    2301576: ThdSchPat 180
+    2301578: ThdSchPat 181
+    2301580: ThdSchPat 182
+    2301582: ThdSchPat 183
+    2301584: ThdSchPat 184
+    2301586: ThdSchPat 185
+    2301588: ThdSchPat 186
+    2301590: ThdSchPat 187
+    2301592: ThdSchPat 188
+    2301594: ThdSchPat 189
+    2301596: ThdSchPat 19
+    2301598: ThdSchPat 190
+    2301600: ThdSchPat 191
+    2301602: ThdSchPat 192
+    2301604: ThdSchPat 193
+    2301606: ThdSchPat 194
+    2301608: ThdSchPat 195
+    2301610: ThdSchPat 196
+    2301612: ThdSchPat 197
+    2301614: ThdSchPat 198
+    2301616: ThdSchPat 199
+    2301618: ThdSchPat 2
+    2301620: ThdSchPat 20
+    2301622: ThdSchPat 200
+    2301624: ThdSchPat 201
+    2301626: ThdSchPat 202
+    2301628: ThdSchPat 203
+    2301630: ThdSchPat 204
+    2301632: ThdSchPat 205
+    2301634: ThdSchPat 206
+    2301636: ThdSchPat 207
+    2301638: ThdSchPat 208
+    2301640: ThdSchPat 209
+    2301642: ThdSchPat 21
+    2301644: ThdSchPat 210
+    2301646: ThdSchPat 211
+    2301648: ThdSchPat 212
+    2301650: ThdSchPat 213
+    2301652: ThdSchPat 214
+    2301654: ThdSchPat 215
+    2301656: ThdSchPat 216
+    2301658: ThdSchPat 217
+    2301660: ThdSchPat 218
+    2301662: ThdSchPat 219
+    2301664: ThdSchPat 22
+    2301666: ThdSchPat 220
+    2301668: ThdSchPat 221
+    2301670: ThdSchPat 222
+    2301672: ThdSchPat 23
+    2301674: ThdSchPat 24
+    2301676: ThdSchPat 25
+    2301678: ThdSchPat 26
+    2301680: ThdSchPat 27
+    2301682: ThdSchPat 28
+    2301684: ThdSchPat 29
+    2301686: ThdSchPat 3
+    2301688: ThdSchPat 30
+    2301690: ThdSchPat 31
+    2301692: ThdSchPat 32
+    2301694: ThdSchPat 33
+    2301696: ThdSchPat 34
+    2301698: ThdSchPat 35
+    2301700: ThdSchPat 36
+    2301702: ThdSchPat 37
+    2301704: ThdSchPat 38
+    2301706: ThdSchPat 39
+    2301708: ThdSchPat 4
+    2301710: ThdSchPat 40
+    2301712: ThdSchPat 41
+    2301714: ThdSchPat 42
+    2301716: ThdSchPat 43
+    2301718: ThdSchPat 44
+    2301720: ThdSchPat 45
+    2301722: ThdSchPat 46
+    2301724: ThdSchPat 47
+    2301726: ThdSchPat 48
+    2301728: ThdSchPat 49
+    2301730: ThdSchPat 5
+    2301732: ThdSchPat 50
+    2301734: ThdSchPat 51
+    2301736: ThdSchPat 52
+    2301738: ThdSchPat 53
+    2301740: ThdSchPat 54
+    2301742: ThdSchPat 55
+    2301744: ThdSchPat 56
+    2301746: ThdSchPat 57
+    2301748: ThdSchPat 58
+    2301750: ThdSchPat 59
+    2301752: ThdSchPat 6
+    2301754: ThdSchPat 60
+    2301756: ThdSchPat 61
+    2301758: ThdSchPat 62
+    2301760: ThdSchPat 63
+    2301762: ThdSchPat 64
+    2301764: ThdSchPat 65
+    2301766: ThdSchPat 66
+    2301768: ThdSchPat 67
+    2301770: ThdSchPat 68
+    2301772: ThdSchPat 69
+    2301774: ThdSchPat 7
+    2301776: ThdSchPat 70
+    2301778: ThdSchPat 71
+    2301780: ThdSchPat 72
+    2301782: ThdSchPat 73
+    2301784: ThdSchPat 74
+    2301786: ThdSchPat 75
+    2301788: ThdSchPat 76
+    2301790: ThdSchPat 77
+    2301792: ThdSchPat 78
+    2301794: ThdSchPat 79
+    2301796: ThdSchPat 8
+    2301798: ThdSchPat 80
+    2301800: ThdSchPat 81
+    2301802: ThdSchPat 82
+    2301804: ThdSchPat 83
+    2301806: ThdSchPat 84
+    2301808: ThdSchPat 85
+    2301810: ThdSchPat 86
+    2301812: ThdSchPat 87
+    2301814: ThdSchPat 88
+    2301816: ThdSchPat 89
+    2301818: ThdSchPat 9
+    2301820: ThdSchPat 90
+    2301822: ThdSchPat 91
+    2301824: ThdSchPat 92
+    2301826: ThdSchPat 93
+    2301828: ThdSchPat 94
+    2301830: ThdSchPat 95
+    2301832: ThdSchPat 96
+    2301834: ThdSchPat 97
+    2301836: ThdSchPat 98
+    2301838: ThdSchPat 99
+    2301840: Wrap1
+    2301842: Wrap2
+    2301844: Wrap2 1
+    2301846: Wrap2 10
+    2301848: Wrap2 11
+    2301850: Wrap2 12
+    2301852: Wrap2 13
+    2301854: Wrap2 14
+    2301856: Wrap2 15
+    2301858: Wrap2 2
+    2301860: Wrap2 3
+    2301862: Wrap2 4
+    2301864: Wrap2 5
+    2301866: Wrap2 6
+    2301868: Wrap2 7
+    2301870: Wrap2 8
+    2301872: Wrap2 9
+    2301874: "\xD80.5 (0.5) Diameter Hole1"
+    2301876: "\xD80.5 (0.5) Diameter Hole1 1"
+    2301878: "\xD80.5 (0.5) Diameter Hole2"
+    2301880: "\xD80.5 (0.5) Diameter Hole2 1"
+    2301882: "\xD80.5 (0.5) Diameter Hole2 2"
+    2301884: "\xD80.5 (0.5) Diameter Hole2 3"
+    2301886: "\xD812.0 (12) Diameter Hole1"
+    2301888: "\xD816.0 (16) Diameter Hole1"
+    2301890: "\xD82.0 (2) Diameter Hole1"
+    2301892: "\xD82.0 (2) Diameter Hole1 1"
+    2301894: "\xD82.0 (2) Diameter Hole1 2"
+    2301896: "\xD83.0 (3) Diameter Hole2"
+    2301898: "\xD83.0 (3) Diameter Hole2 1"
+    2301900: "\xD83.0 (3) Diameter Hole2 2"
+    2301902: "\xD83.0 (3) Diameter Hole2 3"
+    2301904: "\xD88.0 (8) Diameter Hole1"
+    2301906: "\xD88.0 (8) Diameter Hole1 1"
+    2301908: "\xD88.0 (8) Diameter Hole1 2"
+    2301910: "\xD88.0 (8) Diameter Hole1 3"
+    3300000: 1
+    3300002: 1 1
+    3300004: 1 2
+    3300006: 1 3
+    3300008: 1 4
+    3300010: 1 5
+    3300012: 1 6
+    3300014: 1 7
+    3300016: 1 8
+    3300018: ?????-????????3
+    3300020: ?????-????????3 1
+    3300022: ?????-????????3 2
+    3300024: ?????-????????3 3
+    3300026: ?????-????????3 4
+    3300028: ?????-????????3 5
+    3300030: ?????-????????3 6
+    3300032: ?????-????????3 7
+    3300034: ?????-????????3 8
+    3300036: ?????-????????3 9
+    3300038: ?????2
+    3300040: ?????2 1
+    3300042: ?????2 2
+    3300044: ?????2 3
+    3300046: ?????2 4
+    3300048: ?????2 5
+    3300050: ?????2 6
+    3300052: ?????2 7
+    3300054: ?????2 8
+    3300056: ?????2 9
+    3300058: ?????3
+    3300060: ?????3 1
+    3300062: ?????3 2
+    3300064: ?????3 3
+    3300066: ?????3 4
+    3300068: ?????3 5
+    3300070: ?????3 6
+    3300072: ?????3 7
+    3300074: ?????3 8
+    3300076: ?????3 9
+    3300078: ?????7
+    3300080: ???????? ??????1
+    3300082: ???????? ??????1 1
+    3300084: ???????? ??????1 2
+    3300086: ???????? ??????1 3
+    3300088: ???????? ??????1 4
+    3300090: ???????? ??????1 5
+    3300092: ???????? ??????1 6
+    3300094: ???????? ??????1 7
+    3300096: ???????? ??????1 8
+    3300098: ???????? ??????1 9
+    3300100: ?????????1
+    3300102: ?????????1 1
+    3300104: ?????????1 10
+    3300106: ?????????1 11
+    3300108: ?????????1 12
+    3300110: ?????????1 13
+    3300112: ?????????1 14
+    3300114: ?????????1 15
+    3300116: ?????????1 16
+    3300118: ?????????1 17
+    3300120: ?????????1 18
+    3300122: ?????????1 19
+    3300124: ?????????1 2
+    3300126: ?????????1 3
+    3300128: ?????????1 4
+    3300130: ?????????1 5
+    3300132: ?????????1 6
+    3300134: ?????????1 7
+    3300136: ?????????1 8
+    3300138: ?????????1 9
+    3300140: ??????????3
+    3300142: ??????????3 1
+    3300144: ??????????3 2
+    3300146: ??????????3 3
+    3300148: ??????????3 4
+    3300150: ??????????3 5
+    3300152: ??????????3 6
+    3300154: ??????????3 7
+    3300156: ??????????3 8
+    3300158: ??????????3 9
+    3300160: Base-Revolve
+    3300162: Base-Revolve 1
+    3300164: Base-Revolve 10
+    3300166: Base-Revolve 11
+    3300168: Base-Revolve 12
+    3300170: Base-Revolve 13
+    3300172: Base-Revolve 14
+    3300174: Base-Revolve 15
+    3300176: Base-Revolve 16
+    3300178: Base-Revolve 17
+    3300180: Base-Revolve 18
+    3300182: Base-Revolve 19
+    3300184: Base-Revolve 2
+    3300186: Base-Revolve 20
+    3300188: Base-Revolve 21
+    3300190: Base-Revolve 22
+    3300192: Base-Revolve 23
+    3300194: Base-Revolve 24
+    3300196: Base-Revolve 25
+    3300198: Base-Revolve 26
+    3300200: Base-Revolve 27
+    3300202: Base-Revolve 28
+    3300204: Base-Revolve 29
+    3300206: Base-Revolve 3
+    3300208: Base-Revolve 30
+    3300210: Base-Revolve 31
+    3300212: Base-Revolve 32
+    3300214: Base-Revolve 33
+    3300216: Base-Revolve 34
+    3300218: Base-Revolve 35
+    3300220: Base-Revolve 36
+    3300222: Base-Revolve 37
+    3300224: Base-Revolve 38
+    3300226: Base-Revolve 39
+    3300228: Base-Revolve 4
+    3300230: Base-Revolve 40
+    3300232: Base-Revolve 41
+    3300234: Base-Revolve 42
+    3300236: Base-Revolve 43
+    3300238: Base-Revolve 44
+    3300240: Base-Revolve 45
+    3300242: Base-Revolve 46
+    3300244: Base-Revolve 47
+    3300246: Base-Revolve 48
+    3300248: Base-Revolve 49
+    3300250: Base-Revolve 5
+    3300252: Base-Revolve 50
+    3300254: Base-Revolve 51
+    3300256: Base-Revolve 6
+    3300258: Base-Revolve 7
+    3300260: Base-Revolve 8
+    3300262: Base-Revolve 9
+    3300264: Body
+    3300266: Body 1
+    3300268: Body 2
+    3300270: Body 3
+    3300272: body-flange
+    3300274: body-flange 1
+    3300276: body-flange 2
+    3300278: body-flange 3
+    3300280: body-flange 4
+    3300282: body-flange 5
+    3300284: body-flange 6
+    3300286: Body-Move/Copy1[1]
+    3300288: Body-Move/Copy1[2]
+    3300290: Boss-Extrude1
+    3300292: Boss-Extrude1 1
+    3300294: Boss-Extrude1 10
+    3300296: Boss-Extrude1 11
+    3300298: Boss-Extrude1 12
+    3300300: Boss-Extrude1 13
+    3300302: Boss-Extrude1 14
+    3300304: Boss-Extrude1 15
+    3300306: Boss-Extrude1 16
+    3300308: Boss-Extrude1 17
+    3300310: Boss-Extrude1 18
+    3300312: Boss-Extrude1 19
+    3300314: Boss-Extrude1 2
+    3300316: Boss-Extrude1 20
+    3300318: Boss-Extrude1 21
+    3300320: Boss-Extrude1 22
+    3300322: Boss-Extrude1 23
+    3300324: Boss-Extrude1 24
+    3300326: Boss-Extrude1 25
+    3300328: Boss-Extrude1 26
+    3300330: Boss-Extrude1 27
+    3300332: Boss-Extrude1 28
+    3300334: Boss-Extrude1 29
+    3300336: Boss-Extrude1 3
+    3300338: Boss-Extrude1 30
+    3300340: Boss-Extrude1 4
+    3300342: Boss-Extrude1 5
+    3300344: Boss-Extrude1 6
+    3300346: Boss-Extrude1 7
+    3300348: Boss-Extrude1 8
+    3300350: Boss-Extrude1 9
+    3300352: Boss-Extrude2
+    3300354: Boss-Extrude2 1
+    3300356: Boss-Extrude2 2
+    3300358: Boss-Extrude2 3
+    3300360: Boss-Extrude3
+    3300362: CageSpine
+    3300364: CageSpine 1
+    3300366: CageSpine 2
+    3300368: Chamfer1
+    3300370: Chamfer1 1
+    3300372: Chamfer1 10
+    3300374: Chamfer1 11
+    3300376: Chamfer1 12
+    3300378: Chamfer1 13
+    3300380: Chamfer1 14
+    3300382: Chamfer1 15
+    3300384: Chamfer1 16
+    3300386: Chamfer1 17
+    3300388: Chamfer1 18
+    3300390: Chamfer1 19
+    3300392: Chamfer1 2
+    3300394: Chamfer1 20
+    3300396: Chamfer1 21
+    3300398: Chamfer1 22
+    3300400: Chamfer1 23
+    3300402: Chamfer1 24
+    3300404: Chamfer1 25
+    3300406: Chamfer1 26
+    3300408: Chamfer1 27
+    3300410: Chamfer1 28
+    3300412: Chamfer1 29
+    3300414: Chamfer1 3
+    3300416: Chamfer1 30
+    3300418: Chamfer1 31
+    3300420: Chamfer1 32
+    3300422: Chamfer1 33
+    3300424: Chamfer1 34
+    3300426: Chamfer1 35
+    3300428: Chamfer1 36
+    3300430: Chamfer1 37
+    3300432: Chamfer1 38
+    3300434: Chamfer1 39
+    3300436: Chamfer1 4
+    3300438: Chamfer1 40
+    3300440: Chamfer1 41
+    3300442: Chamfer1 42
+    3300444: Chamfer1 43
+    3300446: Chamfer1 44
+    3300448: Chamfer1 45
+    3300450: Chamfer1 46
+    3300452: Chamfer1 5
+    3300454: Chamfer1 6
+    3300456: Chamfer1 7
+    3300458: Chamfer1 8
+    3300460: Chamfer1 9
+    3300462: Chamfer2
+    3300464: Chamfer2 1
+    3300466: Chamfer2 10
+    3300468: Chamfer2 11
+    3300470: Chamfer2 12
+    3300472: Chamfer2 13
+    3300474: Chamfer2 14
+    3300476: Chamfer2 15
+    3300478: Chamfer2 16
+    3300480: Chamfer2 17
+    3300482: Chamfer2 18
+    3300484: Chamfer2 19
+    3300486: Chamfer2 2
+    3300488: Chamfer2 20
+    3300490: Chamfer2 3
+    3300492: Chamfer2 4
+    3300494: Chamfer2 5
+    3300496: Chamfer2 6
+    3300498: Chamfer2 7
+    3300500: Chamfer2 8
+    3300502: Chamfer2 9
+    3300504: Chamfer4
+    3300506: Chamfer4 1
+    3300508: Chamfer4 2
+    3300510: Chamfer4 3
+    3300512: CirPattern1
+    3300514: CirPattern1 1
+    3300516: CirPattern1 2
+    3300518: CirPattern1 3
+    3300520: CirPattern2
+    3300522: CirPattern2 1
+    3300524: CirPattern2 2
+    3300526: CirPattern2 3
+    3300528: CirPattern2[1]
+    3300530: CirPattern2[1] 1
+    3300532: CirPattern2[2]
+    3300534: CirPattern2[2] 1
+    3300536: CirPattern2[3]
+    3300538: CirPattern2[3] 1
+    3300540: Combine1
+    3300542: Combine1 1
+    3300544: Combine1 2
+    3300546: Combine1 3
+    3300548: Cosmetic-Chamfer
+    3300550: Cosmetic-Chamfer 1
+    3300552: Cosmetic-Chamfer 2
+    3300554: Cosmetic-Chamfer 3
+    3300556: Cut-Extrude1
+    3300558: Cut-Extrude1 1
+    3300560: Cut-Extrude1 10
+    3300562: Cut-Extrude1 11
+    3300564: Cut-Extrude1 12
+    3300566: Cut-Extrude1 13
+    3300568: Cut-Extrude1 14
+    3300570: Cut-Extrude1 15
+    3300572: Cut-Extrude1 16
+    3300574: Cut-Extrude1 17
+    3300576: Cut-Extrude1 18
+    3300578: Cut-Extrude1 19
+    3300580: Cut-Extrude1 2
+    3300582: Cut-Extrude1 20
+    3300584: Cut-Extrude1 21
+    3300586: Cut-Extrude1 22
+    3300588: Cut-Extrude1 23
+    3300590: Cut-Extrude1 24
+    3300592: Cut-Extrude1 25
+    3300594: Cut-Extrude1 26
+    3300596: Cut-Extrude1 27
+    3300598: Cut-Extrude1 28
+    3300600: Cut-Extrude1 29
+    3300602: Cut-Extrude1 3
+    3300604: Cut-Extrude1 30
+    3300606: Cut-Extrude1 31
+    3300608: Cut-Extrude1 32
+    3300610: Cut-Extrude1 33
+    3300612: Cut-Extrude1 34
+    3300614: Cut-Extrude1 35
+    3300616: Cut-Extrude1 36
+    3300618: Cut-Extrude1 37
+    3300620: Cut-Extrude1 38
+    3300622: Cut-Extrude1 39
+    3300624: Cut-Extrude1 4
+    3300626: Cut-Extrude1 40
+    3300628: Cut-Extrude1 41
+    3300630: Cut-Extrude1 42
+    3300632: Cut-Extrude1 43
+    3300634: Cut-Extrude1 44
+    3300636: Cut-Extrude1 5
+    3300638: Cut-Extrude1 6
+    3300640: Cut-Extrude1 7
+    3300642: Cut-Extrude1 8
+    3300644: Cut-Extrude1 9
+    3300646: Cut-Extrude11
+    3300648: Cut-Extrude11 1
+    3300650: Cut-Extrude16
+    3300652: Cut-Extrude2
+    3300654: Cut-Extrude2 1
+    3300656: Cut-Extrude2 10
+    3300658: Cut-Extrude2 11
+    3300660: Cut-Extrude2 12
+    3300662: Cut-Extrude2 13
+    3300664: Cut-Extrude2 14
+    3300666: Cut-Extrude2 15
+    3300668: Cut-Extrude2 16
+    3300670: Cut-Extrude2 17
+    3300672: Cut-Extrude2 2
+    3300674: Cut-Extrude2 3
+    3300676: Cut-Extrude2 4
+    3300678: Cut-Extrude2 5
+    3300680: Cut-Extrude2 6
+    3300682: Cut-Extrude2 7
+    3300684: Cut-Extrude2 8
+    3300686: Cut-Extrude2 9
+    3300688: Cut-Extrude20
+    3300690: Cut-Extrude3
+    3300692: Cut-Extrude3 1
+    3300694: Cut-Extrude3 2
+    3300696: Cut-Extrude3 3
+    3300698: Cut-Extrude6
+    3300700: Cut-Extrude7
+    3300702: Cut-Extrude7 1
+    3300704: Cut-Revolve1
+    3300706: Cut-Revolve1 1
+    3300708: Cut-Revolve1 2
+    3300710: Cut-Revolve1 3
+    3300712: Cut-Revolve1 4
+    3300714: Cut-Revolve1 5
+    3300716: Cut-Revolve1 6
+    3300718: Cut-Revolve1 7
+    3300720: Cut-Revolve1 8
+    3300722: Cut-Revolve1 9
+    3300724: Cut-Sweep1
+    3300726: Cut-Sweep1 1
+    3300728: Cut-Sweep1 2
+    3300730: Cut-Sweep1 3
+    3300732: E1064
+    3300734: E1064 1
+    3300736: E1064 2
+    3300738: E1064 3
+    3300740: E1064 4
+    3300742: E1064 5
+    3300744: E1688
+    3300746: E1688 1
+    3300748: E1688 2
+    3300750: E1688 3
+    3300752: Face2
+    3300754: Face2 1
+    3300756: Fillet1
+    3300758: Fillet1 1
+    3300760: Fillet1 10
+    3300762: Fillet1 11
+    3300764: Fillet1 12
+    3300766: Fillet1 13
+    3300768: Fillet1 14
+    3300770: Fillet1 15
+    3300772: Fillet1 16
+    3300774: Fillet1 17
+    3300776: Fillet1 18
+    3300778: Fillet1 19
+    3300780: Fillet1 2
+    3300782: Fillet1 20
+    3300784: Fillet1 21
+    3300786: Fillet1 22
+    3300788: Fillet1 23
+    3300790: Fillet1 24
+    3300792: Fillet1 25
+    3300794: Fillet1 26
+    3300796: Fillet1 27
+    3300798: Fillet1 28
+    3300800: Fillet1 29
+    3300802: Fillet1 3
+    3300804: Fillet1 30
+    3300806: Fillet1 31
+    3300808: Fillet1 32
+    3300810: Fillet1 33
+    3300812: Fillet1 34
+    3300814: Fillet1 35
+    3300816: Fillet1 36
+    3300818: Fillet1 37
+    3300820: Fillet1 38
+    3300822: Fillet1 39
+    3300824: Fillet1 4
+    3300826: Fillet1 40
+    3300828: Fillet1 41
+    3300830: Fillet1 42
+    3300832: Fillet1 43
+    3300834: Fillet1 44
+    3300836: Fillet1 45
+    3300838: Fillet1 46
+    3300840: Fillet1 47
+    3300842: Fillet1 48
+    3300844: Fillet1 49
+    3300846: Fillet1 5
+    3300848: Fillet1 50
+    3300850: Fillet1 51
+    3300852: Fillet1 52
+    3300854: Fillet1 53
+    3300856: Fillet1 54
+    3300858: Fillet1 55
+    3300860: Fillet1 56
+    3300862: Fillet1 57
+    3300864: Fillet1 58
+    3300866: Fillet1 59
+    3300868: Fillet1 6
+    3300870: Fillet1 60
+    3300872: Fillet1 61
+    3300874: Fillet1 62
+    3300876: Fillet1 63
+    3300878: Fillet1 64
+    3300880: Fillet1 65
+    3300882: Fillet1 66
+    3300884: Fillet1 67
+    3300886: Fillet1 68
+    3300888: Fillet1 69
+    3300890: Fillet1 7
+    3300892: Fillet1 70
+    3300894: Fillet1 71
+    3300896: Fillet1 72
+    3300898: Fillet1 73
+    3300900: Fillet1 74
+    3300902: Fillet1 75
+    3300904: Fillet1 76
+    3300906: Fillet1 77
+    3300908: Fillet1 78
+    3300910: Fillet1 8
+    3300912: Fillet1 9
+    3300914: Fillet11
+    3300916: Fillet16
+    3300918: Fillet2
+    3300920: Fillet2 1
+    3300922: Fillet2 2
+    3300924: Fillet2 3
+    3300926: Fillet2 4
+    3300928: Fillet2 5
+    3300930: Fillet2 6
+    3300932: Fillet2 7
+    3300934: Fillet2 8
+    3300936: Fillet2 9
+    3300938: Fillet24
+    3300940: Fillet3
+    3300942: Fillet3 1
+    3300944: Fillet3 10
+    3300946: Fillet3 11
+    3300948: Fillet3 12
+    3300950: Fillet3 2
+    3300952: Fillet3 3
+    3300954: Fillet3 4
+    3300956: Fillet3 5
+    3300958: Fillet3 6
+    3300960: Fillet3 7
+    3300962: Fillet3 8
+    3300964: Fillet3 9
+    3300966: Fillet4
+    3300968: Fillet4 1
+    3300970: Fillet4 2
+    3300972: Fillet5
+    3300974: Fillet6
+    3300976: Fillet6 1
+    3300978: Fillet6 2
+    3300980: Fillet6 3
+    3300982: Fillet7
+    3300984: Fillet7 1
+    3300986: Fillet7 2
+    3300988: Fillet7 3
+    3300990: Gap
+    3300992: Gap 1
+    3300994: Gap 10
+    3300996: Gap 11
+    3300998: Gap 12
+    3301000: Gap 13
+    3301002: Gap 14
+    3301004: Gap 15
+    3301006: Gap 16
+    3301008: Gap 17
+    3301010: Gap 18
+    3301012: Gap 19
+    3301014: Gap 2
+    3301016: Gap 20
+    3301018: Gap 21
+    3301020: Gap 22
+    3301022: Gap 23
+    3301024: Gap 24
+    3301026: Gap 25
+    3301028: Gap 26
+    3301030: Gap 27
+    3301032: Gap 28
+    3301034: Gap 29
+    3301036: Gap 3
+    3301038: Gap 30
+    3301040: Gap 31
+    3301042: Gap 32
+    3301044: Gap 33
+    3301046: Gap 34
+    3301048: Gap 35
+    3301050: Gap 36
+    3301052: Gap 37
+    3301054: Gap 38
+    3301056: Gap 39
+    3301058: Gap 4
+    3301060: Gap 40
+    3301062: Gap 41
+    3301064: Gap 42
+    3301066: Gap 43
+    3301068: Gap 44
+    3301070: Gap 45
+    3301072: Gap 46
+    3301074: Gap 47
+    3301076: Gap 5
+    3301078: Gap 6
+    3301080: Gap 7
+    3301082: Gap 8
+    3301084: Gap 9
+    3301086: Imported1
+    3301088: Imported1 1
+    3301090: Imported1 10
+    3301092: Imported1 11
+    3301094: Imported1 12
+    3301096: Imported1 13
+    3301098: Imported1 14
+    3301100: Imported1 15
+    3301102: Imported1 16
+    3301104: Imported1 17
+    3301106: Imported1 18
+    3301108: Imported1 19
+    3301110: Imported1 2
+    3301112: Imported1 20
+    3301114: Imported1 21
+    3301116: Imported1 22
+    3301118: Imported1 23
+    3301120: Imported1 24
+    3301122: Imported1 25
+    3301124: Imported1 26
+    3301126: Imported1 27
+    3301128: Imported1 3
+    3301130: Imported1 4
+    3301132: Imported1 5
+    3301134: Imported1 6
+    3301136: Imported1 7
+    3301138: Imported1 8
+    3301140: Imported1 9
+    3301142: Imported5
+    3301144: Imported5 1
+    3301146: Imported5 2
+    3301148: Imported5 3
+    3301150: Imported6
+    3301152: Imported6 1
+    3301154: Imported6 2
+    3301156: Imported6 3
+    3301158: Imported7
+    3301160: Imported7 1
+    3301162: Imported7 2
+    3301164: Imported7 3
+    3301166: Imported8
+    3301168: Imported8 1
+    3301170: Imported8 2
+    3301172: Imported8 3
+    3301174: LPattern1
+    3301176: LPattern1 1
+    3301178: M2.5 Clearance Hole1
+    3301180: M2.5 Clearance Hole1 1
+    3301182: M2.5 Clearance Hole1 2
+    3301184: M2.5 Clearance Hole1 3
+    3301186: M5 Clearance Hole1
+    3301188: M5 Clearance Hole1 1
+    3301190: Mirror1
+    3301192: Mirror1 1
+    3301194: Mirror1 10
+    3301196: Mirror1 2
+    3301198: Mirror1 3
+    3301200: Mirror1 4
+    3301202: Mirror1 5
+    3301204: Mirror1 6
+    3301206: Mirror1 7
+    3301208: Mirror1 8
+    3301210: Mirror1 9
+    3301212: Mirror4
+    3301214: Move Face1
+    3301216: Move Face2
+    3301218: Notch
+    3301220: Notch 1
+    3301222: Notch 2
+    3301224: Notch 3
+    3301226: Notch 4
+    3301228: Notch 5
+    3301230: Notch 6
+    3301232: Notch 7
+    3301234: Revolve1
+    3301236: Revolve1 1
+    3301238: Revolve1 10
+    3301240: Revolve1 11
+    3301242: Revolve1 12
+    3301244: Revolve1 13
+    3301246: Revolve1 14
+    3301248: Revolve1 15
+    3301250: Revolve1 16
+    3301252: Revolve1 17
+    3301254: Revolve1 18
+    3301256: Revolve1 19
+    3301258: Revolve1 2
+    3301260: Revolve1 20
+    3301262: Revolve1 21
+    3301264: Revolve1 22
+    3301266: Revolve1 23
+    3301268: Revolve1 24
+    3301270: Revolve1 3
+    3301272: Revolve1 4
+    3301274: Revolve1 5
+    3301276: Revolve1 6
+    3301278: Revolve1 7
+    3301280: Revolve1 8
+    3301282: Revolve1 9
+    3301284: RollersDetailed
+    3301286: RollersDetailed 1
+    3301288: RollersDetailed 10
+    3301290: RollersDetailed 11
+    3301292: RollersDetailed 12
+    3301294: RollersDetailed 13
+    3301296: RollersDetailed 14
+    3301298: RollersDetailed 15
+    3301300: RollersDetailed 2
+    3301302: RollersDetailed 3
+    3301304: RollersDetailed 4
+    3301306: RollersDetailed 5
+    3301308: RollersDetailed 6
+    3301310: RollersDetailed 7
+    3301312: RollersDetailed 8
+    3301314: RollersDetailed 9
+    3301316: Sweep1
+    3301318: Sweep1 1
+    3301320: Sweep1 10
+    3301322: Sweep1 11
+    3301324: Sweep1 12
+    3301326: Sweep1 13
+    3301328: Sweep1 14
+    3301330: Sweep1 15
+    3301332: Sweep1 16
+    3301334: Sweep1 17
+    3301336: Sweep1 18
+    3301338: Sweep1 19
+    3301340: Sweep1 2
+    3301342: Sweep1 20
+    3301344: Sweep1 21
+    3301346: Sweep1 22
+    3301348: Sweep1 23
+    3301350: Sweep1 24
+    3301352: Sweep1 25
+    3301354: Sweep1 26
+    3301356: Sweep1 27
+    3301358: Sweep1 28
+    3301360: Sweep1 29
+    3301362: Sweep1 3
+    3301364: Sweep1 30
+    3301366: Sweep1 31
+    3301368: Sweep1 32
+    3301370: Sweep1 33
+    3301372: Sweep1 34
+    3301374: Sweep1 35
+    3301376: Sweep1 36
+    3301378: Sweep1 4
+    3301380: Sweep1 5
+    3301382: Sweep1 6
+    3301384: Sweep1 7
+    3301386: Sweep1 8
+    3301388: Sweep1 9
+    3301390: Sweep2
+    3301392: Sweep2 1
+    3301394: ThdSchPat
+    3301396: ThdSchPat 1
+    3301398: ThdSchPat 10
+    3301400: ThdSchPat 100
+    3301402: ThdSchPat 101
+    3301404: ThdSchPat 102
+    3301406: ThdSchPat 103
+    3301408: ThdSchPat 104
+    3301410: ThdSchPat 105
+    3301412: ThdSchPat 106
+    3301414: ThdSchPat 107
+    3301416: ThdSchPat 108
+    3301418: ThdSchPat 109
+    3301420: ThdSchPat 11
+    3301422: ThdSchPat 110
+    3301424: ThdSchPat 111
+    3301426: ThdSchPat 112
+    3301428: ThdSchPat 113
+    3301430: ThdSchPat 114
+    3301432: ThdSchPat 115
+    3301434: ThdSchPat 116
+    3301436: ThdSchPat 117
+    3301438: ThdSchPat 118
+    3301440: ThdSchPat 119
+    3301442: ThdSchPat 12
+    3301444: ThdSchPat 120
+    3301446: ThdSchPat 121
+    3301448: ThdSchPat 122
+    3301450: ThdSchPat 123
+    3301452: ThdSchPat 124
+    3301454: ThdSchPat 125
+    3301456: ThdSchPat 126
+    3301458: ThdSchPat 127
+    3301460: ThdSchPat 128
+    3301462: ThdSchPat 129
+    3301464: ThdSchPat 13
+    3301466: ThdSchPat 130
+    3301468: ThdSchPat 131
+    3301470: ThdSchPat 132
+    3301472: ThdSchPat 133
+    3301474: ThdSchPat 134
+    3301476: ThdSchPat 135
+    3301478: ThdSchPat 136
+    3301480: ThdSchPat 137
+    3301482: ThdSchPat 138
+    3301484: ThdSchPat 139
+    3301486: ThdSchPat 14
+    3301488: ThdSchPat 140
+    3301490: ThdSchPat 141
+    3301492: ThdSchPat 142
+    3301494: ThdSchPat 143
+    3301496: ThdSchPat 144
+    3301498: ThdSchPat 145
+    3301500: ThdSchPat 146
+    3301502: ThdSchPat 147
+    3301504: ThdSchPat 148
+    3301506: ThdSchPat 149
+    3301508: ThdSchPat 15
+    3301510: ThdSchPat 150
+    3301512: ThdSchPat 151
+    3301514: ThdSchPat 152
+    3301516: ThdSchPat 153
+    3301518: ThdSchPat 154
+    3301520: ThdSchPat 155
+    3301522: ThdSchPat 156
+    3301524: ThdSchPat 157
+    3301526: ThdSchPat 158
+    3301528: ThdSchPat 159
+    3301530: ThdSchPat 16
+    3301532: ThdSchPat 160
+    3301534: ThdSchPat 161
+    3301536: ThdSchPat 162
+    3301538: ThdSchPat 163
+    3301540: ThdSchPat 164
+    3301542: ThdSchPat 165
+    3301544: ThdSchPat 166
+    3301546: ThdSchPat 167
+    3301548: ThdSchPat 168
+    3301550: ThdSchPat 169
+    3301552: ThdSchPat 17
+    3301554: ThdSchPat 170
+    3301556: ThdSchPat 171
+    3301558: ThdSchPat 172
+    3301560: ThdSchPat 173
+    3301562: ThdSchPat 174
+    3301564: ThdSchPat 175
+    3301566: ThdSchPat 176
+    3301568: ThdSchPat 177
+    3301570: ThdSchPat 178
+    3301572: ThdSchPat 179
+    3301574: ThdSchPat 18
+    3301576: ThdSchPat 180
+    3301578: ThdSchPat 181
+    3301580: ThdSchPat 182
+    3301582: ThdSchPat 183
+    3301584: ThdSchPat 184
+    3301586: ThdSchPat 185
+    3301588: ThdSchPat 186
+    3301590: ThdSchPat 187
+    3301592: ThdSchPat 188
+    3301594: ThdSchPat 189
+    3301596: ThdSchPat 19
+    3301598: ThdSchPat 190
+    3301600: ThdSchPat 191
+    3301602: ThdSchPat 192
+    3301604: ThdSchPat 193
+    3301606: ThdSchPat 194
+    3301608: ThdSchPat 195
+    3301610: ThdSchPat 196
+    3301612: ThdSchPat 197
+    3301614: ThdSchPat 198
+    3301616: ThdSchPat 199
+    3301618: ThdSchPat 2
+    3301620: ThdSchPat 20
+    3301622: ThdSchPat 200
+    3301624: ThdSchPat 201
+    3301626: ThdSchPat 202
+    3301628: ThdSchPat 203
+    3301630: ThdSchPat 204
+    3301632: ThdSchPat 205
+    3301634: ThdSchPat 206
+    3301636: ThdSchPat 207
+    3301638: ThdSchPat 208
+    3301640: ThdSchPat 209
+    3301642: ThdSchPat 21
+    3301644: ThdSchPat 210
+    3301646: ThdSchPat 211
+    3301648: ThdSchPat 212
+    3301650: ThdSchPat 213
+    3301652: ThdSchPat 214
+    3301654: ThdSchPat 215
+    3301656: ThdSchPat 216
+    3301658: ThdSchPat 217
+    3301660: ThdSchPat 218
+    3301662: ThdSchPat 219
+    3301664: ThdSchPat 22
+    3301666: ThdSchPat 220
+    3301668: ThdSchPat 221
+    3301670: ThdSchPat 222
+    3301672: ThdSchPat 23
+    3301674: ThdSchPat 24
+    3301676: ThdSchPat 25
+    3301678: ThdSchPat 26
+    3301680: ThdSchPat 27
+    3301682: ThdSchPat 28
+    3301684: ThdSchPat 29
+    3301686: ThdSchPat 3
+    3301688: ThdSchPat 30
+    3301690: ThdSchPat 31
+    3301692: ThdSchPat 32
+    3301694: ThdSchPat 33
+    3301696: ThdSchPat 34
+    3301698: ThdSchPat 35
+    3301700: ThdSchPat 36
+    3301702: ThdSchPat 37
+    3301704: ThdSchPat 38
+    3301706: ThdSchPat 39
+    3301708: ThdSchPat 4
+    3301710: ThdSchPat 40
+    3301712: ThdSchPat 41
+    3301714: ThdSchPat 42
+    3301716: ThdSchPat 43
+    3301718: ThdSchPat 44
+    3301720: ThdSchPat 45
+    3301722: ThdSchPat 46
+    3301724: ThdSchPat 47
+    3301726: ThdSchPat 48
+    3301728: ThdSchPat 49
+    3301730: ThdSchPat 5
+    3301732: ThdSchPat 50
+    3301734: ThdSchPat 51
+    3301736: ThdSchPat 52
+    3301738: ThdSchPat 53
+    3301740: ThdSchPat 54
+    3301742: ThdSchPat 55
+    3301744: ThdSchPat 56
+    3301746: ThdSchPat 57
+    3301748: ThdSchPat 58
+    3301750: ThdSchPat 59
+    3301752: ThdSchPat 6
+    3301754: ThdSchPat 60
+    3301756: ThdSchPat 61
+    3301758: ThdSchPat 62
+    3301760: ThdSchPat 63
+    3301762: ThdSchPat 64
+    3301764: ThdSchPat 65
+    3301766: ThdSchPat 66
+    3301768: ThdSchPat 67
+    3301770: ThdSchPat 68
+    3301772: ThdSchPat 69
+    3301774: ThdSchPat 7
+    3301776: ThdSchPat 70
+    3301778: ThdSchPat 71
+    3301780: ThdSchPat 72
+    3301782: ThdSchPat 73
+    3301784: ThdSchPat 74
+    3301786: ThdSchPat 75
+    3301788: ThdSchPat 76
+    3301790: ThdSchPat 77
+    3301792: ThdSchPat 78
+    3301794: ThdSchPat 79
+    3301796: ThdSchPat 8
+    3301798: ThdSchPat 80
+    3301800: ThdSchPat 81
+    3301802: ThdSchPat 82
+    3301804: ThdSchPat 83
+    3301806: ThdSchPat 84
+    3301808: ThdSchPat 85
+    3301810: ThdSchPat 86
+    3301812: ThdSchPat 87
+    3301814: ThdSchPat 88
+    3301816: ThdSchPat 89
+    3301818: ThdSchPat 9
+    3301820: ThdSchPat 90
+    3301822: ThdSchPat 91
+    3301824: ThdSchPat 92
+    3301826: ThdSchPat 93
+    3301828: ThdSchPat 94
+    3301830: ThdSchPat 95
+    3301832: ThdSchPat 96
+    3301834: ThdSchPat 97
+    3301836: ThdSchPat 98
+    3301838: ThdSchPat 99
+    3301840: Wrap1
+    3301842: Wrap2
+    3301844: Wrap2 1
+    3301846: Wrap2 10
+    3301848: Wrap2 11
+    3301850: Wrap2 12
+    3301852: Wrap2 13
+    3301854: Wrap2 14
+    3301856: Wrap2 15
+    3301858: Wrap2 2
+    3301860: Wrap2 3
+    3301862: Wrap2 4
+    3301864: Wrap2 5
+    3301866: Wrap2 6
+    3301868: Wrap2 7
+    3301870: Wrap2 8
+    3301872: Wrap2 9
+    3301874: "\xD80.5 (0.5) Diameter Hole1"
+    3301876: "\xD80.5 (0.5) Diameter Hole1 1"
+    3301878: "\xD80.5 (0.5) Diameter Hole2"
+    3301880: "\xD80.5 (0.5) Diameter Hole2 1"
+    3301882: "\xD80.5 (0.5) Diameter Hole2 2"
+    3301884: "\xD80.5 (0.5) Diameter Hole2 3"
+    3301886: "\xD812.0 (12) Diameter Hole1"
+    3301888: "\xD816.0 (16) Diameter Hole1"
+    3301890: "\xD82.0 (2) Diameter Hole1"
+    3301892: "\xD82.0 (2) Diameter Hole1 1"
+    3301894: "\xD82.0 (2) Diameter Hole1 2"
+    3301896: "\xD83.0 (3) Diameter Hole2"
+    3301898: "\xD83.0 (3) Diameter Hole2 1"
+    3301900: "\xD83.0 (3) Diameter Hole2 2"
+    3301902: "\xD83.0 (3) Diameter Hole2 3"
+    3301904: "\xD88.0 (8) Diameter Hole1"
+    3301906: "\xD88.0 (8) Diameter Hole1 1"
+    3301908: "\xD88.0 (8) Diameter Hole1 2"
+    3301910: "\xD88.0 (8) Diameter Hole1 3"
+    4300000: Cut-Extrude16
+    4300002: Chamfer1
+    4300004: Base-Revolve
+    4300006: Base-Revolve
+    4300008: Base-Revolve
+    4300010: Base-Revolve
+    4300012: Cut-Extrude3
+    4300014: Fillet1
+    4300016: Fillet1
+    4300018: ThdSchPat
+    4300020: ThdSchPat
+    4300022: ThdSchPat
+    4300024: ThdSchPat
+    4300026: ThdSchPat
+    4300028: ThdSchPat
+    4300030: CageSpine
+    4300032: Imported1
+    4300034: Imported1
+    4300036: Imported1
+    4300038: Imported1
+    4300040: Imported1
+    4300042: Imported1
+    4300044: Imported1
+    4300046: Imported1
+    4300048: Imported1
+    4300050: Imported1
+    4300052: Imported1
+    4300054: Imported1
+    4300056: Imported1
+    4300058: Imported1
+    4300060: "\xD80.5 (0.5) Diameter Hole2"
+    4300062: "\xD80.5 (0.5) Diameter Hole2"
+    4300064: "\xD80.5 (0.5) Diameter Hole2"
+    4300066: "\xD80.5 (0.5) Diameter Hole2"
+    4300068: Sweep1
+    4300070: body-flange
+    4300072: body-flange
+    4300074: Fillet1
+    4300076: Fillet1
+    4300078: Chamfer2
+    4300080: Fillet6
+    4300082: Chamfer2
+    4300084: "\xD816.0 (16) Diameter Hole1"
+    4300086: "\xD812.0 (12) Diameter Hole1"
+    4300088: Mirror1
+    4300090: Mirror1
+    4300092: Boss-Extrude1
+    4300094: Boss-Extrude1
+    4300096: Boss-Extrude1
+    4300098: RollersDetailed
+    4300100: RollersDetailed
+    4300102: Chamfer1
+    4300104: Fillet1
+    4300106: Face2
+    4300108: Face2
+    4300110: E1688
+    4300112: CirPattern1
+    4300114: Wrap2
+    4300116: Wrap2
+    4300118: Wrap2
+    4300120: Wrap2
+    4300122: Wrap2
+    4300124: Wrap2
+    4300126: Wrap2
+    4300128: Wrap2
+    4300130: Boss-Extrude1
+    4300132: 1
+    4300134: Boss-Extrude1
+    4300136: Boss-Extrude1
+    4300138: CirPattern2
+    4300140: CirPattern1
+    4300142: 1
+    4300144: 1
+    4300146: ThdSchPat
+    4300148: ThdSchPat
+    4300150: ThdSchPat
+    4300152: ThdSchPat
+    4300154: Boss-Extrude1
+    4300156: Sweep1
+    4300158: Fillet3
+    4300160: Fillet3
+    4300162: Cut-Extrude11
+    4300164: Chamfer2
+    4300166: Cut-Extrude1
+    4300168: Cut-Extrude1
+    4300170: Chamfer1
+    4300172: Chamfer1
+    4300174: Boss-Extrude1
+    4300176: Boss-Extrude1
+    4300178: Cut-Extrude3
+    4300180: RollersDetailed
+    4300182: Body
+    4300184: Body
+    4300186: Cut-Extrude11
+    4300188: Chamfer2
+    4300190: Cut-Extrude1
+    4300192: Cut-Extrude1
+    4300194: Chamfer1
+    4300196: Chamfer1
+    4300198: Boss-Extrude1
+    4300200: Boss-Extrude1
+    4300202: Cut-Extrude3
+    4300204: RollersDetailed
+    4300206: Body
+    4300208: Body
+    4300210: Cut-Extrude20
+    4300212: Chamfer2
+    4300214: Boss-Extrude1
+    4300216: CirPattern2
+    4300218: Chamfer1
+    4300220: Sweep1
+    4300222: Sweep1
+    4300224: ThdSchPat
+    4300226: ThdSchPat
+    4300228: ThdSchPat
+    4300230: ThdSchPat
+    4300232: ThdSchPat
+    4300234: ThdSchPat
+    4300236: ThdSchPat
+    4300238: ThdSchPat
+    4300240: Mirror1
+    4300242: Chamfer2
+    4300244: Boss-Extrude1
+    4300246: CirPattern2
+    4300248: Chamfer1
+    4300250: Sweep1
+    4300252: Sweep1
+    4300254: ThdSchPat
+    4300256: ThdSchPat
+    4300258: ThdSchPat
+    4300260: ThdSchPat
+    4300262: ThdSchPat
+    4300264: ThdSchPat
+    4300266: ThdSchPat
+    4300268: ThdSchPat
+    4300270: Fillet3
+    4300272: Fillet2
+    4300274: Boss-Extrude1
+    4300276: Boss-Extrude1
+    4300278: 1
+    4300280: 1
+    4300282: Chamfer1
+    4300284: 1
+    4300286: 1
+    4300288: 1
+    4300290: 1
+    4300292: Fillet6
+    4300294: Fillet3
+    4300296: Fillet3
+    4300298: ThdSchPat
+    4300300: ThdSchPat
+    4300302: ThdSchPat
+    4300304: ThdSchPat
+    4300306: Fillet6
+    4300308: Fillet3
+    4300310: Fillet3
+    4300312: ThdSchPat
+    4300314: ThdSchPat
+    4300316: ThdSchPat
+    4300318: ThdSchPat
+    4300320: Fillet11
+    4300322: Cut-Extrude7
+    4300324: Chamfer1
+    4300326: Fillet1
+    4300328: CirPattern1
+    4300330: Chamfer1
+    4300332: Chamfer1
+    4300334: Chamfer1
+    4300336: Chamfer1
+    4300338: Chamfer1
+    4300340: E1064
+    4300342: Chamfer1
+    4300344: Imported1
+    4300346: Imported1
+    4300348: Imported1
+    4300350: Imported1
+    4300352: Imported1
+    4300354: Imported1
+    4300356: Imported1
+    4300358: Imported1
+    4300360: Imported1
+    4300362: Imported1
+    4300364: Imported1
+    4300366: Imported1
+    4300368: Imported1
+    4300370: Imported1
+    4300372: Fillet4
+    4300374: CirPattern2
+    4300376: Wrap2
+    4300378: Wrap2
+    4300380: Wrap2
+    4300382: Wrap2
+    4300384: Base-Revolve
+    4300386: Base-Revolve
+    4300388: Cut-Revolve1
+    4300390: Cut-Revolve1
+    4300392: E1688
+    4300394: ThdSchPat
+    4300396: ThdSchPat
+    4300398: ThdSchPat
+    4300400: ThdSchPat
+    4300402: ThdSchPat
+    4300404: ThdSchPat
+    4300406: ThdSchPat
+    4300408: ThdSchPat
+    4300410: ThdSchPat
+    4300412: ThdSchPat
+    4300414: Gap
+    4300416: Gap
+    4300418: Gap
+    4300420: Gap
+    4300422: ThdSchPat
+    4300424: ThdSchPat
+    4300426: ThdSchPat
+    4300428: ThdSchPat
+    4300430: Sweep1
+    4300432: Fillet24
+    4300434: CageSpine
+    4300436: Fillet5
+    4300438: Fillet1
+    4300440: Fillet1
+    4300442: "\xD82.0 (2) Diameter Hole1"
+    4300444: Fillet3
+    4300446: Chamfer1
+    4300448: Fillet3
+    4300450: Fillet1
+    4300452: Fillet1
+    4300454: Fillet1
+    4300456: Fillet1
+    4300458: Wrap2
+    4300460: Wrap2
+    4300462: Wrap2
+    4300464: Wrap2
+    4300466: Chamfer1
+    4300468: Cut-Sweep1
+    4300470: Cosmetic-Chamfer
+    4300472: body-flange
+    4300474: body-flange
+    4300476: body-flange
+    4300478: Base-Revolve
+    4300480: Base-Revolve
+    4300482: ThdSchPat
+    4300484: ThdSchPat
+    4300486: ThdSchPat
+    4300488: ThdSchPat
+    4300490: ThdSchPat
+    4300492: ThdSchPat
+    4300494: ThdSchPat
+    4300496: ThdSchPat
+    4300498: ThdSchPat
+    4300500: ThdSchPat
+    4300502: ThdSchPat
+    4300504: ThdSchPat
+    4300506: ThdSchPat
+    4300508: ThdSchPat
+    4300510: ThdSchPat
+    4300512: ThdSchPat
+    4300514: ThdSchPat
+    4300516: ThdSchPat
+    4300518: ThdSchPat
+    4300520: ThdSchPat
+    4300522: Wrap1
+    4300524: Fillet1
+    4300526: Fillet3
+    4300528: Fillet3
+    4300530: Boss-Extrude1
+    4300532: Boss-Extrude1
+    4300534: CirPattern1
+    4300536: Chamfer2
+    4300538: Fillet2
+    4300540: Boss-Extrude3
+    4300542: Fillet1
+    4300544: Cosmetic-Chamfer
+    4300546: Cut-Extrude1
+    4300548: Cut-Sweep1
+    4300550: Cut-Sweep1
+    4300552: Cosmetic-Chamfer
+    4300554: CageSpine
+    4300556: E1064
+    4300558: E1064
+    4300560: E1064
+    4300562: Chamfer1
+    4300564: Chamfer1
+    4300566: Chamfer1
+    4300568: Sweep1
+    4300570: Sweep1
+    4300572: E1688
+    4300574: E1688
+    4300576: ThdSchPat
+    4300578: ThdSchPat
+    4300580: ThdSchPat
+    4300582: ThdSchPat
+    4300584: ThdSchPat
+    4300586: ThdSchPat
+    4300588: ThdSchPat
+    4300590: ThdSchPat
+    4300592: ThdSchPat
+    4300594: ThdSchPat
+    4300596: ThdSchPat
+    4300598: ThdSchPat
+    4300600: ThdSchPat
+    4300602: ThdSchPat
+    4300604: ThdSchPat
+    4300606: ThdSchPat
+    4300608: ThdSchPat
+    4300610: ?????7
+    4300612: "\xD88.0 (8) Diameter Hole1"
+    4300614: Chamfer2
+    4300616: Chamfer4
+    4300618: Chamfer1
+    4300620: RollersDetailed
+    4300622: "\xD88.0 (8) Diameter Hole1"
+    4300624: Chamfer2
+    4300626: Chamfer4
+    4300628: Chamfer1
+    4300630: RollersDetailed
+    4300632: "\xD88.0 (8) Diameter Hole1"
+    4300634: Chamfer2
+    4300636: Chamfer4
+    4300638: Chamfer1
+    4300640: RollersDetailed
+    4300642: "\xD88.0 (8) Diameter Hole1"
+    4300644: Chamfer2
+    4300646: Chamfer4
+    4300648: Chamfer1
+    4300650: RollersDetailed
+    4300652: Chamfer1
+    4300654: Fillet7
+    4300656: Fillet7
+    4300658: Imported5
+    4300660: Imported6
+    4300662: Imported7
+    4300664: Imported8
+    4300666: Imported5
+    4300668: Imported6
+    4300670: Imported7
+    4300672: Imported8
+    4300674: Chamfer1
+    4300676: Chamfer1
+    4300678: Chamfer1
+    4300680: Chamfer1
+    4300682: M2.5 Clearance Hole1
+    4300684: Mirror1
+    4300686: Mirror1
+    4300688: M2.5 Clearance Hole1
+    4300690: Fillet2
+    4300692: "\xD82.0 (2) Diameter Hole1"
+    4300694: LPattern1
+    4300696: Sweep1
+    4300698: Sweep2
+    4300700: Notch
+    4300702: Notch
+    4300704: Notch
+    4300706: Notch
+    4300708: Gap
+    4300710: Gap
+    4300712: Gap
+    4300714: Gap
+    4300716: Gap
+    4300718: Gap
+    4300720: Gap
+    4300722: Gap
+    4300724: ThdSchPat
+    4300726: ThdSchPat
+    4300728: ThdSchPat
+    4300730: ThdSchPat
+    4300732: Gap
+    4300734: Gap
+    4300736: Gap
+    4300738: Gap
+    4300740: Gap
+    4300742: Gap
+    4300744: Gap
+    4300746: Gap
+    4300748: Gap
+    4300750: Gap
+    4300752: ThdSchPat
+    4300754: ThdSchPat
+    4300756: ThdSchPat
+    4300758: ThdSchPat
+    4300760: ThdSchPat
+    4300762: ThdSchPat
+    4300764: ThdSchPat
+    4300766: ThdSchPat
+    4300768: ThdSchPat
+    4300770: ThdSchPat
+    4300772: ThdSchPat
+    4300774: ThdSchPat
+    4300776: ThdSchPat
+    4300778: ThdSchPat
+    4300780: Base-Revolve
+    4300782: Base-Revolve
+    4300784: Base-Revolve
+    4300786: Base-Revolve
+    4300788: Base-Revolve
+    4300790: Base-Revolve
+    4300792: Base-Revolve
+    4300794: Base-Revolve
+    4300796: Base-Revolve
+    4300798: Base-Revolve
+    4300800: Base-Revolve
+    4300802: Base-Revolve
+    4300804: Base-Revolve
+    4300806: Base-Revolve
+    4300808: Base-Revolve
+    4300810: Base-Revolve
+    4300812: Base-Revolve
+    4300814: Base-Revolve
+    4300816: Chamfer1
+    4300818: Fillet7
+    4300820: Fillet7
+    4300822: Imported5
+    4300824: Imported6
+    4300826: Imported7
+    4300828: Imported8
+    4300830: Imported5
+    4300832: Imported6
+    4300834: Imported7
+    4300836: Imported8
+    4300838: Chamfer1
+    4300840: Chamfer1
+    4300842: Chamfer1
+    4300844: Chamfer1
+    4300846: M2.5 Clearance Hole1
+    4300848: Mirror1
+    4300850: Mirror1
+    4300852: M2.5 Clearance Hole1
+    4300854: Fillet2
+    4300856: "\xD82.0 (2) Diameter Hole1"
+    4300858: LPattern1
+    4300860: Sweep1
+    4300862: Sweep2
+    4300864: Notch
+    4300866: Notch
+    4300868: Notch
+    4300870: Notch
+    4300872: Gap
+    4300874: Gap
+    4300876: Gap
+    4300878: Gap
+    4300880: Gap
+    4300882: Gap
+    4300884: Gap
+    4300886: Gap
+    4300888: ThdSchPat
+    4300890: ThdSchPat
+    4300892: ThdSchPat
+    4300894: ThdSchPat
+    4300896: Gap
+    4300898: Gap
+    4300900: Gap
+    4300902: Gap
+    4300904: Gap
+    4300906: Gap
+    4300908: Gap
+    4300910: Gap
+    4300912: Gap
+    4300914: Gap
+    4300916: ThdSchPat
+    4300918: ThdSchPat
+    4300920: ThdSchPat
+    4300922: ThdSchPat
+    4300924: ThdSchPat
+    4300926: ThdSchPat
+    4300928: ThdSchPat
+    4300930: ThdSchPat
+    4300932: ThdSchPat
+    4300934: ThdSchPat
+    4300936: ThdSchPat
+    4300938: ThdSchPat
+    4300940: ThdSchPat
+    4300942: ThdSchPat
+    4300944: Base-Revolve
+    4300946: Base-Revolve
+    4300948: Base-Revolve
+    4300950: Base-Revolve
+    4300952: Base-Revolve
+    4300954: Base-Revolve
+    4300956: Base-Revolve
+    4300958: Base-Revolve
+    4300960: Base-Revolve
+    4300962: Base-Revolve
+    4300964: Base-Revolve
+    4300966: Base-Revolve
+    4300968: Base-Revolve
+    4300970: Base-Revolve
+    4300972: Base-Revolve
+    4300974: Base-Revolve
+    4300976: Base-Revolve
+    4300978: Base-Revolve
+    4300980: CirPattern2[1]
+    4300982: CirPattern2[2]
+    4300984: CirPattern2[3]
+    4300986: CirPattern2[1]
+    4300988: CirPattern2[2]
+    4300990: CirPattern2[3]
+    4300992: Fillet1
+    4300994: Fillet1
+    4300996: Fillet1
+    4300998: Fillet1
+    4301000: Fillet1
+    4301002: Fillet1
+    4301004: Fillet1
+    4301006: Fillet1
+    4301008: Fillet1
+    4301010: Fillet1
+    4301012: Fillet1
+    4301014: Fillet1
+    4301016: Fillet1
+    4301018: Fillet1
+    4301020: Fillet1
+    4301022: Fillet1
+    4301024: Fillet1
+    4301026: Fillet1
+    4301028: Cut-Extrude2
+    4301030: Cut-Extrude2
+    4301032: Cut-Extrude2
+    4301034: Cut-Extrude2
+    4301036: Cut-Extrude2
+    4301038: Cut-Extrude2
+    4301040: Cut-Extrude2
+    4301042: Cut-Extrude2
+    4301044: Cut-Extrude2
+    4301046: Cut-Extrude2
+    4301048: Cut-Extrude2
+    4301050: Cut-Extrude2
+    4301052: Cut-Extrude2
+    4301054: Cut-Extrude2
+    4301056: Cut-Extrude2
+    4301058: Cut-Extrude2
+    4301060: Cut-Extrude2
+    4301062: Cut-Extrude2
+    4301064: Fillet1
+    4301066: Fillet1
+    4301068: Fillet1
+    4301070: Fillet1
+    4301072: Fillet1
+    4301074: Fillet1
+    4301076: Fillet1
+    4301078: Fillet1
+    4301080: Fillet1
+    4301082: Fillet1
+    4301084: Fillet1
+    4301086: Fillet1
+    4301088: Fillet1
+    4301090: Fillet1
+    4301092: Fillet1
+    4301094: Fillet1
+    4301096: Fillet1
+    4301098: Fillet1
+    4301100: Cut-Revolve1
+    4301102: Cut-Revolve1
+    4301104: Cut-Revolve1
+    4301106: Cut-Revolve1
+    4301108: Cut-Revolve1
+    4301110: Cut-Revolve1
+    4301112: Cut-Revolve1
+    4301114: Cut-Revolve1
+    4301116: Gap
+    4301118: Gap
+    4301120: Gap
+    4301122: Gap
+    4301124: Gap
+    4301126: Gap
+    4301128: Gap
+    4301130: Gap
+    4301132: ThdSchPat
+    4301134: ThdSchPat
+    4301136: ThdSchPat
+    4301138: ThdSchPat
+    4301140: ThdSchPat
+    4301142: ThdSchPat
+    4301144: ThdSchPat
+    4301146: ThdSchPat
+    4301148: Base-Revolve
+    4301150: Base-Revolve
+    4301152: Base-Revolve
+    4301154: Base-Revolve
+    4301156: Base-Revolve
+    4301158: Base-Revolve
+    4301160: Base-Revolve
+    4301162: Base-Revolve
+    4301164: Fillet6
+    4301166: Boss-Extrude1
+    4301168: ThdSchPat
+    4301170: ThdSchPat
+    4301172: ThdSchPat
+    4301174: ThdSchPat
+    4301176: Cosmetic-Chamfer
+    4301178: ThdSchPat
+    4301180: ThdSchPat
+    4301182: ThdSchPat
+    4301184: ThdSchPat
+    4301186: ThdSchPat
+    4301188: ThdSchPat
+    4301190: Fillet16
+    4301192: Chamfer2
+    4301194: Sweep1
+    4301196: Sweep1
+    4301198: Fillet3
+    4301200: M5 Clearance Hole1
+    4301202: Cut-Extrude3
+    4301204: Fillet2
+    4301206: "\xD80.5 (0.5) Diameter Hole1"
+    4301208: Fillet4
+    4301210: Fillet1
+    4301212: Fillet1
+    4301214: "\xD83.0 (3) Diameter Hole2"
+    4301216: "\xD83.0 (3) Diameter Hole2"
+    4301218: Boss-Extrude1
+    4301220: Boss-Extrude1
+    4301222: Boss-Extrude1
+    4301224: Boss-Extrude1
+    4301226: RollersDetailed
+    4301228: RollersDetailed
+    4301230: RollersDetailed
+    4301232: RollersDetailed
+    4301234: body-flange
+    4301236: Fillet1
+    4301238: E1064
+    4301240: Fillet1
+    4301242: Fillet1
+    4301244: Fillet2
+    4301246: Fillet2
+    4301248: Combine1
+    4301250: Combine1
+    4301252: Cut-Extrude1
+    4301254: Cut-Extrude1
+    4301256: Cut-Extrude1
+    4301258: Cut-Extrude1
+    4301260: Fillet1
+    4301262: Fillet1
+    4301264: Fillet1
+    4301266: Fillet1
+    4301268: Fillet1
+    4301270: Fillet1
+    4301272: Fillet1
+    4301274: Fillet1
+    4301276: Sweep1
+    4301278: Sweep1
+    4301280: Sweep1
+    4301282: Sweep1
+    4301284: Sweep1
+    4301286: Sweep1
+    4301288: Sweep1
+    4301290: Sweep1
+    4301292: ?????-????????3
+    4301294: ?????3
+    4301296: ?????????1
+    4301298: ?????????1
+    4301300: ???????? ??????1
+    4301302: ??????????3
+    4301304: ?????2
+    4301306: ?????-????????3
+    4301308: ?????3
+    4301310: ?????????1
+    4301312: ?????????1
+    4301314: ???????? ??????1
+    4301316: ??????????3
+    4301318: ?????2
+    4301320: ?????-????????3
+    4301322: ?????3
+    4301324: ?????????1
+    4301326: ?????????1
+    4301328: ???????? ??????1
+    4301330: ??????????3
+    4301332: ?????2
+    4301334: ?????-????????3
+    4301336: ?????3
+    4301338: ?????????1
+    4301340: ?????????1
+    4301342: ???????? ??????1
+    4301344: ??????????3
+    4301346: ?????2
+    4301348: ?????-????????3
+    4301350: ?????3
+    4301352: ?????????1
+    4301354: ?????????1
+    4301356: ???????? ??????1
+    4301358: ??????????3
+    4301360: ?????2
+    4301362: Cut-Extrude6
+    4301364: Cut-Extrude7
+    4301366: Boss-Extrude2
+    4301368: Boss-Extrude2
+    4301370: Chamfer1
+    4301372: Chamfer1
+    4301374: Chamfer1
+    4301376: Chamfer1
+    4301378: Cut-Extrude1
+    4301380: Cut-Extrude1
+    4301382: Cut-Extrude1
+    4301384: Cut-Extrude1
+    4301386: Revolve1
+    4301388: Revolve1
+    4301390: Revolve1
+    4301392: Revolve1
+    4301394: ThdSchPat
+    4301396: ThdSchPat
+    4301398: ThdSchPat
+    4301400: ThdSchPat
+    4301402: Cut-Extrude1
+    4301404: Cut-Extrude1
+    4301406: Cut-Extrude1
+    4301408: Cut-Extrude1
+    4301410: Chamfer2
+    4301412: Chamfer2
+    4301414: Chamfer2
+    4301416: Chamfer2
+    4301418: Revolve1
+    4301420: Revolve1
+    4301422: Revolve1
+    4301424: Revolve1
+    4301426: Revolve1
+    4301428: Revolve1
+    4301430: Revolve1
+    4301432: Revolve1
+    4301434: Cut-Extrude1
+    4301436: Cut-Extrude1
+    4301438: Cut-Extrude1
+    4301440: Cut-Extrude1
+    4301442: ThdSchPat
+    4301444: ThdSchPat
+    4301446: ThdSchPat
+    4301448: ThdSchPat
+    4301450: ThdSchPat
+    4301452: ThdSchPat
+    4301454: ThdSchPat
+    4301456: ThdSchPat
+    4301458: ThdSchPat
+    4301460: ThdSchPat
+    4301462: ThdSchPat
+    4301464: ThdSchPat
+    4301466: ThdSchPat
+    4301468: ThdSchPat
+    4301470: ThdSchPat
+    4301472: ThdSchPat
+    4301474: ThdSchPat
+    4301476: ThdSchPat
+    4301478: ThdSchPat
+    4301480: ThdSchPat
+    4301482: ThdSchPat
+    4301484: ThdSchPat
+    4301486: ThdSchPat
+    4301488: ThdSchPat
+    4301490: ThdSchPat
+    4301492: ThdSchPat
+    4301494: ThdSchPat
+    4301496: ThdSchPat
+    4301498: ThdSchPat
+    4301500: ThdSchPat
+    4301502: Fillet3
+    4301504: Fillet1
+    4301506: Cut-Sweep1
+    4301508: Revolve1
+    4301510: Fillet1
+    4301512: Sweep1
+    4301514: Boss-Extrude1
+    4301516: Fillet1
+    4301518: Mirror4
+    4301520: Chamfer2
+    4301522: Sweep1
+    4301524: Sweep1
+    4301526: Mirror1
+    4301528: M5 Clearance Hole1
+    4301530: Mirror1
+    4301532: Fillet2
+    4301534: Fillet4
+    4301536: Fillet1
+    4301538: Fillet1
+    4301540: E1064
+    4301542: Fillet1
+    4301544: Fillet1
+    4301546: Fillet2
+    4301548: Fillet2
+    4301550: Combine1
+    4301552: Combine1
+    4301554: body-flange
+    4301556: Fillet1
+    4301558: "\xD80.5 (0.5) Diameter Hole1"
+    4301560: Fillet1
+    4301562: Fillet1
+    4301564: Fillet1
+    4301566: Fillet1
+    4301568: Fillet1
+    4301570: Fillet1
+    4301572: Fillet1
+    4301574: Fillet1
+    4301576: Sweep1
+    4301578: Sweep1
+    4301580: Sweep1
+    4301582: Sweep1
+    4301584: Sweep1
+    4301586: Sweep1
+    4301588: Sweep1
+    4301590: Sweep1
+    4301592: "\xD83.0 (3) Diameter Hole2"
+    4301594: "\xD83.0 (3) Diameter Hole2"
+    4301596: Boss-Extrude1
+    4301598: Boss-Extrude1
+    4301600: Boss-Extrude1
+    4301602: Boss-Extrude1
+    4301604: RollersDetailed
+    4301606: RollersDetailed
+    4301608: RollersDetailed
+    4301610: RollersDetailed
+    4301612: Cut-Extrude1
+    4301614: Cut-Extrude1
+    4301616: Cut-Extrude1
+    4301618: Cut-Extrude1
+    4301620: ?????-????????3
+    4301622: ?????3
+    4301624: ?????????1
+    4301626: ?????????1
+    4301628: ???????? ??????1
+    4301630: ??????????3
+    4301632: ?????2
+    4301634: ?????-????????3
+    4301636: ?????3
+    4301638: ?????????1
+    4301640: ?????????1
+    4301642: ???????? ??????1
+    4301644: ??????????3
+    4301646: ?????2
+    4301648: ?????-????????3
+    4301650: ?????3
+    4301652: ?????????1
+    4301654: ?????????1
+    4301656: ???????? ??????1
+    4301658: ??????????3
+    4301660: ?????2
+    4301662: ?????-????????3
+    4301664: ?????3
+    4301666: ?????????1
+    4301668: ?????????1
+    4301670: ???????? ??????1
+    4301672: ??????????3
+    4301674: ?????2
+    4301676: ?????-????????3
+    4301678: ?????3
+    4301680: ?????????1
+    4301682: ?????????1
+    4301684: ???????? ??????1
+    4301686: ??????????3
+    4301688: ?????2
+    4301690: Mirror1
+    4301692: Mirror1
+    4301694: Cut-Extrude1
+    4301696: Cut-Extrude1
+    4301698: Cut-Extrude1
+    4301700: Cut-Extrude1
+    4301702: Revolve1
+    4301704: Revolve1
+    4301706: Revolve1
+    4301708: Revolve1
+    4301710: ThdSchPat
+    4301712: ThdSchPat
+    4301714: ThdSchPat
+    4301716: ThdSchPat
+    4301718: Chamfer1
+    4301720: Chamfer1
+    4301722: Chamfer1
+    4301724: Chamfer1
+    4301726: Cut-Extrude1
+    4301728: Cut-Extrude1
+    4301730: Cut-Extrude1
+    4301732: Cut-Extrude1
+    4301734: Cut-Extrude1
+    4301736: Cut-Extrude1
+    4301738: Cut-Extrude1
+    4301740: Cut-Extrude1
+    4301742: Chamfer2
+    4301744: Chamfer2
+    4301746: Chamfer2
+    4301748: Chamfer2
+    4301750: Revolve1
+    4301752: Revolve1
+    4301754: Revolve1
+    4301756: Revolve1
+    4301758: Revolve1
+    4301760: Revolve1
+    4301762: Revolve1
+    4301764: Revolve1
+    4301766: Boss-Extrude2
+    4301768: Boss-Extrude2
+    4301770: ThdSchPat
+    4301772: ThdSchPat
+    4301774: ThdSchPat
+    4301776: ThdSchPat
+    4301778: ThdSchPat
+    4301780: ThdSchPat
+    4301782: ThdSchPat
+    4301784: ThdSchPat
+    4301786: ThdSchPat
+    4301788: ThdSchPat
+    4301790: ThdSchPat
+    4301792: ThdSchPat
+    4301794: ThdSchPat
+    4301796: ThdSchPat
+    4301798: ThdSchPat
+    4301800: ThdSchPat
+    4301802: ThdSchPat
+    4301804: ThdSchPat
+    4301806: ThdSchPat
+    4301808: ThdSchPat
+    4301810: ThdSchPat
+    4301812: ThdSchPat
+    4301814: ThdSchPat
+    4301816: ThdSchPat
+    4301818: ThdSchPat
+    4301820: ThdSchPat
+    4301822: ThdSchPat
+    4301824: ThdSchPat
+    4301826: ThdSchPat
+    4301828: ThdSchPat
+    4301830: Sweep1
+    4301832: Sweep1
+    4301834: Sweep1
+    4301836: Sweep1
+    4301838: Sweep1
+    4301840: Body-Move/Copy1[1]
+    4301842: Body-Move/Copy1[2]
+    4301844: Move Face1
+    4301846: Move Face2
+    4301848: Boss-Extrude1
+    4301850: Boss-Extrude1
+    4301852: Boss-Extrude1
+    4301854: Boss-Extrude1
+    4301856: Cut-Extrude1
+    4301858: Cut-Extrude1
+    4301860: Cut-Extrude1
+    4301862: Cut-Extrude1
+    4301864: Cut-Extrude1
+    4301866: Cut-Extrude1
+    4301868: Cut-Extrude1
+    4301870: Cut-Extrude1
+    4301872: Chamfer1
+    4301874: Chamfer1
+    4301876: Chamfer1
+    4301878: Chamfer1
+    4301880: ThdSchPat
+    4301882: ThdSchPat
+    4301884: ThdSchPat
+    4301886: ThdSchPat
+    4301888: ThdSchPat
+    4301890: ThdSchPat
+    4301892: ThdSchPat
+    4301894: ThdSchPat
+    4301896: ThdSchPat
+    4301898: ThdSchPat
+    4301900: ThdSchPat
+    4301902: ThdSchPat
+    4301904: ThdSchPat
+    4301906: ThdSchPat
+    4301908: ThdSchPat
+    4301910: ThdSchPat
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #27'
+    second: {fileID: 2100000, guid: e8f200effff5294488dc92fedab57d87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #28'
+    second: {fileID: 2100000, guid: 9b0c7cc189d1c9243a0a9918766dd75d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #29'
+    second: {fileID: 2100000, guid: e5be9fe265af09e4a98fa05af79b8c5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #30'
+    second: {fileID: 2100000, guid: 6789c303b4f781a42b27944ef650cfcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #31'
+    second: {fileID: 2100000, guid: 8692c64f96b97114abc3d44f140dab88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #32'
+    second: {fileID: 2100000, guid: d67aec6c3486c2c418bcfb4f4c01f08c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #35'
+    second: {fileID: 2100000, guid: 1e66e1b387ec057439321579a3778bd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #36'
+    second: {fileID: 2100000, guid: 0bf5e5b5ae4bf0043ac2c56d98aedfca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #37'
+    second: {fileID: 2100000, guid: 532608e4bf281014c9b172a1879f853f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #38'
+    second: {fileID: 2100000, guid: fa567888f06d7bb45a55c37d27a96fa5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #39'
+    second: {fileID: 2100000, guid: a581b90dd62052549b44ec1aced0fba3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #40'
+    second: {fileID: 2100000, guid: f65347ca88fc803448434a1f75e8e8f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #41'
+    second: {fileID: 2100000, guid: f01d3d4477fa32e46b817cdceb6662e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #42'
+    second: {fileID: 2100000, guid: 33cbbb722495239408147b03071a8fca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #43'
+    second: {fileID: 2100000, guid: 3bcef76159efad84aac76b29de59bbfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #44'
+    second: {fileID: 2100000, guid: 35d8f418f72e46443aed668cf4e5941a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #45'
+    second: {fileID: 2100000, guid: bd8d91d4d319e7240bfcd238a7c37eda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #46'
+    second: {fileID: 2100000, guid: 6c73d8fdcc26fbd4a828ad129e395a60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #47'
+    second: {fileID: 2100000, guid: 837b117a5be5d494b8bc34285efd7378, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #48'
+    second: {fileID: 2100000, guid: aa06589c0bf4e314bb4c327853cabdd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #51'
+    second: {fileID: 2100000, guid: 1446a88553c54414fbbeb85bb32418ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #55'
+    second: {fileID: 2100000, guid: d2d8beea8468f6f42aaf7d718967e523, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #56'
+    second: {fileID: 2100000, guid: a4438fbd82d3cee4ab7089f43d4d95e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #59'
+    second: {fileID: 2100000, guid: 0a2a27c908b04b24d846344ce3d97503, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #60'
+    second: {fileID: 2100000, guid: d652feb0f00c4504aa21372264fb5a26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #65'
+    second: {fileID: 2100000, guid: e7df4a8b5b5851a449a0f4e272b07f34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #66'
+    second: {fileID: 2100000, guid: c0316241399be4f478aa24203d410588, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #67'
+    second: {fileID: 2100000, guid: 2fbef51dee5b49e4ea1f80f0e735e3de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #70'
+    second: {fileID: 2100000, guid: 17ededbfa3f29884abdf567fd0db3581, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #71'
+    second: {fileID: 2100000, guid: e125ddc8f16a16d4d841713739f60bd4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #72'
+    second: {fileID: 2100000, guid: c6fe795c7bd4b0e4287a342ff6e03d6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #75'
+    second: {fileID: 2100000, guid: df40ab9ccf7cfcf4cb359ce35a110200, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #76'
+    second: {fileID: 2100000, guid: 2bc38666326f9424daba75e0c667599e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #82'
+    second: {fileID: 2100000, guid: a6dde474f9d8c704387ac6a3e99e017c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #83'
+    second: {fileID: 2100000, guid: 74127983fe1b6d040ad85473e1dbc12b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #89'
+    second: {fileID: 2100000, guid: 66e809bcc9de95549995d6018f25eeb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #93'
+    second: {fileID: 2100000, guid: 21c25541fa0660f4780a7d740296c14b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

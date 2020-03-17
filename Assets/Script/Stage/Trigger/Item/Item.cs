@@ -4,15 +4,21 @@ using UnityEngine;
 public class Item : MonoBehaviour
 {
     public ItemType itemType;
-    private Action performAction;
-
-    public void SetPerformAction(Action performAction)
-    {
-        this.performAction = performAction;
-    }
 
     public Action GetPerformAction()
     {
-        return performAction;
+        switch (itemType)
+        {
+            case ItemType.piano:
+                return PlayPianoSound;
+            default:
+                return null;
+        }
+       
+    }
+
+    private void PlayPianoSound()
+    {
+        SoundManager.PlaySound(Sound.Piano, this.transform.position);
     }
 }

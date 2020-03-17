@@ -326,7 +326,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!136 &210771715
 CapsuleCollider:
@@ -362,6 +362,9 @@ MonoBehaviour:
   readNoteAction:
     actionPath: /actions/default/in/ReadNote
     needsReinit: 0
+  stopReadNoteAction:
+    actionPath: /actions/default/in/StopReadNote
+    needsReinit: 0
 --- !u!114 &210771716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -374,6 +377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef9d0e99944a3824d8b75cb08f108d6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UseDancePad: 1
   joyStickAction:
     actionPath: /actions/default/in/MovementAxis
     needsReinit: 0
@@ -444,7 +448,7 @@ GameObject:
   - component: {fileID: 3162378455958600172}
   m_Layer: 0
   m_Name: Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

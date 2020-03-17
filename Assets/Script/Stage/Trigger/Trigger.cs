@@ -7,13 +7,11 @@ using UnityEngine.Playables;
 public class Trigger : MonoBehaviour
 {
     public TriggerType triggerType;
-    public GameObject obj;
+
+    public Item obj;
 
     Transform triggerPoint;
     Action performAction;
-
-    bool testBool;
-
 
     private bool isTrigger;
 
@@ -82,7 +80,7 @@ public class Trigger : MonoBehaviour
         performAction = action;
     }
 
-    public GameObject PerformActionWithItem(Action action)
+    public Item PerformActionWithItem(Action action)
     {
         performAction = action;
         return obj;

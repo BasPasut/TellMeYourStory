@@ -6,5 +6,6 @@ public enum Sound
 {
     Breathing = 1,
     Walking = 2,
-    Running = 3
+    Running = 3,
+    Piano = 4
 }
