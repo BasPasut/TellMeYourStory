@@ -4,5 +4,8 @@ using UnityEngine;
 
 public class AttachHandWithLantern : MonoBehaviour
 {
-    
+    private void Update()
+    {
+        
+    }
 }
