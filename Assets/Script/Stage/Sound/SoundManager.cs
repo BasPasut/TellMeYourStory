@@ -28,7 +28,6 @@ public static class SoundManager
             audioSource.rolloffMode = AudioRolloffMode.Linear;
             audioSource.dopplerLevel = 0f;
             audioSource.Play();
-
             Object.Destroy(soundObject, audioSource.clip.length);
         }
     }

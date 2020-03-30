@@ -15,7 +15,12 @@ public class HeartrateWithThread : MonoBehaviour
 
     public static bool isConnect;
 
+    private bool isReceived;
     private string beat = "0";// string to hols the data in
+    private int counter = 0;
+    private long sumBeat = 0;
+    private int minBeat = int.MaxValue;
+    private int maxBeat = int.MinValue;
 
     void Start()
     {
@@ -31,8 +36,39 @@ public class HeartrateWithThread : MonoBehaviour
 
     void Update()
     {
-        // the variable data (see above) can now be manipulated and used
-        bpmText.text = beat;
+        int intBeat = int.Parse(beat);
+        if (isReceived == true)
+        {
+            counter++;
+            bpmText.text = beat;
+            sumBeat += intBeat;
+
+            if(intBeat < minBeat)
+            {
+                minBeat = intBeat;
+            }
+            if(intBeat > maxBeat)
+            {
+                maxBeat = intBeat;
+            }
+        }
+    }
+
+    public float GetAverageBPM()
+    {
+        float avgBPM = sumBeat / counter;
+        float avg = Mathf.Floor(avgBPM);
+        return avg;
+    }
+
+    public float GetMaxBPM()
+    {
+        return (float)maxBeat;
+    }
+
+    public float GetMinBPM()
+    {
+        return (float)minBeat;
     }
 
     public void ReceivedBPM()
@@ -40,18 +76,25 @@ public class HeartrateWithThread : MonoBehaviour
         string beatTemp = "0";
         while (bpmThread.IsAlive)
         {
-            // execute operation
-            // for example:
             try
             {
+                isReceived = true;
                 beat = serial.ReadLine();
                 beatTemp = beat;
             }
             catch(TimeoutException e)
             {
+                isReceived = false;
                 beat = beatTemp;
             }
         }
+    }
+
+    private void OnDestroy()
+    {
+        bpmThread.Abort();
+        counter = 0;
+        sumBeat = 0;
     }
 
     public void OpenConnection()
@@ -64,14 +107,12 @@ public class HeartrateWithThread : MonoBehaviour
             {
                 serial.Close();
                 Debug.Log("Closing port, because it was already open!");
-                //message = “Closing port, because it was already open!”;
             }
             else
             {
                 serial.Open();  // opens the connection
                 serial.ReadTimeout = 1000;  // sets the timeout value before reporting error
                 Debug.Log("Port Opened!");
-                //        message = “Port Opened!”;
             }
         }
         else
