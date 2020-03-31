@@ -1,17 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class PlayerReportPanelController : MonoBehaviour
 {
-    public Text playerName;
-    public Text playerAge;
-    public Text playerGender;
-    public InputField avgHeartrate;
-    public InputField maxHeartrate;
-    public InputField minHeartrate;
-    public InputField status;
+    public TextMeshProUGUI playerName;
+    public TextMeshProUGUI playerAge;
+    public TextMeshProUGUI playerGender;
+    public TextMeshProUGUI time;
+    public TextMeshProUGUI avgHeartrate;
+    public TextMeshProUGUI maxHeartrate;
+    public TextMeshProUGUI minHeartrate;
+    public TextMeshProUGUI status;
 
     public HeartrateWithThread bpm;
 
@@ -28,5 +30,6 @@ public class PlayerReportPanelController : MonoBehaviour
         avgHeartrate.text = bpm.GetAverageBPM().ToString();
         minHeartrate.text = bpm.GetMinBPM().ToString();
         maxHeartrate.text = bpm.GetMaxBPM().ToString();
+        time.text = StopWatch.GetCurrentTime();
     }
 }
