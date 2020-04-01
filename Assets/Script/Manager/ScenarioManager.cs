@@ -5,14 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class ScenarioManager : MonoBehaviour
 {
-    public string sceneToLoad;
-    
-    private void Update()
+    public static ScenarioManager Instance { get; private set; }
+
+    void Awake()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Debug.Log("Loaded");
-            SceneManager.LoadScene(sceneToLoad, LoadSceneMode.Single);
-        }
+        Instance = this;
     }
+
+    private void Start()
+    {
+        
+    }
+
+    public void LoadGameOver()
+    {
+
+    }
+
+
 }
