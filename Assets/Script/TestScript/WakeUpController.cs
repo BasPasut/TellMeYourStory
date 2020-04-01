@@ -10,17 +10,19 @@ public class WakeUpController : MonoBehaviour
     public Canvas loadingImg;
     public CanvasFader canvasFader;
 
+    public SteamVR_Action_Boolean triggerAnimAction;
+
     private void Awake()
     {
-        canvasFader.FadeOut();
+        canvasFader.FadeIn();
     }
 
     private void Update()
     {
-        if (SteamVR_Actions._default.GrabPinch.GetStateDown(SteamVR_Input_Sources.LeftHand) ||
-            SteamVR_Actions._default.GrabPinch.GetStateDown(SteamVR_Input_Sources.RightHand) || Input.GetMouseButtonDown(0))
+        bool triggerDown = triggerAnimAction.GetStateDown(SteamVR_Input_Sources.Any);
+        if (triggerDown || Input.GetMouseButtonDown(0))
         {
-            canvasFader.FadeIn();
+            canvasFader.FadeOut();
             LoadMainMenuScene();
         }
     }

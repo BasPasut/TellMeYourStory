@@ -374,6 +374,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 50
@@ -520,6 +522,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
@@ -571,6 +575,9 @@ MonoBehaviour:
   mainMenuScene: MainMenuScene
   loadingImg: {fileID: 111900798}
   canvasFader: {fileID: 1690051686}
+  triggerAnimAction:
+    actionPath: /actions/default/in/TriggerAnim
+    needsReinit: 0
 --- !u!4 &1690051685
 Transform:
   m_ObjectHideFlags: 0
@@ -732,6 +739,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -757,6 +766,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4382103697678405670, guid: 1228e7b7ae0640c418803d4131ac2f37,
+        type: 3}
+      propertyPath: m_Name
+      value: WakeUpRoom
+      objectReference: {fileID: 0}
     - target: {fileID: 4382103697678405669, guid: 1228e7b7ae0640c418803d4131ac2f37,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -812,11 +826,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4382103697678405670, guid: 1228e7b7ae0640c418803d4131ac2f37,
-        type: 3}
-      propertyPath: m_Name
-      value: WakeUpRoom
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1228e7b7ae0640c418803d4131ac2f37, type: 3}
 --- !u!1001 &6759082234685426618
@@ -826,15 +835,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6759082235267243081, guid: d6d01ede3daeb2a49b65161ba11a7691,
-        type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 6759082235267243082, guid: d6d01ede3daeb2a49b65161ba11a7691,
         type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 6759082235267243081, guid: d6d01ede3daeb2a49b65161ba11a7691,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6759082235267243086, guid: d6d01ede3daeb2a49b65161ba11a7691,
         type: 3}

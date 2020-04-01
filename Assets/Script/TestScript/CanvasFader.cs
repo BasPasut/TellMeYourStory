@@ -15,7 +15,7 @@ public class CanvasFader : MonoBehaviour
         StartCoroutine(FadeCanvas(UIFade, UIFade.alpha, 1));
     }
 
-    public IEnumerator FadeCanvas(CanvasGroup canvasGroup, float start, float end, float lerpTime = 1.5f)
+    public IEnumerator FadeCanvas(CanvasGroup canvasGroup, float start, float end, float lerpTime = 2f)
     {
         float timeStartLerping = Time.time;
         float timeSinceStarted = Time.time - timeStartLerping;

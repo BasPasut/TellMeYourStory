@@ -30,11 +30,6 @@ public class StopWatch : MonoBehaviour
         isStart = false;
     }
 
-    public void ResetTimer()
-    {
-
-    }
-
     public static string GetCurrentTime()
     {
         TimeSpan t = TimeSpan.FromSeconds(currentTime);
