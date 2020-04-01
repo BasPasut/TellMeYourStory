@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7024784847231496384}
   - component: {fileID: 7024784847232496128}
   - component: {fileID: 7024784847228125792}
+  - component: {fileID: 2863587417492512425}
   m_Layer: 0
   m_Name: Outer_Door
   m_TagString: Untagged
@@ -94,6 +95,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300002, guid: 0524f744ff9ca16429e2e9f49a2b532d, type: 3}
+--- !u!95 &2863587417492512425
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7024784847234428096}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2a79320afbb7a3040bf16d9991831e51, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7024784847234428098
 GameObject:
   m_ObjectHideFlags: 0
@@ -106,7 +126,6 @@ GameObject:
   - component: {fileID: 7024784847231496386}
   - component: {fileID: 7024784847232496130}
   - component: {fileID: 7024784847228125794}
-  - component: {fileID: 7024784847224485120}
   m_Layer: 0
   m_Name: Outer_Door_white
   m_TagString: Untagged
@@ -190,20 +209,3 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 0524f744ff9ca16429e2e9f49a2b532d, type: 3}
---- !u!111 &7024784847224485120
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7024784847234428098}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 0524f744ff9ca16429e2e9f49a2b532d, type: 3}
-  m_Animations:
-  - {fileID: 7400000, guid: 0524f744ff9ca16429e2e9f49a2b532d, type: 3}
-  - {fileID: 7400002, guid: 0524f744ff9ca16429e2e9f49a2b532d, type: 3}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0

@@ -11,8 +11,6 @@ GameObject:
   - component: {fileID: 517173620213117471}
   - component: {fileID: 3388316921012563108}
   - component: {fileID: 2463357414712754516}
-  - component: {fileID: 5031278583412909480}
-  - component: {fileID: 5031278583412909483}
   m_Layer: 0
   m_Name: UndergroundTrigger1
   m_TagString: Untagged
@@ -32,7 +30,7 @@ Transform:
   m_LocalScale: {x: 3.3805485, y: 1, z: 2.6400723}
   m_Children: []
   m_Father: {fileID: 6872777515958819016}
-  m_RootOrder: 26
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &3388316921012563108
 BoxCollider:
@@ -61,44 +59,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerType: 3
   obj: {fileID: 0}
---- !u!320 &5031278583412909480
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3596735931687763143}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 0e3b93e8b4e5d4e498285402535f1aa3, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 7113803494360600243, guid: 0e3b93e8b4e5d4e498285402535f1aa3, type: 2}
-    value: {fileID: 0}
-  m_ExposedReferences:
-    m_References: []
---- !u!95 &5031278583412909483
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3596735931687763143}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4414807298252816093
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,8 +129,6 @@ GameObject:
   - component: {fileID: 1989974312962311567}
   - component: {fileID: 1780891262469445951}
   - component: {fileID: 2463357414712754517}
-  - component: {fileID: 3815364314072404302}
-  - component: {fileID: 3815364314072404289}
   m_Layer: 0
   m_Name: LibraryRoomTrigger5
   m_TagString: Untagged
@@ -219,44 +177,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerType: 3
   obj: {fileID: 0}
---- !u!320 &3815364314072404302
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4668676806952765485}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: a2f58ec73a81ab845b167dc4efd64e73, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 1707212174070644372, guid: a2f58ec73a81ab845b167dc4efd64e73, type: 2}
-    value: {fileID: 0}
-  m_ExposedReferences:
-    m_References: []
---- !u!95 &3815364314072404289
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4668676806952765485}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5096651147218361527
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,6 +246,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5129275955372768325}
   - component: {fileID: 5129275955372768324}
+  - component: {fileID: 39364141106118326}
   m_Layer: 0
   m_Name: PlayerSeeNoteInMusicRoom
   m_TagString: Untagged
@@ -360,6 +281,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &39364141106118326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5129275955372768326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53c2bebb2dfbcb54d8fc4a915b7c8233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerType: 3
+  obj: {fileID: 0}
 --- !u!1 &5129275955987229030
 GameObject:
   m_ObjectHideFlags: 0
@@ -370,6 +305,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5129275955987229029}
   - component: {fileID: 5129275955987229028}
+  - component: {fileID: 39364140491647894}
   m_Layer: 0
   m_Name: PianoAutoPlay
   m_TagString: Untagged
@@ -404,6 +340,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &39364140491647894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5129275955987229030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53c2bebb2dfbcb54d8fc4a915b7c8233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerType: 3
+  obj: {fileID: 0}
 --- !u!1 &5265743575857257515
 GameObject:
   m_ObjectHideFlags: 0
@@ -474,8 +424,6 @@ GameObject:
   - component: {fileID: 3728240274317136212}
   - component: {fileID: 3332722273181968468}
   - component: {fileID: 2463357414712754518}
-  - component: {fileID: 4573871351278788181}
-  - component: {fileID: 4573871351278788180}
   m_Layer: 0
   m_Name: UndergroundTrigger3
   m_TagString: Untagged
@@ -491,11 +439,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5422679963720763194}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -66.308, y: -3.76, z: -15.09}
+  m_LocalPosition: {x: -66.308, y: -3.76, z: -10.33}
   m_LocalScale: {x: 3.3805485, y: 1, z: 2.6400723}
   m_Children: []
   m_Father: {fileID: 6872777515958819016}
-  m_RootOrder: 28
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &3332722273181968468
 BoxCollider:
@@ -524,44 +472,124 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerType: 3
   obj: {fileID: 0}
---- !u!320 &4573871351278788181
-PlayableDirector:
+--- !u!1 &6036346753959212656
+GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5422679963720763194}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 119f405574a8ba34cba296c5e7b78688, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 3387677601207726420, guid: 119f405574a8ba34cba296c5e7b78688, type: 2}
-    value: {fileID: 0}
-  m_ExposedReferences:
-    m_References: []
---- !u!95 &4573871351278788180
-Animator:
-  serializedVersion: 3
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6036346753959212657}
+  - component: {fileID: 6036346753959212661}
+  - component: {fileID: 6036346753959212660}
+  m_Layer: 0
+  m_Name: LibraryRoomTrigger6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6036346753959212657
+Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5422679963720763194}
+  m_GameObject: {fileID: 6036346753959212656}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.96, y: 4.34, z: -27.115}
+  m_LocalScale: {x: 3.3805485, y: 1, z: 2.6400723}
+  m_Children: []
+  m_Father: {fileID: 6872777515958819016}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6036346753959212661
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6036346753959212656}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6036346753959212660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6036346753959212656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53c2bebb2dfbcb54d8fc4a915b7c8233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerType: 2
+  obj: {fileID: 0}
+--- !u!1 &6036346754361868598
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6036346754361868599}
+  - component: {fileID: 6036346754361868603}
+  - component: {fileID: 6036346754361868602}
+  m_Layer: 0
+  m_Name: UndergroundTrigger4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6036346754361868599
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6036346754361868598}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -66.308, y: -3.7599998, z: -14.66}
+  m_LocalScale: {x: 3.3805487, y: 1, z: 2.640072}
+  m_Children: []
+  m_Father: {fileID: 6872777515958819016}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6036346754361868603
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6036346754361868598}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6036346754361868602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6036346754361868598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53c2bebb2dfbcb54d8fc4a915b7c8233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerType: 1
+  obj: {fileID: 0}
 --- !u!1 &6417374066758312450
 GameObject:
   m_ObjectHideFlags: 0
@@ -573,8 +601,6 @@ GameObject:
   - component: {fileID: 6417374066758312449}
   - component: {fileID: 6417374066758312448}
   - component: {fileID: 2463357414712754522}
-  - component: {fileID: 2463357414712754505}
-  - component: {fileID: 2463357414712754504}
   m_Layer: 0
   m_Name: MasterBedroomTrigger4
   m_TagString: Untagged
@@ -623,44 +649,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerType: 3
   obj: {fileID: 0}
---- !u!320 &2463357414712754505
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6417374066758312450}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 4decca8e4173d664cb58467f4e2402a3, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: -620535383814928951, guid: 4decca8e4173d664cb58467f4e2402a3, type: 2}
-    value: {fileID: 2463357414712754504}
-  m_ExposedReferences:
-    m_References: []
---- !u!95 &2463357414712754504
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6417374066758312450}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6417374066833402486
 GameObject:
   m_ObjectHideFlags: 0
@@ -672,8 +660,6 @@ GameObject:
   - component: {fileID: 6417374066833402485}
   - component: {fileID: 6417374066833402484}
   - component: {fileID: 2463357414712754524}
-  - component: {fileID: 3258225440331019015}
-  - component: {fileID: 3258225440331019014}
   m_Layer: 0
   m_Name: StorageRoomTrigger2
   m_TagString: Untagged
@@ -722,44 +708,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerType: 3
   obj: {fileID: 0}
---- !u!320 &3258225440331019015
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6417374066833402486}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 780e7033af86bd24b9d1f37d28c6386e, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: -1859534535144531952, guid: 780e7033af86bd24b9d1f37d28c6386e, type: 2}
-    value: {fileID: 0}
-  m_ExposedReferences:
-    m_References: []
---- !u!95 &3258225440331019014
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6417374066833402486}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6417374066851698363
 GameObject:
   m_ObjectHideFlags: 0
@@ -771,8 +719,6 @@ GameObject:
   - component: {fileID: 6417374066851698362}
   - component: {fileID: 6417374066851698361}
   - component: {fileID: 2463357414712754525}
-  - component: {fileID: 3258225440313397202}
-  - component: {fileID: 3258225440313397205}
   m_Layer: 0
   m_Name: StorageRoomTrigger1
   m_TagString: Untagged
@@ -821,44 +767,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerType: 3
   obj: {fileID: 0}
---- !u!320 &3258225440313397202
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6417374066851698363}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 542d394d70e36a642a92e916fe332eaa, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 1707043818531237251, guid: 542d394d70e36a642a92e916fe332eaa, type: 2}
-    value: {fileID: 0}
-  m_ExposedReferences:
-    m_References: []
---- !u!95 &3258225440313397205
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6417374066851698363}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6417374066916860574
 GameObject:
   m_ObjectHideFlags: 0
@@ -870,8 +778,6 @@ GameObject:
   - component: {fileID: 6417374066916860573}
   - component: {fileID: 6417374066916860572}
   - component: {fileID: 2463357414712754500}
-  - component: {fileID: 2463357414712754509}
-  - component: {fileID: 2463357414712754508}
   m_Layer: 0
   m_Name: OfficeTrigger2
   m_TagString: Untagged
@@ -920,44 +826,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerType: 3
   obj: {fileID: 0}
---- !u!320 &2463357414712754509
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6417374066916860574}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: b21a3a495853b1f4d8829967eeae7fc0, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 3082572703161657249, guid: b21a3a495853b1f4d8829967eeae7fc0, type: 2}
-    value: {fileID: 0}
-  m_ExposedReferences:
-    m_References: []
---- !u!95 &2463357414712754508
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6417374066916860574}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6417374067369987882
 GameObject:
   m_ObjectHideFlags: 0
@@ -969,8 +837,6 @@ GameObject:
   - component: {fileID: 6417374067369987881}
   - component: {fileID: 6417374067369987880}
   - component: {fileID: 2463357414712754501}
-  - component: {fileID: 2463357414712754507}
-  - component: {fileID: 2463357414712754506}
   m_Layer: 0
   m_Name: OfficeTrigger1
   m_TagString: Untagged
@@ -1019,44 +885,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerType: 3
   obj: {fileID: 0}
---- !u!320 &2463357414712754507
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6417374067369987882}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: cf2d56ac09ab0634c8c6f21ce4b4d19e, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: -2125843969250877339, guid: cf2d56ac09ab0634c8c6f21ce4b4d19e, type: 2}
-    value: {fileID: 0}
-  m_ExposedReferences:
-    m_References: []
---- !u!95 &2463357414712754506
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6417374067369987882}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6417374067370405592
 GameObject:
   m_ObjectHideFlags: 0
@@ -1068,8 +896,6 @@ GameObject:
   - component: {fileID: 6417374067370405599}
   - component: {fileID: 6417374067370405598}
   - component: {fileID: 2463357414712754523}
-  - component: {fileID: 2463357414712754551}
-  - component: {fileID: 2463357414712754550}
   m_Layer: 0
   m_Name: MasterBedroomTrigger3
   m_TagString: Untagged
@@ -1118,44 +944,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerType: 3
   obj: {fileID: 0}
---- !u!320 &2463357414712754551
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6417374067370405592}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 4c3f01d3740564b44b56c439c10b41c3, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 3247562858211234212, guid: 4c3f01d3740564b44b56c439c10b41c3, type: 2}
-    value: {fileID: 0}
-  m_ExposedReferences:
-    m_References: []
---- !u!95 &2463357414712754550
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6417374067370405592}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6417374067480323922
 GameObject:
   m_ObjectHideFlags: 0
@@ -1167,8 +955,6 @@ GameObject:
   - component: {fileID: 6417374067480323921}
   - component: {fileID: 6417374067480323920}
   - component: {fileID: 2463357414712754503}
-  - component: {fileID: 2463357414712754511}
-  - component: {fileID: 2463357414712754510}
   m_Layer: 0
   m_Name: OfficeTrigger3
   m_TagString: Untagged
@@ -1217,44 +1003,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerType: 3
   obj: {fileID: 0}
---- !u!320 &2463357414712754511
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6417374067480323922}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 65144053d097de648ab18ce67914ae98, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 5640408830956065029, guid: 65144053d097de648ab18ce67914ae98, type: 2}
-    value: {fileID: 0}
-  m_ExposedReferences:
-    m_References: []
---- !u!95 &2463357414712754510
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6417374067480323922}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6417374067866415296
 GameObject:
   m_ObjectHideFlags: 0
@@ -1266,8 +1014,6 @@ GameObject:
   - component: {fileID: 6417374067866415303}
   - component: {fileID: 6417374067866415302}
   - component: {fileID: 2463357414712754521}
-  - component: {fileID: 2463357414712754499}
-  - component: {fileID: 2463357414712754498}
   m_Layer: 0
   m_Name: MasterBedroomTrigger1
   m_TagString: Untagged
@@ -1316,44 +1062,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerType: 3
   obj: {fileID: 0}
---- !u!320 &2463357414712754499
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6417374067866415296}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 8976af36c7c261c478464f075ac9f611, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 6048071933084968206, guid: 8976af36c7c261c478464f075ac9f611, type: 2}
-    value: {fileID: 0}
-  m_ExposedReferences:
-    m_References: []
---- !u!95 &2463357414712754498
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6417374067866415296}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6417374068128395311
 GameObject:
   m_ObjectHideFlags: 0
@@ -1365,8 +1073,6 @@ GameObject:
   - component: {fileID: 6417374068128395310}
   - component: {fileID: 6417374068128395309}
   - component: {fileID: 2463357414712754502}
-  - component: {fileID: 2463357414712754497}
-  - component: {fileID: 2463357414712754496}
   m_Layer: 0
   m_Name: OfficeTrigger4
   m_TagString: Untagged
@@ -1415,44 +1121,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerType: 3
   obj: {fileID: 0}
---- !u!320 &2463357414712754497
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6417374068128395311}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: b8a5e303093d8b84cbe24f229a2dd19b, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 893499777785155921, guid: b8a5e303093d8b84cbe24f229a2dd19b, type: 2}
-    value: {fileID: 0}
-  m_ExposedReferences:
-    m_References: []
---- !u!95 &2463357414712754496
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6417374068128395311}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6417374068304717963
 GameObject:
   m_ObjectHideFlags: 0
@@ -1464,8 +1132,6 @@ GameObject:
   - component: {fileID: 6417374068304717962}
   - component: {fileID: 6417374068304717961}
   - component: {fileID: 2463357414712754520}
-  - component: {fileID: 2463357414712754549}
-  - component: {fileID: 2463357414712754548}
   m_Layer: 0
   m_Name: MasterBedroomTrigger2
   m_TagString: Untagged
@@ -1514,44 +1180,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerType: 3
   obj: {fileID: 0}
---- !u!320 &2463357414712754549
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6417374068304717963}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 8b89f3506d74daa4aa84e7bb14557383, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 7121660123095116408, guid: 8b89f3506d74daa4aa84e7bb14557383, type: 2}
-    value: {fileID: 0}
-  m_ExposedReferences:
-    m_References: []
---- !u!95 &2463357414712754548
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6417374068304717963}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6417374068600448555
 GameObject:
   m_ObjectHideFlags: 0
@@ -1563,8 +1191,6 @@ GameObject:
   - component: {fileID: 6417374068600448554}
   - component: {fileID: 6417374068600448553}
   - component: {fileID: 2463357414712754527}
-  - component: {fileID: 3258225438580883266}
-  - component: {fileID: 3258225438580883269}
   m_Layer: 0
   m_Name: StorageRoomTrigger3
   m_TagString: Untagged
@@ -1613,44 +1239,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerType: 3
   obj: {fileID: 0}
---- !u!320 &3258225438580883266
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6417374068600448555}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: cd8d83cfd58ec5340959449be9cbf310, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: -5006574889935006731, guid: cd8d83cfd58ec5340959449be9cbf310, type: 2}
-    value: {fileID: 0}
-  m_ExposedReferences:
-    m_References: []
---- !u!95 &3258225438580883269
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6417374068600448555}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6755306947029318092
 GameObject:
   m_ObjectHideFlags: 0
@@ -1662,8 +1250,6 @@ GameObject:
   - component: {fileID: 2576162017580799082}
   - component: {fileID: 4210245070787555395}
   - component: {fileID: 2463357414712754519}
-  - component: {fileID: 2992420471444840623}
-  - component: {fileID: 2992420471444840622}
   m_Layer: 0
   m_Name: UndergroundTrigger2
   m_TagString: Untagged
@@ -1683,7 +1269,7 @@ Transform:
   m_LocalScale: {x: 3.3805485, y: 1, z: 2.6400723}
   m_Children: []
   m_Father: {fileID: 6872777515958819016}
-  m_RootOrder: 27
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &4210245070787555395
 BoxCollider:
@@ -1712,44 +1298,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerType: 3
   obj: {fileID: 0}
---- !u!320 &2992420471444840623
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6755306947029318092}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: f8269c47e18167a4d9c8b74be5599faf, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 6731252111555089178, guid: f8269c47e18167a4d9c8b74be5599faf, type: 2}
-    value: {fileID: 0}
-  m_ExposedReferences:
-    m_References: []
---- !u!95 &2992420471444840622
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6755306947029318092}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6872777515098283690
 GameObject:
   m_ObjectHideFlags: 0
@@ -2002,9 +1550,11 @@ Transform:
   - {fileID: 1159020322128563551}
   - {fileID: 3845039760296401712}
   - {fileID: 1989974312962311567}
+  - {fileID: 6036346753959212657}
   - {fileID: 517173620213117471}
   - {fileID: 2576162017580799082}
   - {fileID: 3728240274317136212}
+  - {fileID: 6036346754361868599}
   - {fileID: 4483583072487060780}
   m_Father: {fileID: 6872777516475156755}
   m_RootOrder: 0
@@ -2268,6 +1818,7 @@ Transform:
   m_Children:
   - {fileID: 6872777515958819016}
   - {fileID: 6872777516166748628}
+  - {fileID: 7597797712454685653}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2455,6 +2006,67 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerType: 3
   obj: {fileID: 0}
+--- !u!1 &7597797711678774454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7597797711678774455}
+  m_Layer: 0
+  m_Name: SpawnpointBossMutant
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7597797711678774455
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7597797711678774454}
+  m_LocalRotation: {x: -0, y: -0.9450003, z: -0, w: 0.3270696}
+  m_LocalPosition: {x: -50.89, y: -3.961, z: -9.544}
+  m_LocalScale: {x: 1.5000011, y: 1.5, z: 1.5000011}
+  m_Children: []
+  m_Father: {fileID: 7597797712454685653}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -141.81801, z: 0}
+--- !u!1 &7597797712454685652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7597797712454685653}
+  m_Layer: 0
+  m_Name: SpawnPoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7597797712454685653
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7597797712454685652}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7597797711678774455}
+  m_Father: {fileID: 6872777516475156755}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8450375021522304971
 GameObject:
   m_ObjectHideFlags: 0
@@ -2466,8 +2078,6 @@ GameObject:
   - component: {fileID: 4483583072487060780}
   - component: {fileID: 5792481542247230827}
   - component: {fileID: 2463357414712754472}
-  - component: {fileID: 107345593450440356}
-  - component: {fileID: 107345593450440359}
   m_Layer: 0
   m_Name: Storage1Trigger2
   m_TagString: Untagged
@@ -2487,7 +2097,7 @@ Transform:
   m_LocalScale: {x: 3.3805485, y: 1, z: 2.6400723}
   m_Children: []
   m_Father: {fileID: 6872777515958819016}
-  m_RootOrder: 29
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &5792481542247230827
 BoxCollider:
@@ -2516,44 +2126,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerType: 3
   obj: {fileID: 0}
---- !u!320 &107345593450440356
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8450375021522304971}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: e288363a935bd5e4c8b8fa79548efcbe, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: -7928374865614463594, guid: e288363a935bd5e4c8b8fa79548efcbe, type: 2}
-    value: {fileID: 0}
-  m_ExposedReferences:
-    m_References: []
---- !u!95 &107345593450440359
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8450375021522304971}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &9008937027143553274
 GameObject:
   m_ObjectHideFlags: 0
