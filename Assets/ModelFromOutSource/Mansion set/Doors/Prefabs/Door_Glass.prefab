@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 877459860979139265}
   - component: {fileID: 877459860978008065}
   - component: {fileID: 877459860973727841}
-  - component: {fileID: 877459860986808065}
   m_Layer: 0
   m_Name: Door_Glass
   m_TagString: Untagged
@@ -29,13 +28,13 @@ Transform:
   m_GameObject: {fileID: 877459860980014785}
   m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
   m_LocalPosition: {x: -59.3547, y: 0.00000011920929, z: 197.60747}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1, y: 1, z: 1}
   m_Children:
   - {fileID: 877459860980433635}
   - {fileID: 877459860980433637}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: -90.00001}
 --- !u!33 &877459860979139265
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -98,23 +97,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 4aff826fb92921d42a9d1444936d4c39, type: 3}
---- !u!111 &877459860986808065
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 877459860980014785}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 4aff826fb92921d42a9d1444936d4c39, type: 3}
-  m_Animations:
-  - {fileID: 7400000, guid: 4aff826fb92921d42a9d1444936d4c39, type: 3}
-  - {fileID: 7400002, guid: 4aff826fb92921d42a9d1444936d4c39, type: 3}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!1 &877459860980014787
 GameObject:
   m_ObjectHideFlags: 0
@@ -127,9 +109,10 @@ GameObject:
   - component: {fileID: 877459860979139267}
   - component: {fileID: 877459860978008067}
   - component: {fileID: 877459860973727843}
+  - component: {fileID: 3361706032760271979}
   m_Layer: 0
   m_Name: Door_Glass1
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -211,6 +194,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300004, guid: 4aff826fb92921d42a9d1444936d4c39, type: 3}
+--- !u!95 &3361706032760271979
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877459860980014787}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2a79320afbb7a3040bf16d9991831e51, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &877459860980014789
 GameObject:
   m_ObjectHideFlags: 0
@@ -223,9 +225,10 @@ GameObject:
   - component: {fileID: 877459860979139269}
   - component: {fileID: 877459860978008069}
   - component: {fileID: 877459860973727845}
+  - component: {fileID: 8109616871384413842}
   m_Layer: 0
   m_Name: Door_Glass2
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -305,6 +308,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300002, guid: 4aff826fb92921d42a9d1444936d4c39, type: 3}
+--- !u!95 &8109616871384413842
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877459860980014789}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2a79320afbb7a3040bf16d9991831e51, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &877459860980014791
 GameObject:
   m_ObjectHideFlags: 0

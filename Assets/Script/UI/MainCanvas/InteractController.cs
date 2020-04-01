@@ -36,6 +36,7 @@ public class InteractController : MonoBehaviour
                 guideController.SetInteractGuideText("Open");
                 if (triggerDown)
                 {
+                  
                     bool doorStatus = collision.gameObject.GetComponent<Animator>().GetBool("IsOpen");
                     collision.gameObject.GetComponent<Animator>().SetBool("IsOpen", !doorStatus);
 
