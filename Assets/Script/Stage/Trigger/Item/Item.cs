@@ -13,6 +13,10 @@ public class Item : MonoBehaviour
                 return PlayPianoSound;
             default:
                 return null;
+
+            case ItemType.doorUnder:
+                return UnlockDoor;
+            
         }
        
     }
@@ -20,5 +24,10 @@ public class Item : MonoBehaviour
     private void PlayPianoSound()
     {
         SoundManager.PlaySound(Sound.Piano, this.transform.position);
+    }
+
+    private void UnlockDoor()
+    {
+        this.gameObject.tag = "Interacable";
     }
 }
