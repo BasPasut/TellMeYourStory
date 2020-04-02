@@ -10,6 +10,8 @@ public class MainMenuController : MonoBehaviour
     public Collider yesButton;
     public Collider noButton;
 
+    public Animator sittingAnim;
+
     public Canvas loadingCanvas;
 
     public CanvasFader canvasFader;
@@ -19,18 +21,33 @@ public class MainMenuController : MonoBehaviour
         canvasFader.FadeOut();
     }
 
+    public void Start()
+    {
+        sittingAnim = GetComponent<Animator>();
+        sittingAnim.Play("Sit", 0);
+
+    }
+
     private void Update()
     {
-        if (yesButton.isTrigger == true )
+        if (yesButton.isTrigger == true)
         {
             canvasFader.FadeIn();
+            StartCoroutine(Wait());
             loadingCanvas.gameObject.SetActive(true);
             YesButtonClick();
         }
         else if (noButton.isTrigger == true)
         {
+            canvasFader.FadeIn();
+            StartCoroutine(Wait());
             NoButtonClick();
         }
+    }
+
+    IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(2f);
     }
 
     public void YesButtonClick()
@@ -42,5 +59,7 @@ public class MainMenuController : MonoBehaviour
     public void NoButtonClick()
     {
         Debug.Log("No");
+
+        Application.Quit();
     }
 }
