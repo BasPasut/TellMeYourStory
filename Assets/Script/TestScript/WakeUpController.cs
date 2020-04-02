@@ -6,8 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class WakeUpController : MonoBehaviour
 {
-    public string mainMenuScene;
-    public Canvas loadingImg;
     public CanvasFader canvasFader;
 
     public SteamVR_Action_Boolean triggerAnimAction;
@@ -25,14 +23,7 @@ public class WakeUpController : MonoBehaviour
         {
             //canvasFader.FadeOut();
             canvasFader.FadeIn();
-            LoadMainMenuScene();
+            ScenarioManager.Instance.LoadMainMenuScene();
         }
-    }
-
-    private void LoadMainMenuScene()
-    {
-        loadingImg.gameObject.SetActive(true);
-        SceneManager.LoadScene(mainMenuScene, LoadSceneMode.Single);
-        Destroy(this);
     }
 }

@@ -11,12 +11,19 @@ public class SwapFloor : MonoBehaviour
     public bool isFirstFloorActive = true;
     public bool isSecondFloorActive = false;
     public bool isUnderGroundActive = false;
+    public GameObject player;
+    private Collider playerCol;
 
     private void Awake()
     {
         firstFloor.SetActive(true);
         secondFloor.SetActive(false);
         underGround.SetActive(false);
+    }
+
+    private void Start()
+    {
+        playerCol = player.GetComponent<Collider>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -35,5 +42,17 @@ public class SwapFloor : MonoBehaviour
             secondFloor.SetActive(false);
             isFirstFloorActive = true;
         }
+    }
+
+    public void OpenUnderground()
+    {
+        underGround.SetActive(true);
+    }
+
+    public void CloseMansion()
+    {
+        firstFloor.SetActive(false);
+        secondFloor.SetActive(false);
+        underGround.SetActive(false);
     }
 }

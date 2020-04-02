@@ -43,6 +43,13 @@ public class MainMenuController : MonoBehaviour
             StartCoroutine(Wait());
             NoButtonClick();
         }
+        else if (Input.GetMouseButtonDown(0))
+        {
+            canvasFader.FadeIn();
+            StartCoroutine(Wait());
+            loadingCanvas.gameObject.SetActive(true);
+            YesButtonClick();
+        }
     }
 
     IEnumerator Wait()

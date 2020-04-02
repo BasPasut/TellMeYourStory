@@ -16,6 +16,7 @@ public class CheckAttack : MonoBehaviour
             {
                 isAttack = true;
                 //End game scene and sound here VEGAN
+                ScenarioManager.Instance.LoadGameOver();
             }
         }
     }
