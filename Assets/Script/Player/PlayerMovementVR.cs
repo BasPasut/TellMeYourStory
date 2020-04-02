@@ -57,7 +57,7 @@ public class PlayerMovementVR : MonoBehaviour
                 velocityChange.z = Mathf.Clamp(velocityChange.z, -maxVelocityChange, maxVelocityChange);
                 velocityChange.y = 0;
                 rigidbody.AddForce(velocityChange, ForceMode.VelocityChange);
-                Debug.Log(velocityChange);
+                //Debug.Log(velocityChange);
 
                 // Jump
                 if (canJump && Input.GetButton("Jump"))
