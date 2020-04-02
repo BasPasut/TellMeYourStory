@@ -42,7 +42,7 @@ public class ScenarioManager : MonoBehaviour
 
     private void Update()
     {
-        //bool triggerDown = triggerAnimAction.GetStateDown(SteamVR_Input_Sources.Any);
+        bool triggerDown = triggerAnimAction.GetStateDown(SteamVR_Input_Sources.Any);
 
         if (Input.GetKeyDown(KeyCode.End))
         {
@@ -50,7 +50,7 @@ public class ScenarioManager : MonoBehaviour
         }
         else if (isGameOver == true)
         {
-            if (Input.GetMouseButtonDown(0) /*|| triggerDown*/)
+            if (Input.GetMouseButtonDown(0) || triggerDown)
             {
                 canvasFader.FadeIn();
                 LoadMainMenuScene();
