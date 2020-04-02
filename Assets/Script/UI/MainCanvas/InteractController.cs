@@ -23,9 +23,21 @@ public class InteractController : MonoBehaviour
     //    //}
     //}
 
+    public void OnCollisionEnter(Collision collision)
+    {
+        Interaction(collision);
+    }
+
     public void OnCollisionStay(Collision collision)
     {
+        Interaction(collision);
+    }
+
+    private void Interaction(Collision collision)
+    {
         bool triggerDown = triggerAnimAction.GetStateDown(SteamVR_Input_Sources.Any);
+
+        Debug.Log(triggerDown);
 
         GameObject obj = collision.gameObject;
         if (collision.gameObject.tag == "Interactable")
@@ -36,7 +48,7 @@ public class InteractController : MonoBehaviour
                 guideController.SetInteractGuideText("Open");
                 if (triggerDown)
                 {
-                  
+
                     bool doorStatus = collision.gameObject.GetComponent<Animator>().GetBool("IsOpen");
                     collision.gameObject.GetComponent<Animator>().SetBool("IsOpen", !doorStatus);
 
