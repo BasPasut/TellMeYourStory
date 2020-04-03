@@ -2433,6 +2433,7 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+<<<<<<< HEAD
 --- !u!1 &292205629
 GameObject:
   m_ObjectHideFlags: 0
@@ -2466,10 +2467,16 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &292205631
 SphereCollider:
+=======
+--- !u!21 &293857714
+Material:
+  serializedVersion: 6
+>>>>>>> b173e2622f9ed9def3310e2e056e61846ecba9e0
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 292205629}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -2477,6 +2484,35 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.01
   m_Center: {x: 0, y: 0, z: 0}
+=======
+  m_Name: Sprites/Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+>>>>>>> b173e2622f9ed9def3310e2e056e61846ecba9e0
 --- !u!28 &299412992
 Texture2D:
   m_ObjectHideFlags: 0
@@ -5036,6 +5072,169 @@ Texture2D:
   m_ColorSpace: 1
   image data: 5460
   _typelessdata: e1e3deffe1e3deffdedfd6ffdedfd6ffded7d6ffded7d6ffded7d6ffded7d6ffdedbd6ffdedbd6ffdedbd6ffdedbd6ffdedbd6ffe1dfdbffdedbd6ffdedbd6ffe7dfd6ffe7dfd6ffe7e4deffe7e4deffe9e7e3ffe9e7e3ffe9e7e3ffe9e7e3ffe9e7e3ffe9e7e3ffe7e3deffe7e3deffe1e3deffe4e7e6ffe4e7e6ffdedfd6ffe7ebefffe7ebefffe7ebefffe7ebefffe7ebefffe7ebefffe7ebefffe7ebefffe7ebefffe7ebefffe7ebefffe4e5e6ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e9e6ffe7e9e6ffe7e9e6ffe7e9e6ffecebe9ffecebe9ffefefefffefefefffefefefffefefefffecebe9ffecebe9ffe7ebefffe7ebefffe7ebefffe1e3deffe7ebefffe4e7e6ffe4e7e6ffe4e7e6ffe4e4e6ffe4e4e6ffe4e4e6ffe4e4e6ffe4e5e6ffe4e5e6ffe4e5e6ffe4e5e6ffe4e3e1ffe4e3e1ffe7e7e7ffe7e7e7ffe7e9e6ffe7e9e6ffe7e9e6ffe7e9e6ffecebe9ffefefefffefefefffecebe9ffefefefffefefefffefefefffecebe9ffe4e7e6ffe4e7e6ffe7ebefffe1e3deffe7ebefffe4e7e6ffe4e7e6ffe4e7e6ffe4e4e6ffe4e4e6ffe4e4e6ffe4e4e6ffe4e5e6ffe4e5e6ffe4e5e6ffe4e5e6ffe4e3e1ffe7e7e7ffe7e7e7ffe7e7e7ffe7e9e6ffe7e9e6ffe7e9e6ffe7efefffefefefffefefefffefefefffecebe9ffecebe9ffefefefffefefefffecebe9ffe7ebefffe4e7e6ffe4e7e6ffe1e3deffe9e8e9ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe4e5e4ffe1e1e1ffe7e7e7ffe7e7e7ffe7e7e7ffefebefffefebefffefebefffefebefffe7e7e7ffe7e7e7ffd1cccbffe7e7e7ffefebefffefebefffefebefffdedcdeffefefefffe6e7e6ffe6e7e6ffe6e7e6ffe9e8e9ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe4e5e4ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffefebefffefebefffefebefffefebefffe7e7e7ffe7e7e7ffa59694ffd1cccbffdedcdeffdedcdeffefebefffefebefffefefefffe6e7e6ffe6e7e6ffdedfdeffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe4e5e4ffe4e5e4ffe4e5e4ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffefebefffefebefffdbd6d9ffc8c2c3ffd1cccbffa59694ffbbb1afffbbb1afffdedcdeffcdcdcdffcdcdcdffdedcdeffe6e7e6ffe6e7e6ffefefefffd6d7d6ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe4e5e4ffe7e7e7ffe4e5e4ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffd6d7d6ffc8c2c3ffdbd6d9ffc8c2c3ffb5aeadffd1cccbffa59694ffa59694ffa59694ffdedcdeffbdbebdffbdbebdffdedcdeffe6e7e6ffe6e7e6ffefefefffd6d7d6ffe4e4e4ffe1e1e1ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe6e7e6ffe6e7e6ffe6e7e6ffe6e7e6ffe7e7e7ffe7e7e7ffe7e7e7ffbdb9bbffbdb6b5ffbdb6b5ffbdb6b5ffbdb6b5ff7b7573ffbdb6b5ff9c9594ff9c9594ffd6d7d6ffaaa9a7ffaaa9a7ffd6d7d6ffd6d4d6ffdedddeffe7e7e7ffd6d4d6ffe4e4e4ffe4e4e4ffe4e4e4ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe6e7e6ffe6e7e6ffe6e7e6ffe6e7e6ffe7e7e7ffe7e7e7ffe7e7e7ff948b8fff75706dff75706dffbdb6b5ff75706dff5a5552ff9c9594ff7b7573ff7b7573ffd6d7d6ffaaa9a7ffaaa9a7ffd6d7d6ffcecbceffd6d4d6ffe7e7e7ffcecbceffe4e4e4ffe4e4e4ffe4e4e4ffe4e4e4ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe6e7e6ffe6e7e6ffe6e7e6ffe6e7e6ffe7e7e7ffe7e7e7ffbdb9bbff6b5d63ff75706dff75706dff999391ff524d4aff7b7573ffbdb6b5ff9c9594ff5a5552ff524d4affaaa9a7ffaaa9a7ffd6d7d6ffcecbceffd6d4d6ffdedddeffcecbceffe7e7e7ffe4e4e4ffe4e4e4ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe6e7e6ffe6e7e6ffe6e7e6ffe6e7e6ffe7e7e7ffe7e7e7ffbdb9bbff6b5d63ff75706dff999391ff999391ff524d4aff7b7573ff9c9594ffbdb6b5ff7b7573ff524d4affaaa9a7ffd6d7d6ffd6d7d6ffd6d4d6ffd6d4d6ffdedddeffd6d4d6ffe7e3e7ffe7e3e7ffe7e4e7ffe7e4e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e4e7ffe7e7e7ffe7ebe7ffe7ebe7ffb8b6b5ff5a4d52ff948a8cff948a8cff948a8cff83787bff7b6d73ffbdb3b5ffded7d6ffbdb3b5ffa59a94ffd1cdcbffd1cdcbffd1cdcbffdedbdeffe1dde1ffe4e0e4ffe4e0e4ffe7e3e7ffe7e3e7ffe7e4e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e4e7ffe7e4e7ffe7e7e7ffe7ebe7ffe7ebe7ff898183ff5a4d52ff948a8cff83787bff83787bff63555aff7b6d73ff9c9094ffbdb3b5ffded7d6ffbbb3afffd1cdcbffe7e7e7ffe7e7e7ffe4e0e4ffe4e0e4ffe4e0e4ffe4e0e4ffe7e3e7ffe7e4e7ffe7e5e7ffe7e4e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e4e7ffe7e5e7ffe7e4e7ffe7ebe7ffe7ebe7ff898183ff5a4d52ff948a8cff83787bff73666aff63555aff7b6d73ff9c9094ffbdb3b5ffded7d6ffd1cdcbffd1cdcbffe7e7e7ffe7e7e7ffe4e0e4ffe7e3e7ffe4e0e4ffe4e0e4ffe7e3e7ffe7e3e7ffe7e4e7ffe7e5e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e4e7ffe7e4e7ffe7e4e7ffe7e7e7ffe7ebe7ffe7ebe7ffb8b6b5ff5a4d52ff63555aff83787bff948a8cff83787bff9c9094ff9c9094ffbdb3b5ffded7d6ffd1cdcbffd1cdcbffe7e7e7ffe7e7e7ffe7e3e7ffe7e3e7ffe7e3e7ffe1dde1ffe4e5e4ffe4e5e4ffe4e5e4ffe7e7e7ffe6e7e6ffe6e7e6ffe6e7e6ffe6e7e6ffe4e4e4ffe4e4e4ffe4e4e4ffe4e4e4ffe7e7e7ffe7e7e7ffe7e7e7ff847d7bff5a494aff75696bffadaaadff75696bff8c8284ff9f9797ffc6c3bdffb2adaaffafa7aaffafa7aaffe7e3e7ffe7e3e7ffe4e4e4ffe4e4e4ffe7e7e7ffe1e1e1ffe4e5e4ffe4e5e4ffe4e5e4ffe7e7e7ffe6e7e6ffe6e7e6ffe6e7e6ffe6e7e6ffe4e4e4ffe1e1e1ffe4e4e4ffe4e4e4ffe7e7e7ffe7e7e7ffe7e7e7ffa5a09fff5a494aff75696bffadaaadff91898cff8c8284ff9f9797ffc6c3bdffb2adaaff948a8cff948a8cffe7e3e7ffe7e3e7ffe7e7e7ffe4e4e4ffe4e4e4ffe1e1e1ffe4e5e4ffe4e5e4ffe4e5e4ffe7e7e7ffe6e7e6ffe6e7e6ffe6e7e6ffe6e7e6ffe4e4e4ffe1e1e1ffe4e4e4ffe1e1e1ffe7e7e7ffe7e7e7ffe7e7e7ffc6c3c3ff75696bff75696bff75696bff75696bff8c8284ffc6c3bdff9f9797ffc6c3bdffafa7aaff948a8cffe7e3e7ffe7e3e7ffe4e4e4ffe4e4e4ffe4e4e4ffe1e1e1ffe7e7e7ffe4e5e4ffe4e5e4ffe7e7e7ffe6e7e6ffe6e7e6ffe6e7e6ffe6e7e6ffe4e4e4ffe1e1e1ffe1e1e1ffe4e4e4ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ff91898cff75696bff5a494aff5a494aff9f9797ffc6c3bdff8c8284ffb2adaaffafa7aaff948a8cffe7e3e7ffe7e3e7ffe4e4e4ffe4e4e4ffe4e4e4ffdedfdeffe7e7e7ffe4e4e4ffe7e7e7ffe4e4e4ffe6e7e6ffe6e7e6ffe6e7e6ffe6e7e6ffe7e4e7ffe7e4e7ffe7e3e7ffe7e3e7ffe4e4e4ffe4e4e4ffe4e4e4ffe7e7e7ffdedbd6ff7b7173ff4a3c42ff7b7173ffc6bebdffaaa1a1ffc6bebdffaaa1a1ff8c8684ffc2c1c0ffdedfdeffdedfdeffe7e3e7ffe4e0e4ffe4e0e4ffe1dde1ffe7e7e7ffe4e4e4ffe4e4e4ffe4e4e4ffe6e7e6ffe6e7e6ffe6e7e6ffe6e7e6ffe7e5e7ffe7e4e7ffe7e3e7ffe7e4e7ffe4e4e4ffe4e4e4ffe4e4e4ffe1e1e1ffdedbd6ffdedbd6ffaca6a4ffaca6a4ff8e8586ffaaa1a1ffc6bebdff73696bff8c8684ffa7a3a2ffdedfdeffdedfdeffe1dde1ffe4e0e4ffe4e0e4ffdedbdeffe4e4e4ffe4e4e4ffe4e4e4ffe7e7e7ffe6e7e6ffe6e7e6ffe6e7e6ffe6e7e6ffe7e4e7ffe7e5e7ffe7e4e7ffe7e4e7ffe4e4e4ffe4e4e4ffe4e4e4ffe1e1e1ffdedbd6ffdedbd6ffdedbd6ffdedbd6ffc6bebdffaaa1a1ffaaa1a1ff8e8586ff8c8684ffa7a3a2ffdedfdeffdedfdeffe1dde1ffe1dde1ffe4e0e4ffdedbdeffe7e7e7ffe4e4e4ffe4e4e4ffe4e4e4ffe6e7e6ffe6e7e6ffe6e7e6ffe6e7e6ffe7e7e7ffe7e4e7ffe7e5e7ffe7e4e7ffe7e7e7ffe4e4e4ffe1e1e1ffe1e1e1ffdedbd6ffdedbd6ffdedbd6ffdedbd6ffc6bebdff73696bff73696bffaaa1a1ffc2c1c0ffc2c1c0ffdedfdeffdedfdeffe1dde1ffe1dde1ffe4e0e4ffdedbdeffe4e5e4ffe7e7e7ffe4e5e4ffe4e5e4ffe7e7e7ffe7e5e7ffe7e5e7ffe7e7e7ffe7e5e7ffe7e7e7ffe7e5e7ffe7e7e7ffe4e4e4ffe4e4e4ffe1e1e1ffdedfdeffdedfdeffdedfdeffc2b9b8ffb5a6a5ffd6d3d6ff63555aff63555affafa9acffc0bdc0ffc0bdc0ffd6dbdeffd6dbdeffdedfdeffdedfdeffdedfdeffdbdcdbffe4e5e4ffe4e5e4ffe4e5e4ffe4e5e4ffe7e5e7ffe7e7e7ffe7e7e7ffe7e5e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e4e7ffe4e4e4ffe4e4e4ffe1e1e1ffdedfdeffdedfdeffdedfdeffc2b9b8ffb5a6a5ffafa9acff63555aff63555affafa9acffaa9fa2ff948284ffd6dbdeffd6dbdeffdedfdeffdbdcdbffdbdcdbffdedfdeffe4e5e4ffe7e7e7ffe4e5e4ffe4e5e4ffe7e4e7ffe7e4e7ffe7e4e7ffe7e5e7ffe7e7e7ffe7e4e7ffe7e5e7ffe7e4e7ffe4e4e4ffe4e4e4ffe4e4e4ffe1e1e1ffdedfdeffdedfdeffb5a6a5ffc2b9b8ffafa9acff897f83ff897f83ffafa9acffaa9fa2ff948284ffd6dbdeffd6dbdeffdbdcdbffdbdcdbffdbdcdbffdbdcdbffe4e5e4ffe4e5e4ffe4e5e4ffe4e5e4ffe7e4e7ffe7e5e7ffe7e7e7ffe7e5e7ffe7e5e7ffe7e4e7ffe7e5e7ffe7e4e7ffe4e4e4ffe4e4e4ffe4e4e4ffe4e4e4ffdedfdeffdedfdeffb5a6a5ffc2b9b8ffd6d3d6ffd6d3d6ffd6d3d6ffd6d3d6ffaa9fa2ff948284ffd6dbdeffd6dbdeffdedfdeffdbdcdbffdbdcdbffd6d7d6ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe1e4e1ffe7ebe7ffe7ebe7ffe7ebe7ffe6e7e6ffe6e7e6ffe6e7e6ffe6e7e6ffe1e4e6ffe1e4e6ffe1e4e6ffe1e4e6ffe7e7e7ffe1e0deffd6d3ceffe1e0deffe7e3e7ffe4dfdeffe4dfdeffe4dfdeffbbb2acffa59a94ffe7e3deffe7e3deffdcdcdcffdcdcdcffdcdcdcffd1d1d1ffdedfdeffdedfdeffe7e7e7ffe7e7e7ffe1e4e1ffe1e4e1ffe1e4e1ffe7ebe7ffe6e7e6ffe6e7e6ffe6e7e6ffe6e7e6ffe1e4e6ffe1e4e6ffe1e4e6ffe1e4e6ffe7e7e7ffe7e7e7ffe7e7e7ffe1e0deffe7e3e7ffe4dfdeffe4dfdeffe7e3e7ffd1cac5ffd1cac5ffe7e3deffe7e3deffdcdcdcffdcdcdcffdcdcdcffd1d1d1ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7ebe7ffe7ebe7ffe7ebe7ffe7ebe7ffefefefffefefefffe6e7e6ffe6e7e6ffe1e4e6ffe1e4e6ffe7ebefffe7ebefffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe7e3e7ffe7e3e7ffe7e3e7ffe7e3e7ffe7e3deffe7e3deffe7e3deffe7e3deffe7e7e7ffe7e7e7ffe7e7e7ffd1d1d1ffcecfceffcecfceffcecfceffd6d7d6ffd6d7d6ffd6d7d6ffd6d7d6ffd6d7d6ffd6d7d6ffd6d7d6ffd6d7d6ffd6d7d6ffd6d7d6ffd6d7d6ffd6d7d6ffd6d7d6ffdbd9d6ffdbd9d6ffd6d3ceffd6d3ceffded7ceffe1dbd6ffe1dbd6ffe1dbd6ffe7e3deffd1cac5ffd1cac5ffd1cac5ffd1d1d1ffd1d1d1ffd1d1d1ffc6c7c6ffe4e7e6ffe2e5e2ffe2e1e2ffe2e1e2ffe2e3e2ffe1e1e0ffe3e2dfffe2e1deffe7e4deffe7e6e2ffeae9e6ffecebe9ffecebe9ffe9e7e3ffe4e8e8ffe2e5e2ffe5e9eaffe4e7e6ffe4e4e6ffe4e4e6ffe4e5e6ffe4e5e6ffe4e4e2ffe7e7e7ffe7e9e6ffe7eae8ffeeeeedffededecffeeeeedffededecffe4e8e8ffe3e6e4ffe8e7e8ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe5e6e5ffe5e5e5ffe7e7e7ffefebefffefebefffe7e7e7ffcbc5c4ffe6e3e6ffeae7eaffeaebeaffe4e5e4ffe7e7e7ffe7e7e7ffe7e7e7ffe7e7e7ffe5e6e5ffe4e5e4ffe7e7e7ffe2e3e2ffe0dbdeffc7c2c3ffbbb1afffb0a3a1ffd1d0d1ffd1d0d1ffe6e7e6ffe2e3e2ffe3e3e3ffe6e6e6ffe7e7e7ffe7e7e7ffe6e7e6ffe6e7e6ffe7e7e7ffc7c4c6ff999391ffaba4a3ff8b8583ff8b8583ffc0c0beffc0c0beffd6d3d6ffdcdbdcffe4e4e4ffe4e4e4ffe7e7e7ffe7e7e7ffe6e7e6ffe6e7e6ffe7e7e7ff948b8fff7e7876ff75706dff938d8bff8b8583ff7e7b78ffcbcbcaffd4d1d4ffd8d6d8ffe7e3e7ffe7e4e7ffe7e7e7ffe7e7e7ffe7e6e7ffe7e5e7ffe7ebe7ff7d7476ff8f8587ff7f7376ff93878bffcdc5c5ffc0b9b6ffdcdad9ffe1dee1ffe4e0e4ffe7e3e7ffe7e4e7ffe7e7e7ffe7e7e7ffe7e4e7ffe7e4e7ffe7ebe7ff7d7476ff7f7376ff7b6f72ff93878bffcdc5c5ffd1cdcbffe7e7e7ffe6e2e6ffe4e0e4ffe4e5e4ffe5e6e5ffe6e7e6ffe6e7e6ffe3e3e3ffe4e4e4ffe7e7e7ffbdbabaff67595aff989194ff958c8dffbcb8b3ffa1989bffe7e3e7ffe4e4e4ffe3e3e3ffe4e5e4ffe5e6e5ffe6e7e6ffe6e7e6ffe2e2e2ffe2e2e2ffe7e7e7ffdededeff7c7173ff67595affada7a5ffa8a2a0ffa1989bffe7e3e7ffe4e4e4ffe1e1e1ffe5e5e5ffe4e4e4ffe6e7e6ffe6e7e6ffe7e4e7ffe7e3e7ffe4e4e4ffe3e3e3ffc5c0bdff877e7fffaaa1a1ffaaa1a1ffa09b9affdedfdeffe3dfe3ffe1dde1ffe4e4e4ffe4e4e4ffe6e7e6ffe6e7e6ffe7e4e7ffe7e4e7ffe4e4e4ffe1e1e1ffdedbd6ffdedbd6ffaaa1a1ff958c8cffadaaa9ffdedfdeffe1dde1ffe1dde1ffe4e5e4ffe4e5e4ffe7e6e7ffe7e6e7ffe7e6e7ffe7e5e7ffe4e4e4ffdfe0dfffdedfdeffbbafaeff92898dff897f83ffafa6a9ffd6dbdeffdddeddffdcdddcffe4e5e4ffe4e5e4ffe7e4e7ffe7e5e7ffe7e4e7ffe7e4e7ffe4e4e4ffe3e3e3ffdedfdeffbbafaeffb9b3b6ffb9b3b6ff9f9093ffd6dbdeffdbdcdbffd9dad9ffe2e3e2ffe7e7e7ffe2e5e2ffe5e9e5ffe6e7e6ffe6e7e6ffe1e4e6ffe1e4e6ffe5e5e4ffdfdedcffe5e1e2ffe4e0e0ffc0b8b2ffe7e3deffdcdcdcffd6d6d6ffdadbdaffdcdddcffdee1deffdee1deffe2e3e2ffdedfdeffdbdddeffdee1e2ffe1e0deffdedddaffe3dedcffe4dfdeffe1dcd7ffdcd6d1ffdcdcdcffd3d4d3ffe3e7e6ffe3e2e4ffe2e3e3ffe3e3e1ffe7e7e3ffecebe9ffebebe9ffe3e6e5ffe7e7e7ffe7e7e7ffe5e5e5ffe5e5e5ffe1dcdfffc7c0beffdcdadcffe5e6e5ffe4e4e4ffe7e7e7ffe6e7e6ffcac7c8ff8d8785ff8d8785ffb2b1afffd7d5d7ffe7e3e7ffe7e7e7ffe7e4e7ffb2afaeff827679ffb0a6a8ffd5d1d0ffe3e0e3ffe4e5e4ffe6e7e6ffe2e2e2ffdad9d9ff786d6effa9a3a1ffc4bdc1ffe2e2e2ffe4e4e4ffe6e7e6ffe7e3e7ffe2e2e2ffc2bdbaffa49b9bffc2c0bfffe1dde1ffe4e5e4ffe7e5e7ffe7e4e7ffe2e2e2ffccc7c6ffa39b9fffbebabdffdbdcdbffdfe0dfffe0e4e0ffe3e4e3ffdee1e3ffe0dfdeffe3dfdfffd8d3ceffd8d8d8ffe5e5e6ffe3e4e3ffdedbdaffe3e4e3ffe6e5e6ffd2d0d0ff938a8affd0cdceffe5e5e5ffe1dfe0ffa19a98ffd2ced0ffe2e3e2ffe2e2e3ffccc8c8ffd2d0cfffe0dfdfffc8c5c5ffe2e2e2ffc4c0bfffd3d1d1ff
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
+--- !u!43 &510415299
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 24
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 8
+    localAABB:
+      m_Center: {x: 0, y: 0.01, z: 0}
+      m_Extent: {x: 1.65, y: 0, z: 1.275}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000004000100010004000500010005000200020005000600020006000300030006000700030007000000000007000400
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 8
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 28
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 288
+    _typelessdata: 0000c03f0ad7233c000090bf0000803f0000803f0000803f0000803f00000000000000000000c0bf0ad7233c000090bf0000803f0000803f0000803f0000803f0000803f000000000000c0bf0ad7233c0000903f0000803f0000803f0000803f0000803f00000000000000000000c03f0ad7233c0000903f0000803f0000803f0000803f0000803f0000803f000000003333d33f0ad7233c3333a3bf0000803f0000803f0000803f00000000000000000000803f3333d3bf0ad7233c3333a3bf0000803f0000803f0000803f000000000000803f0000803f3333d3bf0ad7233c3333a33f0000803f0000803f0000803f00000000000000000000803f3333d33f0ad7233c3333a33f0000803f0000803f0000803f000000000000803f0000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0.01, z: 0}
+    m_Extent: {x: 1.65, y: 0, z: 1.275}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
   m_StreamData:
     offset: 0
     size: 0
@@ -7646,6 +7845,17 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+=======
+    - target: {fileID: 136702, guid: 8440a040fa5dbaa4cbca2cf52adeb4dc, type: 3}
+      propertyPath: m_Name
+      value: Long Bed Type 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 136702, guid: 8440a040fa5dbaa4cbca2cf52adeb4dc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+>>>>>>> b173e2622f9ed9def3310e2e056e61846ecba9e0
     - target: {fileID: 137430, guid: 8440a040fa5dbaa4cbca2cf52adeb4dc, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -20069,6 +20279,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 3269444241377131462}
   m_LocalRotation: {x: 0.56189185, y: -0.03958033, z: 0.76829755, w: -0.30402282}
   m_LocalPosition: {x: -0.073359996, y: 0.01578, z: -0.01952}
@@ -20079,10 +20290,17 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1183095448285237003
 GameObject:
+=======
+  m_GameObject: {fileID: 4282740591469800905}
+  m_Mesh: {fileID: 510415299}
+--- !u!23 &4282740591467808623
+MeshRenderer:
+>>>>>>> b173e2622f9ed9def3310e2e056e61846ecba9e0
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5898494005644976024}
@@ -20094,6 +20312,41 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1199632197304598915
+=======
+  m_GameObject: {fileID: 4282740591469800905}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 293857714}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!4 &4282740591469540383
+>>>>>>> b173e2622f9ed9def3310e2e056e61846ecba9e0
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
