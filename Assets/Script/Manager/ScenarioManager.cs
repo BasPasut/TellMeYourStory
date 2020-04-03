@@ -11,6 +11,7 @@ public class ScenarioManager : MonoBehaviour
 
     private StopWatch timer;
     private SwapFloor swapFloor;
+    private SwapFloor playerSwapFloor;
     public CanvasFader canvasFader;
     public TextMeshProUGUI subTextBox;
 
@@ -35,6 +36,11 @@ public class ScenarioManager : MonoBehaviour
     {
         timer = this.GetComponent<StopWatch>();
         swapFloor = this.GetComponent<SwapFloor>();
+        playerSwapFloor = player.AddComponent<SwapFloor>();
+        playerSwapFloor.firstFloor = swapFloor.firstFloor;
+        playerSwapFloor.secondFloor = swapFloor.secondFloor;
+        playerSwapFloor.underGround = swapFloor.underGround;
+        playerSwapFloor.swapCol = swapFloor.swapCol;
         isGameOver = false;
         canvasFader.FadeOut();
         timer.StartTimer();
