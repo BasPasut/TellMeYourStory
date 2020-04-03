@@ -34,12 +34,10 @@ public class MutantNavigation : Monster
         {
             StartChasing();
             Vector3 playerPosition = mutantVision.GetPlayerPosition();
-            navAgent.SetDestination(playerPosition);
             //Debug.Log(Vector3.Distance(this.transform.position, playerPosition));
             if (animator.GetCurrentAnimatorStateInfo(0).IsName("run"))
             {
-
-                //Debug.Log(direction.magnitude);
+                navAgent.SetDestination(playerPosition);
                 transform.LookAt(playerPosition);
                 if (Vector3.Distance(this.transform.position, playerPosition) >= 1.5f)
                 {
