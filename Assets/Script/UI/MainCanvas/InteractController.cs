@@ -37,7 +37,6 @@ public class InteractController : MonoBehaviour
     {
         bool triggerDown = triggerAnimAction.GetStateDown(SteamVR_Input_Sources.Any);
 
-        Debug.Log(triggerDown);
 
         GameObject obj = collision.gameObject;
         if (collision.gameObject.tag == "Interactable")
@@ -57,7 +56,8 @@ public class InteractController : MonoBehaviour
             else if (obj.name.Contains("note"))
             {
                 guideController.SetInteractGuideText("Read");
-                if (readNoteAction.state)
+                bool readNoteState = readNoteAction.GetState(SteamVR_Input_Sources.Any);
+                if (readNoteState)
                 {
                     Debug.Log("true");
                     this.GetComponent<PlayerMovementVR>().enabled = false;
