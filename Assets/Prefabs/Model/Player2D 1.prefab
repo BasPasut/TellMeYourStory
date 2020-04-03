@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1190220360}
   - component: {fileID: 1985990370}
   - component: {fileID: 4418206608411912005}
+  - component: {fileID: 2119098420}
   m_Layer: 0
   m_Name: Player2D 1
   m_TagString: Player
@@ -92,12 +93,12 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2635463883303502174}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.59214777
-  m_Height: 2
+  m_Radius: 0.5
+  m_Height: 1.9512441
   m_Direction: 1
-  m_Center: {x: 0.024414212, y: 0, z: 0}
+  m_Center: {x: 0, y: -0.47562206, z: 0}
 --- !u!114 &1190220360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,7 +106,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2635463883303502174}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9214ebdb40c801b4899aee2d14c211fa, type: 3}
   m_Name: 
@@ -145,6 +146,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   guideController: {fileID: 0}
   notePanelController: {fileID: 0}
+  triggerAnimAction:
+    actionPath: 
+    needsReinit: 0
+  readNoteAction:
+    actionPath: 
+    needsReinit: 0
+--- !u!136 &2119098420
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2635463883303502174}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1.9512441
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2635463883498459887
 GameObject:
   m_ObjectHideFlags: 0
@@ -295,16 +316,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2635463883498459884}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 70c964fd46812554a9becd09173d9315,
+    - target: {fileID: -8378514245527006202, guid: 70c964fd46812554a9becd09173d9315,
         type: 3}
-      propertyPath: m_Name
-      value: Arms05
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 70c964fd46812554a9becd09173d9315,
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e25c0a94226a2bd4987240059283b102, type: 2}
+    - target: {fileID: -6057140222963153312, guid: 70c964fd46812554a9becd09173d9315,
         type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 9349f10340c4c2a41b73ca09dbb186ac, type: 2}
     - target: {fileID: -4216859302048453862, guid: 70c964fd46812554a9becd09173d9315,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -360,16 +381,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: 70c964fd46812554a9becd09173d9315,
+    - target: {fileID: -927199367670048503, guid: 70c964fd46812554a9becd09173d9315,
         type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 9349f10340c4c2a41b73ca09dbb186ac, type: 2}
-    - target: {fileID: -8378514245527006202, guid: 70c964fd46812554a9becd09173d9315,
+      propertyPath: m_Name
+      value: Arms05
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 70c964fd46812554a9becd09173d9315,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: e25c0a94226a2bd4987240059283b102, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70c964fd46812554a9becd09173d9315, type: 3}
 --- !u!1 &6319361057111277814 stripped

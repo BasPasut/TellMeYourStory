@@ -36,11 +36,14 @@ public class ScenarioManager : MonoBehaviour
     {
         timer = this.GetComponent<StopWatch>();
         swapFloor = this.GetComponent<SwapFloor>();
+        player.GetComponent<BoxCollider>().enabled = true;
         playerSwapFloor = player.AddComponent<SwapFloor>();
         playerSwapFloor.firstFloor = swapFloor.firstFloor;
         playerSwapFloor.secondFloor = swapFloor.secondFloor;
         playerSwapFloor.underGround = swapFloor.underGround;
         playerSwapFloor.swapCol = swapFloor.swapCol;
+        playerSwapFloor.basementCol = swapFloor.basementCol;
+        playerSwapFloor.openFirstFloor = swapFloor.openFirstFloor;
         isGameOver = false;
         canvasFader.FadeOut();
         timer.StartTimer();
