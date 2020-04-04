@@ -47,7 +47,7 @@ public class PlayerMovementVR : MonoBehaviour
                 // Calculate how fast we should be moving
                 Vector2 joyStickValue = joyStickAction.GetAxis(SteamVR_Input_Sources.Any);
                 Vector3 targetVelocity = new Vector3(joyStickValue.x, 0, joyStickValue.y);
-                targetVelocity = transform.TransformDirection(moreRelativeHorizontal);
+                targetVelocity = transform.TransformDirection(targetVelocity);
                 targetVelocity *= speed;
 
                 // Apply a force that attempts to reach our target velocity
