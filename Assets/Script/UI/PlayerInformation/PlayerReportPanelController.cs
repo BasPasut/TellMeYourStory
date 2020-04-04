@@ -16,6 +16,7 @@ public class PlayerReportPanelController : MonoBehaviour
     public TextMeshProUGUI status;
 
     public HeartrateWithThread bpm;
+    public StopWatch stopWatch;
 
 
     public void Start()
@@ -27,9 +28,9 @@ public class PlayerReportPanelController : MonoBehaviour
 
     public void Update()
     {
-        avgHeartrate.text = bpm.GetAverageBPM().ToString();
-        minHeartrate.text = bpm.GetMinBPM().ToString();
-        maxHeartrate.text = bpm.GetMaxBPM().ToString();
-        time.text = StopWatch.GetCurrentTime();
+        time.text = stopWatch.GetCurrentTime();
+        //avgHeartrate.text = bpm.GetAverageBPM().ToString();
+        //minHeartrate.text = bpm.GetMinBPM().ToString();
+        //maxHeartrate.text = bpm.GetMaxBPM().ToString();
     }
 }

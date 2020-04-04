@@ -4,22 +4,12 @@ using UnityEngine.UI;
 
 public class NotePanelController : MonoBehaviour
 {
-    Note note;
     public GameObject notePanel;
 
-    public void Start()
-    {
-        SetImageToNote();
-    }
-
-    void SetImageToNote()
+    public void SetImageToNote(Sprite noteImage)
     {
 
-        notePanel.GetComponent<Image>().sprite = note.sprite;
+        notePanel.GetComponent<Image>().sprite = noteImage;
     }
 
-    public void SetNote(Note note)
-    {
-        this.note = note;
-    }
 }

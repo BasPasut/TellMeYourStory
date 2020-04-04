@@ -36,7 +36,7 @@ public class ScenarioManager : MonoBehaviour
     {
         timer = this.GetComponent<StopWatch>();
         swapFloor = this.GetComponent<SwapFloor>();
-        player.GetComponent<BoxCollider>().enabled = true;
+        player.GetComponent<CapsuleCollider>().enabled = true;
         playerSwapFloor = player.AddComponent<SwapFloor>();
         playerSwapFloor.firstFloor = swapFloor.firstFloor;
         playerSwapFloor.secondFloor = swapFloor.secondFloor;
