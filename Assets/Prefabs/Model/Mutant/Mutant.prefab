@@ -2340,8 +2340,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efe52009d3360424aa96673cd0d7ae15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 15
-  angleRange: 60
+  range: 10
+  angleRange: 50
   resolution: 30
   seeingObj: []
   seeingPlayer: []

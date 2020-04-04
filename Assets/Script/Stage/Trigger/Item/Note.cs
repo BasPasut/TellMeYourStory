@@ -7,4 +7,5 @@ using UnityEngine.UI;
 public class Note : MonoBehaviour
 {
     public Sprite sprite;
+
 }
