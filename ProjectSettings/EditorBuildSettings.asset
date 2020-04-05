@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/PlayerInformation.unity
     guid: fb85da3ed0373a74482e256c41b84fdc
   - enabled: 1
-    path: Assets/Scenes/GameplayTest/GameplayBas.unity
-    guid: 63dd6097d4ff83341b6d94efe23b99c1
-  - enabled: 1
     path: Assets/Scenes/WakeUpScene.unity
     guid: fe3faff176626234480cf6dd05512d66
   - enabled: 1

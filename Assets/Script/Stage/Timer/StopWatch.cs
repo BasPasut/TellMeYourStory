@@ -6,7 +6,7 @@ using System;
 
 public class StopWatch : MonoBehaviour
 {
-    private static float currentTime;
+    private float currentTime;
     private float startTime;
     private bool isStart;
 
@@ -30,7 +30,7 @@ public class StopWatch : MonoBehaviour
         isStart = false;
     }
 
-    public static string GetCurrentTime()
+    public string GetCurrentTime()
     {
         TimeSpan t = TimeSpan.FromSeconds(currentTime);
 

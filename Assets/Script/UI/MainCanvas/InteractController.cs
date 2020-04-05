@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using Valve.VR;
 
 public class InteractController : MonoBehaviour
@@ -8,7 +9,7 @@ public class InteractController : MonoBehaviour
     public NotePanelController notePanelController;
 
     public SteamVR_Action_Boolean triggerAnimAction;
-    public SteamVR_Action_Boolean readNoteAction;
+    public SteamVR_Action_Boolean grabGripAction;
 
     //public void OnCollisionEnter(Collision collision)
     //{
@@ -37,7 +38,6 @@ public class InteractController : MonoBehaviour
     {
         bool triggerDown = triggerAnimAction.GetStateDown(SteamVR_Input_Sources.Any);
 
-
         GameObject obj = collision.gameObject;
         if (collision.gameObject.tag == "Interactable")
         {
@@ -53,17 +53,16 @@ public class InteractController : MonoBehaviour
 
                 }
             }
-            else if (obj.name.Contains("note"))
+            else if (obj.name.Contains("Note"))
             {
                 guideController.SetInteractGuideText("Read");
-                bool readNoteState = readNoteAction.GetState(SteamVR_Input_Sources.Any);
-                if (readNoteState)
+                if (grabGripAction.state)
                 {
                     Debug.Log("true");
                     this.GetComponent<PlayerMovementVR>().enabled = false;
-                    Note note = this.GetComponent<Note>();
-                    notePanelController.SetNote(note);
+                    notePanelController.SetImageToNote(obj.GetComponent<Image>().sprite);
                     notePanelController.gameObject.SetActive(true);
+                    guideController.gameObject.SetActive(false);
 
                 }
                 else
@@ -71,6 +70,7 @@ public class InteractController : MonoBehaviour
                     Debug.Log("false");
                     this.GetComponent<PlayerMovementVR>().enabled = true;
                     notePanelController.gameObject.SetActive(false);
+                    guideController.gameObject.SetActive(true);
                 }
 
             }

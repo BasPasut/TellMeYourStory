@@ -11,11 +11,10 @@ public class Item : MonoBehaviour
         {
             case ItemType.piano:
                 return PlayPianoSound;
-            default:
-                return null;
-
             case ItemType.doorUnder:
                 return UnlockDoor;
+            default:
+                return null;
             
         }
        
@@ -28,6 +27,6 @@ public class Item : MonoBehaviour
 
     private void UnlockDoor()
     {
-        this.gameObject.tag = "Interacable";
+        this.gameObject.tag = "Interactable";
     }
 }
