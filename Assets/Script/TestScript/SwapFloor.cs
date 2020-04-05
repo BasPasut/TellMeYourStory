@@ -23,7 +23,7 @@ public class SwapFloor : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.Equals(swapCol) && isFirstFloorActive == true && isSecondFloorActive == false)
+        if (other.Equals(swapCol) && isFirstFloorActive == true)
         {
             OpenSecondFloor();
         }
@@ -41,30 +41,34 @@ public class SwapFloor : MonoBehaviour
         }
     }
 
-    public void OpenUnderground()
-    {
-        underGround.SetActive(true);
-        firstFloor.SetActive(false);
-        secondFloor.SetActive(false);
-        isFirstFloorActive = false;
-    }
-
     public void OpenFirstFloor()
     {
         firstFloor.SetActive(true);
-        isSecondFloorActive = false;
         secondFloor.SetActive(false);
-        isFirstFloorActive = true;
         underGround.SetActive(false);
+        isFirstFloorActive = true;
+        isSecondFloorActive = false;
+        isUnderGroundActive = false;
     }
 
     public void OpenSecondFloor()
     {
-        secondFloor.SetActive(true);
-        isSecondFloorActive = true;
         firstFloor.SetActive(false);
-        isFirstFloorActive = false;
+        secondFloor.SetActive(true);
         underGround.SetActive(false);
+        isFirstFloorActive = false;
+        isSecondFloorActive = true;
+        isUnderGroundActive = false;
+    }
+
+    public void OpenUnderground()
+    {
+        firstFloor.SetActive(false);
+        secondFloor.SetActive(false);
+        underGround.SetActive(true);
+        isFirstFloorActive = false;
+        isSecondFloorActive = false;
+        isUnderGroundActive = true;
     }
 
     public void CloseMansion()
