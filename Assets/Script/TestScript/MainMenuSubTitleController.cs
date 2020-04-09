@@ -11,7 +11,6 @@ public class MainMenuSubTitleController : MonoBehaviour
 
     private void Start()
     {
-        timeToHint = 0;
         StartCoroutine(PlaySub());
     }
 

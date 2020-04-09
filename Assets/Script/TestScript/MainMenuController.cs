@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Valve.VR;
+using Valve.VR.InteractionSystem;
 using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
@@ -25,7 +26,6 @@ public class MainMenuController : MonoBehaviour
     {
         sittingAnim = GetComponent<Animator>();
         sittingAnim.Play("Sit", 0);
-
     }
 
     private void Update()

@@ -105,19 +105,19 @@ namespace Valve.VR
             }
         }
         
-        public virtual SteamVR_Action_Vector2 MovementAxis
-        {
-            get
-            {
-                return SteamVR_Actions.default_MovementAxis;
-            }
-        }
-        
         public virtual SteamVR_Action_Boolean TriggerAnim
         {
             get
             {
                 return SteamVR_Actions.default_TriggerAnim;
+            }
+        }
+        
+        public virtual SteamVR_Action_Vector2 MovementAxis
+        {
+            get
+            {
+                return SteamVR_Actions.default_MovementAxis;
             }
         }
         

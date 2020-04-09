@@ -2,13 +2,13 @@
   "source": "Unity",
   "applications": [
     {
-      "app_key": "application.generated.unity.tellmeyourstory.exe",
+      "app_key": "application.generated.unity.nancythestoryteller.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "D:\\Thesis\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "C:\\Users\\admin\\Downloads\\UnityProj\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
-          "name": "TellMeYourStory [Testing]"
+          "name": "NancyTheStoryteller [Testing]"
         }
       }
     }

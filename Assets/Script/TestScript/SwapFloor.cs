@@ -7,12 +7,17 @@ public class SwapFloor : MonoBehaviour
     public GameObject firstFloor;
     public GameObject secondFloor;
     public GameObject underGround;
-    public Collider swapCol;
+    public Collider secondToFirstCol;
+    public Collider firstToSecondCol;
     public Collider basementCol;
     public Collider openFirstFloor;
     public bool isFirstFloorActive = true;
     public bool isSecondFloorActive = false;
     public bool isUnderGroundActive = false;
+    public Transform firstFloorSwapPoint;
+    public Transform secondFloorSwapPoint;
+    public GameObject firstFloorPartition;
+    public GameObject secondFloorPartition;
 
     private void Awake()
     {
@@ -23,13 +28,15 @@ public class SwapFloor : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.Equals(swapCol) && isFirstFloorActive == true)
+        if (other.Equals(firstToSecondCol) && isFirstFloorActive == true)
         {
             OpenSecondFloor();
+            StartCoroutine(GoTOFirstFloor());
         }
-        else if (other.Equals(swapCol) && isFirstFloorActive == false && isSecondFloorActive == true)
+        else if (other.Equals(secondToFirstCol) && isSecondFloorActive == true)
         {
             OpenFirstFloor();
+            ScenarioManager.Instance.player.transform.position = firstFloorSwapPoint.position;
         }
         else if (other.Equals(basementCol) && isFirstFloorActive == true)
         {
@@ -39,6 +46,13 @@ public class SwapFloor : MonoBehaviour
         {
             OpenFirstFloor();
         }
+    }
+
+    IEnumerator GoTOFirstFloor()
+    {
+        yield return new WaitForSeconds(3);
+        ScenarioManager.Instance.player.transform.position = secondFloorSwapPoint.position;
+        firstFloorPartition.SetActive(true);
     }
 
     public void OpenFirstFloor()
