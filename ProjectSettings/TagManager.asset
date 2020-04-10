@@ -11,6 +11,9 @@ TagManager:
   - Paper
   - Character
   - Swap
+  - projectile
+  - FxTemporaire
+  - Equipment
   layers:
   - Default
   - TransparentFX

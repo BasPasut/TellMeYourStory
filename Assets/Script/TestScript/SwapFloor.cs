@@ -17,26 +17,29 @@ public class SwapFloor : MonoBehaviour
     public Transform firstFloorSwapPoint;
     public Transform secondFloorSwapPoint;
     public GameObject firstFloorPartition;
-    public GameObject secondFloorPartition;
+    public Transform playerWaitingRoom;
 
     private void Awake()
     {
         firstFloor.SetActive(true);
         secondFloor.SetActive(false);
         underGround.SetActive(false);
+        firstFloorPartition.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.Equals(firstToSecondCol) && isFirstFloorActive == true)
         {
+            ScenarioManager.Instance.player.transform.position = playerWaitingRoom.position;
             OpenSecondFloor();
-            StartCoroutine(GoTOFirstFloor());
+            StartCoroutine(GoToSecondFloor());
         }
         else if (other.Equals(secondToFirstCol) && isSecondFloorActive == true)
         {
+            ScenarioManager.Instance.player.transform.position = playerWaitingRoom.position;
             OpenFirstFloor();
-            ScenarioManager.Instance.player.transform.position = firstFloorSwapPoint.position;
+            StartCoroutine(GoTOFirstFloor());
         }
         else if (other.Equals(basementCol) && isFirstFloorActive == true)
         {
@@ -49,6 +52,12 @@ public class SwapFloor : MonoBehaviour
     }
 
     IEnumerator GoTOFirstFloor()
+    {
+        yield return new WaitForSeconds(3);
+        ScenarioManager.Instance.player.transform.position = firstFloorSwapPoint.position;
+    }
+
+    IEnumerator GoToSecondFloor()
     {
         yield return new WaitForSeconds(3);
         ScenarioManager.Instance.player.transform.position = secondFloorSwapPoint.position;
