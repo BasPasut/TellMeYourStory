@@ -10,5 +10,6 @@ public enum Sound
     MutantBreathing = 4,
     MutantScreaming = 5,
     DoorOpen = 6,
-    DoorClose = 7
+    DoorClose = 7,
+    Piano = 8
 }

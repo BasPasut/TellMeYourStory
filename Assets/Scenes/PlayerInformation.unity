@@ -627,8 +627,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SoundAudioClips:
-  - sound: 1
+  - sound: 7
     audioClip: {fileID: 8300000, guid: 826409385ec49604dbc96693bc9ff16c, type: 3}
+  - sound: 6
+    audioClip: {fileID: 8300000, guid: b528f671ecdfce7459f4c3adaaab6684, type: 3}
 --- !u!4 &340787494
 Transform:
   m_ObjectHideFlags: 0

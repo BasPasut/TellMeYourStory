@@ -12,7 +12,7 @@ public static class SoundManager
     public static void Initialize()
     {
         soundTimerDictionary = new Dictionary<Sound, float>();
-        soundTimerDictionary[Sound.Walking] = 0f;
+        soundTimerDictionary[Sound.ButlerWalking] = 0f;
     }
 
     public static void PlaySound(Sound sound, Vector3 position)
@@ -49,7 +49,7 @@ public static class SoundManager
     {
         switch (sound)
         {
-            case Sound.Walking:
+            case Sound.ButlerWalking:
                 if (soundTimerDictionary.ContainsKey(sound))
                 {
                     float lastTimePlayed = soundTimerDictionary[sound];
