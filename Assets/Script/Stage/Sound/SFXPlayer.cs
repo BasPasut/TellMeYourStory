@@ -18,36 +18,36 @@ public class SFXPlayer : MonoBehaviour
     }
 
     public void PlayWalkButler() {
-        //audioSource.PlayOneShot(Sound.Breathing);
+        audioSource.PlayOneShot(SoundManager.GetAudioClip(Sound.ButlerWalking));
     }
 
     public void PlayWalkMutant()
     {
-        
+        audioSource.PlayOneShot(SoundManager.GetAudioClip(Sound.MutantWalking));
     }
 
     public void PlayWalkBossMutant()
     {
-        
+        audioSource.PlayOneShot(SoundManager.GetAudioClip(Sound.BossMutantWalking));
     }
 
     public void PlayScreamMutant()
     {
-
+        audioSource.PlayOneShot(SoundManager.GetAudioClip(Sound.MutantScreaming));
     }
 
     public void PlayBreathingMutant()
     {
-
+        audioSource.PlayOneShot(SoundManager.GetAudioClip(Sound.MutantBreathing));
     }
 
     public void PlayDoorOpen()
     {
-
+        audioSource.PlayOneShot(SoundManager.GetAudioClip(Sound.DoorOpen));
     }
 
     public void PlayDoorClose()
     {
-
+        audioSource.PlayOneShot(SoundManager.GetAudioClip(Sound.DoorClose));
     }
 }

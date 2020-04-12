@@ -73,7 +73,7 @@ public static class SoundManager
         }
     }
 
-    private static AudioClip GetAudioClip(Sound sound)
+    public static AudioClip GetAudioClip(Sound sound)
     {
         foreach(GameManager.SoundAudioClip soundAudioClip in GameManager.instance.SoundAudioClips)
         {

@@ -4,8 +4,11 @@ using UnityEngine;
 
 public enum Sound
 {
-    Breathing = 1,
-    Walking = 2,
-    Running = 3,
-    Piano = 4
+    ButlerWalking = 1,
+    MutantWalking = 2,
+    BossMutantWalking = 3,
+    MutantBreathing = 4,
+    MutantScreaming = 5,
+    DoorOpen = 6,
+    DoorClose = 7
 }

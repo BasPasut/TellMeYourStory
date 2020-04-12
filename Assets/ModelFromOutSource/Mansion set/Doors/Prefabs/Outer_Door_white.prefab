@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 7024784847234396384}
   - component: {fileID: 7024784847231496384}
   - component: {fileID: 7024784847232496128}
-  - component: {fileID: 7024784847228125792}
   - component: {fileID: 2863587417492512425}
+  - component: {fileID: 391313296699833710}
+  - component: {fileID: 3201194120512674531}
   m_Layer: 0
   m_Name: Outer_Door
   m_TagString: Untagged
@@ -81,20 +82,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &7024784847228125792
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7024784847234428096}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300002, guid: 0524f744ff9ca16429e2e9f49a2b532d, type: 3}
 --- !u!95 &2863587417492512425
 Animator:
   serializedVersion: 3
@@ -114,6 +101,31 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &391313296699833710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7024784847234428096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12deea1546a81214b8a94714f22c4643, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &3201194120512674531
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7024784847234428096}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.21897894, y: 1.2877451, z: 2.6101177}
+  m_Center: {x: -0.046202388, y: -0.6404534, z: 1.3355767}
 --- !u!1 &7024784847234428098
 GameObject:
   m_ObjectHideFlags: 0

@@ -597,6 +597,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 326200637}
   m_CullTransparentMesh: 0
+--- !u!1 &340787492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 340787494}
+  - component: {fileID: 340787493}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &340787493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340787492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce0d09fb4144cdf44a841f80484b7295, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SoundAudioClips:
+  - sound: 1
+    audioClip: {fileID: 8300000, guid: 826409385ec49604dbc96693bc9ff16c, type: 3}
+--- !u!4 &340787494
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340787492}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.686834, y: 2.324263, z: -2.4727905}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &374008188
 GameObject:
   m_ObjectHideFlags: 0
@@ -2459,8 +2505,7 @@ MonoBehaviour:
   playerAge: {fileID: 1289088329}
   playerGender: {fileID: 1972733028}
   submit: {fileID: 694987614}
-  playerReportPanel: {fileID: 1905794017350148571, guid: d9b9a009910003b4d96e7cd1c4ceb468,
-    type: 3}
+  gameManager: {fileID: 340787493}
 --- !u!1 &1722162888
 GameObject:
   m_ObjectHideFlags: 0
