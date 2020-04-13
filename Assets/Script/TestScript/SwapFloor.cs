@@ -55,6 +55,7 @@ public class SwapFloor : MonoBehaviour
     {
         yield return new WaitForSeconds(3);
         ScenarioManager.Instance.player.transform.position = firstFloorSwapPoint.position;
+        firstFloorPartition.SetActive(false);
     }
 
     IEnumerator GoToSecondFloor()
