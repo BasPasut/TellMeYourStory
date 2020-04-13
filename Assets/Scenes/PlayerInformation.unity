@@ -608,7 +608,7 @@ GameObject:
   - component: {fileID: 340787494}
   - component: {fileID: 340787493}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: GameManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -631,6 +631,14 @@ MonoBehaviour:
     audioClip: {fileID: 8300000, guid: 826409385ec49604dbc96693bc9ff16c, type: 3}
   - sound: 6
     audioClip: {fileID: 8300000, guid: b528f671ecdfce7459f4c3adaaab6684, type: 3}
+  - sound: 1
+    audioClip: {fileID: 8300000, guid: 0defe65004413bd4a8083039c7583c3c, type: 3}
+  - sound: 2
+    audioClip: {fileID: 8300000, guid: 821cfd5a45cb9fc4a9d51afed0ba91eb, type: 3}
+  - sound: 3
+    audioClip: {fileID: 8300000, guid: 3538e2048f2566d43956fe653f6897f6, type: 3}
+  - sound: 8
+    audioClip: {fileID: 8300000, guid: caef19bd69c8ff94b853fff2921647fc, type: 3}
 --- !u!4 &340787494
 Transform:
   m_ObjectHideFlags: 0
