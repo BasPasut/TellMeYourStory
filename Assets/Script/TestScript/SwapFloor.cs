@@ -19,7 +19,7 @@ public class SwapFloor : MonoBehaviour
     public GameObject firstFloorPartition;
     public Transform playerWaitingRoom;
 
-    private void Awake()
+    private void Start()
     {
         firstFloor.SetActive(true);
         secondFloor.SetActive(false);
@@ -32,12 +32,14 @@ public class SwapFloor : MonoBehaviour
         if (other.Equals(firstToSecondCol) && isFirstFloorActive == true)
         {
             ScenarioManager.Instance.player.transform.position = playerWaitingRoom.position;
+            ScenarioManager.Instance.player.transform.rotation = playerWaitingRoom.rotation;
             OpenSecondFloor();
             StartCoroutine(GoToSecondFloor());
         }
         else if (other.Equals(secondToFirstCol) && isSecondFloorActive == true)
         {
             ScenarioManager.Instance.player.transform.position = playerWaitingRoom.position;
+            ScenarioManager.Instance.player.transform.rotation = playerWaitingRoom.rotation;
             OpenFirstFloor();
             StartCoroutine(GoTOFirstFloor());
         }
@@ -55,6 +57,7 @@ public class SwapFloor : MonoBehaviour
     {
         yield return new WaitForSeconds(3);
         ScenarioManager.Instance.player.transform.position = firstFloorSwapPoint.position;
+        ScenarioManager.Instance.player.transform.rotation = firstFloorSwapPoint.rotation;
         firstFloorPartition.SetActive(false);
     }
 
@@ -62,6 +65,7 @@ public class SwapFloor : MonoBehaviour
     {
         yield return new WaitForSeconds(3);
         ScenarioManager.Instance.player.transform.position = secondFloorSwapPoint.position;
+        ScenarioManager.Instance.player.transform.rotation = secondFloorSwapPoint.rotation;
         firstFloorPartition.SetActive(true);
     }
 

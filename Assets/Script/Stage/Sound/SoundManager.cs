@@ -34,7 +34,13 @@ public static class SoundManager
 
     public static void PlaySound(Sound sound)
     {
-        if (CanPlaySound(sound))
+        if (oneShotGameObject == null)
+        {
+            oneShotGameObject = new GameObject("Sound");
+            oneShotAudioSource = oneShotGameObject.AddComponent<AudioSource>();
+        }
+        oneShotAudioSource.PlayOneShot(GetAudioClip(sound));
+        /*if (CanPlaySound(sound))
         {
             if(oneShotGameObject == null)
             {
@@ -42,7 +48,7 @@ public static class SoundManager
                 oneShotAudioSource = oneShotGameObject.AddComponent<AudioSource>();
             }        
             oneShotAudioSource.PlayOneShot(GetAudioClip(sound));
-        }
+        }*/
     }
 
     private static bool CanPlaySound(Sound sound)

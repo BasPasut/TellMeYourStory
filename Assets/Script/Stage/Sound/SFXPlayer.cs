@@ -18,8 +18,8 @@ public class SFXPlayer : MonoBehaviour
     }
 
     public void PlayWalkButler() {
-        //audioSource.PlayOneShot(SoundManager.GetAudioClip(Sound.ButlerWalking));
-        SoundManager.PlaySound(Sound.ButlerWalking);
+        audioSource.PlayOneShot(SoundManager.GetAudioClip(Sound.ButlerWalking));
+        //SoundManager.PlaySound(Sound.ButlerWalking);
     }
 
     public void PlayWalkMutant()
