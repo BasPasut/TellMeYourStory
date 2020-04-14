@@ -21,7 +21,7 @@ public class PlayerMovementVR : MonoBehaviour
     {
         rigidbody = this.GetComponent<Rigidbody>();
         rigidbody.freezeRotation = true;
-        rigidbody.useGravity = true;
+        rigidbody.useGravity = false;
     }
 
     void Movement(Vector3 move)

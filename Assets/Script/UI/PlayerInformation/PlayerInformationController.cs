@@ -10,7 +10,6 @@ public class PlayerInformationController : MonoBehaviour
     public Text playerAge;
     public Dropdown playerGender;
     public Button submit;
-    public GameManager gameManager;
 
     private void Start()
     {
@@ -22,8 +21,9 @@ public class PlayerInformationController : MonoBehaviour
         if (playerName.text != "" && playerAge.text != null && playerGender.captionText != null)
         {
             Debug.Log(playerName.text);
-            gameManager.currentPlayerReport.SetPlayerBasicInform(playerName.text, playerAge.text, playerGender.captionText.text);
+            //gameManager.currentPlayerReport.SetPlayerBasicInform(playerName.text, playerAge.text, playerGender.captionText.text);
             //SceneManager.LoadScene("GameplayBas", LoadSceneMode.Single);
+            GameManager.instance.currentPlayerReport.SetPlayerBasicInform(playerName.text, playerAge.text, playerGender.captionText.text);
             SceneManager.LoadScene(1, LoadSceneMode.Single);
         }
     }

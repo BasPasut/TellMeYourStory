@@ -8,7 +8,7 @@ public class SFXPlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       audioSource = this.transform.GetComponent<AudioSource>();
+       audioSource = this.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -18,7 +18,8 @@ public class SFXPlayer : MonoBehaviour
     }
 
     public void PlayWalkButler() {
-        audioSource.PlayOneShot(SoundManager.GetAudioClip(Sound.ButlerWalking));
+        //audioSource.PlayOneShot(SoundManager.GetAudioClip(Sound.ButlerWalking));
+        SoundManager.PlaySound(Sound.ButlerWalking);
     }
 
     public void PlayWalkMutant()

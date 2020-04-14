@@ -77,6 +77,7 @@ public static class SoundManager
     {
         foreach(GameManager.SoundAudioClip soundAudioClip in GameManager.instance.SoundAudioClips)
         {
+            Debug.Log("bla bla bla :: " + soundAudioClip.ToString());
             if(soundAudioClip.sound == sound)
             {
                 return soundAudioClip.audioClip;
