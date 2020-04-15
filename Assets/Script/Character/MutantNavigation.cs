@@ -7,7 +7,7 @@ public class MutantNavigation : Monster
     private NavMeshAgent navAgent;
 
     private float radius = 30f;
-    private float timer = 30f;
+    private float timer = 20f;
     private float timer_Count;
 
     private void Awake()
@@ -34,11 +34,11 @@ public class MutantNavigation : Monster
         {
             StartChasing();
             Vector3 playerPosition = mutantVision.GetPlayerPosition();
-            //Debug.Log(Vector3.Distance(this.transform.position, playerPosition));
+            transform.LookAt(playerPosition);
+            //Debug.Log(animator.GetCurrentAnimatorStateInfo(0));
             if (animator.GetCurrentAnimatorStateInfo(0).IsName("run"))
             {
                 navAgent.SetDestination(playerPosition);
-                transform.LookAt(playerPosition);
                 if (Vector3.Distance(this.transform.position, playerPosition) >= 1.5f)
                 {
                     navAgent.isStopped = false;

@@ -23,7 +23,7 @@ public class PlayerReportPanelController : MonoBehaviour
     {
         playerName.text = GameManager.instance.currentPlayerReport.playerName;
         playerAge.text = GameManager.instance.currentPlayerReport.playerAge;
-        playerGender.text = GameManager.instance.currentPlayerReport.playerAge;
+        playerGender.text = GameManager.instance.currentPlayerReport.playerGender;
     }
 
     public void Update()
