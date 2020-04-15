@@ -29,8 +29,8 @@ public class PlayerReportPanelController : MonoBehaviour
     public void Update()
     {
         time.text = stopWatch.GetCurrentTime();
-        //avgHeartrate.text = bpm.GetAverageBPM().ToString();
-        //minHeartrate.text = bpm.GetMinBPM().ToString();
-        //maxHeartrate.text = bpm.GetMaxBPM().ToString();
+        avgHeartrate.text = bpm.GetAverageBPM().ToString();
+        minHeartrate.text = bpm.GetMinBPM().ToString();
+        maxHeartrate.text = bpm.GetMaxBPM().ToString();
     }
 }
