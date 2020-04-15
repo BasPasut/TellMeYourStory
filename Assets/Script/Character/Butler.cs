@@ -9,11 +9,13 @@ public class Butler : Monster
     public GameObject player;
     public GameObject smokeParticle;
     public GameObject mutant;
+    private AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
     {
         base.Start();
+        audioSource = this.GetComponent<AudioSource>();
         //StartWalking();
         //Transform();
     }
@@ -85,5 +87,10 @@ public class Butler : Monster
         lookDirection.y = 0;
         transform.rotation = Quaternion.Slerp(transform.rotation,
         Quaternion.LookRotation(lookDirection), Time.deltaTime * angle);
+    }
+
+    void PlayWalk()
+    {
+        //audioSource.PlayOneShot();
     }
 }

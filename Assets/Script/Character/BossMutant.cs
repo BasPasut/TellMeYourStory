@@ -6,11 +6,13 @@ public class BossMutant : Monster
 {
 
     public GameObject player;
+    private AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
     {
-        base.Start();   
+        base.Start();
+        audioSource = this.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -29,5 +31,14 @@ public class BossMutant : Monster
             if (this.animator.GetCurrentAnimatorStateInfo(0).IsName("run"))
                 this.transform.Translate(0, 0, 0.05f);
         }
+    }
+
+    void PlayRoar() {
+       // audioSource.PlayOneShot();
+    }
+
+    void PlayRun()
+    {
+        //audioSource.PlayOneShot();
     }
 }

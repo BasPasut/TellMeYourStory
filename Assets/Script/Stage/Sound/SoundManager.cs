@@ -12,7 +12,7 @@ public static class SoundManager
     public static void Initialize()
     {
         soundTimerDictionary = new Dictionary<Sound, float>();
-        soundTimerDictionary[Sound.Walking] = 0f;
+        soundTimerDictionary[Sound.ButlerWalking] = 0f;
     }
 
     public static void PlaySound(Sound sound, Vector3 position)
@@ -34,7 +34,13 @@ public static class SoundManager
 
     public static void PlaySound(Sound sound)
     {
-        if (CanPlaySound(sound))
+        if (oneShotGameObject == null)
+        {
+            oneShotGameObject = new GameObject("Sound");
+            oneShotAudioSource = oneShotGameObject.AddComponent<AudioSource>();
+        }
+        oneShotAudioSource.PlayOneShot(GetAudioClip(sound));
+        /*if (CanPlaySound(sound))
         {
             if(oneShotGameObject == null)
             {
@@ -42,14 +48,14 @@ public static class SoundManager
                 oneShotAudioSource = oneShotGameObject.AddComponent<AudioSource>();
             }        
             oneShotAudioSource.PlayOneShot(GetAudioClip(sound));
-        }
+        }*/
     }
 
     private static bool CanPlaySound(Sound sound)
     {
         switch (sound)
         {
-            case Sound.Walking:
+            case Sound.ButlerWalking:
                 if (soundTimerDictionary.ContainsKey(sound))
                 {
                     float lastTimePlayed = soundTimerDictionary[sound];
@@ -73,10 +79,11 @@ public static class SoundManager
         }
     }
 
-    private static AudioClip GetAudioClip(Sound sound)
+    public static AudioClip GetAudioClip(Sound sound)
     {
         foreach(GameManager.SoundAudioClip soundAudioClip in GameManager.instance.SoundAudioClips)
         {
+            Debug.Log("bla bla bla :: " + soundAudioClip.ToString());
             if(soundAudioClip.sound == sound)
             {
                 return soundAudioClip.audioClip;

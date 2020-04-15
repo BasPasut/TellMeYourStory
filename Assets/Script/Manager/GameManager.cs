@@ -20,7 +20,6 @@ public class GameManager : MonoBehaviour
 
     public void Awake()
     {
-        DontDestroyOnLoad(this);
         SoundManager.Initialize();
         currentPlayerReport = new PlayerDataReport();
     }

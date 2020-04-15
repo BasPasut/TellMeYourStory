@@ -7,29 +7,41 @@ public class SwapFloor : MonoBehaviour
     public GameObject firstFloor;
     public GameObject secondFloor;
     public GameObject underGround;
-    public Collider swapCol;
+    public Collider secondToFirstCol;
+    public Collider firstToSecondCol;
     public Collider basementCol;
     public Collider openFirstFloor;
     public bool isFirstFloorActive = true;
     public bool isSecondFloorActive = false;
     public bool isUnderGroundActive = false;
+    public Transform firstFloorSwapPoint;
+    public Transform secondFloorSwapPoint;
+    public GameObject firstFloorPartition;
+    public Transform playerWaitingRoom;
 
-    private void Awake()
+    private void Start()
     {
         firstFloor.SetActive(true);
         secondFloor.SetActive(false);
         underGround.SetActive(false);
+        firstFloorPartition.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.Equals(swapCol) && isFirstFloorActive == true && isSecondFloorActive == false)
+        if (other.Equals(firstToSecondCol) && isFirstFloorActive == true)
         {
+            ScenarioManager.Instance.player.transform.position = playerWaitingRoom.position;
+            ScenarioManager.Instance.player.transform.rotation = playerWaitingRoom.rotation;
             OpenSecondFloor();
+            StartCoroutine(GoToSecondFloor());
         }
-        else if (other.Equals(swapCol) && isFirstFloorActive == false && isSecondFloorActive == true)
+        else if (other.Equals(secondToFirstCol) && isSecondFloorActive == true)
         {
+            ScenarioManager.Instance.player.transform.position = playerWaitingRoom.position;
+            ScenarioManager.Instance.player.transform.rotation = playerWaitingRoom.rotation;
             OpenFirstFloor();
+            StartCoroutine(GoTOFirstFloor());
         }
         else if (other.Equals(basementCol) && isFirstFloorActive == true)
         {
@@ -41,30 +53,50 @@ public class SwapFloor : MonoBehaviour
         }
     }
 
-    public void OpenUnderground()
+    IEnumerator GoTOFirstFloor()
     {
-        underGround.SetActive(true);
-        firstFloor.SetActive(false);
-        secondFloor.SetActive(false);
-        isFirstFloorActive = false;
+        yield return new WaitForSeconds(3);
+        ScenarioManager.Instance.player.transform.position = firstFloorSwapPoint.position;
+        ScenarioManager.Instance.player.transform.rotation = firstFloorSwapPoint.rotation;
+        firstFloorPartition.SetActive(false);
+    }
+
+    IEnumerator GoToSecondFloor()
+    {
+        yield return new WaitForSeconds(3);
+        ScenarioManager.Instance.player.transform.position = secondFloorSwapPoint.position;
+        ScenarioManager.Instance.player.transform.rotation = secondFloorSwapPoint.rotation;
+        firstFloorPartition.SetActive(true);
     }
 
     public void OpenFirstFloor()
     {
         firstFloor.SetActive(true);
-        isSecondFloorActive = false;
         secondFloor.SetActive(false);
-        isFirstFloorActive = true;
         underGround.SetActive(false);
+        isFirstFloorActive = true;
+        isSecondFloorActive = false;
+        isUnderGroundActive = false;
     }
 
     public void OpenSecondFloor()
     {
-        secondFloor.SetActive(true);
-        isSecondFloorActive = true;
         firstFloor.SetActive(false);
-        isFirstFloorActive = false;
+        secondFloor.SetActive(true);
         underGround.SetActive(false);
+        isFirstFloorActive = false;
+        isSecondFloorActive = true;
+        isUnderGroundActive = false;
+    }
+
+    public void OpenUnderground()
+    {
+        firstFloor.SetActive(false);
+        secondFloor.SetActive(false);
+        underGround.SetActive(true);
+        isFirstFloorActive = false;
+        isSecondFloorActive = false;
+        isUnderGroundActive = true;
     }
 
     public void CloseMansion()

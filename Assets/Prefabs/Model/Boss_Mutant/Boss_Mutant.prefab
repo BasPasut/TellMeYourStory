@@ -1453,6 +1453,7 @@ GameObject:
   - component: {fileID: 609404824}
   - component: {fileID: 609404825}
   - component: {fileID: 6385894033659889521}
+  - component: {fileID: 2728660709855255215}
   m_Layer: 0
   m_Name: Boss_Mutant
   m_TagString: Untagged
@@ -1634,6 +1635,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2728660709855255215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6219201739835884519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12deea1546a81214b8a94714f22c4643, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6391282039165106919
 GameObject:
   m_ObjectHideFlags: 0
