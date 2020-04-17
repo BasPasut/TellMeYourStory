@@ -13,9 +13,12 @@ public class TriggerController : MonoBehaviour
 
     private static int currentTriggerIndex;
 
+    private static int lastTriggerIndex;
+
     // Start is called before the first frame update
     public void Start()
-    {       
+    {
+        lastTriggerIndex = triggerPointList.Count - 1;
         currentTriggerIndex = 0;
         int indexSpawn = 0;
         int indexTimeline = 0;
@@ -61,5 +64,10 @@ public class TriggerController : MonoBehaviour
     public static int GetCurrentTriggerIndex()
     {
         return currentTriggerIndex;
+    }
+
+    public static int GetLastTriggerIndex()
+    {
+        return lastTriggerIndex;
     }
 }
