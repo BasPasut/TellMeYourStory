@@ -70,8 +70,8 @@ namespace Valve.VR
             return SteamVR_Skeleton_FingerExtensionTypes.Static;
         }
 
-        public bool ignoreRootPoseData = true;
-        public bool ignoreWristPoseData = true;
+        public bool ignoreRootPoseData = false;
+        public bool ignoreWristPoseData = false;
 
         public Vector3 position;
         public Quaternion rotation;
