@@ -8,7 +8,7 @@ using System;
 
 public class Heartrate : MonoBehaviour
 {
-    public SerialPort serial = new SerialPort("COM3", 9600);//create new serial port
+    public SerialPort serial = new SerialPort("COM4", 9600);//create new serial port
     private string beat = "0";// string to hols the data in
     private List<int> beatPM = new List<int>(); //List to hold the beats
 
@@ -35,10 +35,11 @@ public class Heartrate : MonoBehaviour
         }
 
         //        print (beat);
+        Debug.Log("Beat :: " + beat);
         //Create an int that can be used by the Client
         //int somethingToSend = AnalyseBeats(beat);
         heartrateMonitor.text = beat;
-
+        
     }
 
     void OnApplicationQuit()

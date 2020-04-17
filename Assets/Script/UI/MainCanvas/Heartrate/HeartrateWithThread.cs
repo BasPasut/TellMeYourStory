@@ -5,13 +5,14 @@ using System.IO.Ports;
 using System.Threading;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class HeartrateWithThread : MonoBehaviour
 {
     Thread bpmThread;
 
-    public SerialPort serial = new SerialPort("COM3", 115200);//create new serial port
-    public Text bpmText;
+    public SerialPort serial = new SerialPort("COM4", 115200);//create new serial port
+    public TextMeshProUGUI bpmText;
 
     public static bool isConnect;
 
@@ -40,6 +41,7 @@ public class HeartrateWithThread : MonoBehaviour
         if (isReceived == true)
         {
             counter++;
+            Debug.Log("BPM :: " + beat);
             bpmText.text = beat;
             sumBeat += intBeat;
 
@@ -51,7 +53,10 @@ public class HeartrateWithThread : MonoBehaviour
             {
                 maxBeat = intBeat;
             }
+
+            
         }
+        
     }
 
     public float GetAverageBPM()
