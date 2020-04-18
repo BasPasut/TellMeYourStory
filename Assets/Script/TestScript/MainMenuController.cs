@@ -16,6 +16,10 @@ public class MainMenuController : MonoBehaviour
     public Canvas loadingCanvas;
 
     public CanvasFader canvasFader;
+    public GameObject loadingRoom;
+    public GameObject mainMenuRoom;
+    public GameObject playerModel;
+    public Transform playerWaitingRoom;
 
     public void Awake()
     {
@@ -26,6 +30,7 @@ public class MainMenuController : MonoBehaviour
     {
         sittingAnim = GetComponent<Animator>();
         sittingAnim.Play("Sit", 0);
+        loadingRoom.SetActive(false);
     }
 
     private void Update()
@@ -33,28 +38,32 @@ public class MainMenuController : MonoBehaviour
         if (yesButton.isTrigger == true)
         {
             canvasFader.FadeIn();
+            loadingRoom.SetActive(true);
+            playerModel.transform.position = playerWaitingRoom.position;
+            playerModel.transform.rotation = playerWaitingRoom.rotation;
+            mainMenuRoom.SetActive(false);
             StartCoroutine(Wait());
-            loadingCanvas.gameObject.SetActive(true);
-            YesButtonClick();
         }
         else if (noButton.isTrigger == true)
         {
             canvasFader.FadeIn();
-            StartCoroutine(Wait());
             NoButtonClick();
         }
         else if (Input.GetMouseButtonDown(0))
         {
             canvasFader.FadeIn();
+            loadingRoom.SetActive(true);
+            playerModel.transform.position = playerWaitingRoom.position;
+            playerModel.transform.rotation = playerWaitingRoom.rotation;
+            mainMenuRoom.SetActive(false);
             StartCoroutine(Wait());
-            loadingCanvas.gameObject.SetActive(true);
-            YesButtonClick();
         }
     }
 
     IEnumerator Wait()
     {
         yield return new WaitForSeconds(2f);
+        YesButtonClick();
     }
 
     public void YesButtonClick()
