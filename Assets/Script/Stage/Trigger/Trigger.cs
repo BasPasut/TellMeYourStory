@@ -53,16 +53,14 @@ public class Trigger : MonoBehaviour
         performAction = action;
     }
 
-    public Item PerformActionWithItem(Action action)
+    public Item GetItemWithAction()
     {
-        Debug.Log(obj.name);
-        performAction = action;
         return obj;
     }
 
     public void SetTriggerAction(Action action)
     {
-        this.performAction = action;
+        performAction = action;
     }
 
     public bool GetIsTrigger()
