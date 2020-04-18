@@ -9,7 +9,8 @@ public enum Sound
     BossMutantWalking = 3,
     MutantBreathing = 4,
     MutantScreaming = 5,
-    DoorOpen = 6,
-    DoorClose = 7,
-    Piano = 8
+    MutantAttacking = 6,
+    DoorOpen = 7,
+    DoorClose = 8,
+    Piano = 9
 }
