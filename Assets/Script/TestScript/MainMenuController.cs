@@ -62,7 +62,7 @@ public class MainMenuController : MonoBehaviour
 
     IEnumerator Wait()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(4f);
         YesButtonClick();
     }
 

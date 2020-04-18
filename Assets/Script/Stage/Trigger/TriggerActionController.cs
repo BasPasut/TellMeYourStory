@@ -13,6 +13,6 @@ public class TriggerActionController : MonoBehaviour
 
     public void StartTargetAction()
     {
-        item.GetPerformAction();
+        item.GetPerformAction().Invoke();
     }
 }

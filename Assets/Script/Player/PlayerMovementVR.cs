@@ -13,7 +13,6 @@ public class PlayerMovementVR : MonoBehaviour
     public float jumpHeight = 2.0f;
     private bool grounded = false;
 
-
     Rigidbody rigidbody;
 
 
@@ -67,6 +66,12 @@ public class PlayerMovementVR : MonoBehaviour
                     grounded = false;
                 }
             }
+        }
+        else
+        {
+            Vector3 vel = rigidbody.velocity.normalized * speed;
+            vel.y = rigidbody.velocity.y;
+            rigidbody.velocity = vel;
         }
 
         // We apply gravity manually for more tuning control

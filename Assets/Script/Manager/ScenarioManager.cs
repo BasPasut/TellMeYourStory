@@ -49,6 +49,7 @@ public class ScenarioManager : MonoBehaviour
         playerSwapFloor.secondFloorSwapPoint = swapFloor.secondFloorSwapPoint;
         playerSwapFloor.playerWaitingRoom = swapFloor.playerWaitingRoom;
         playerSwapFloor.firstFloorPartition = swapFloor.firstFloorPartition;
+        playerSwapFloor.playerCamera = swapFloor.playerCamera;
         isGameOver = false;
         canvasFader.FadeOut();
         timer.StartTimer();

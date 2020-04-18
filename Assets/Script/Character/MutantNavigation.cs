@@ -32,6 +32,7 @@ public class MutantNavigation : Monster
         timer_Count += Time.deltaTime;
         if (mutantVision.GetIsPlayerSeen())
         {
+            navAgent.isStopped = true;
             StartChasing();
             Vector3 playerPosition = mutantVision.GetPlayerPosition();
             transform.LookAt(playerPosition);
@@ -69,6 +70,7 @@ public class MutantNavigation : Monster
         else
         {
             StopChasing();
+            navAgent.isStopped = false;
             if (timer_Count > timer)
             {
                 SetRandomDestination();

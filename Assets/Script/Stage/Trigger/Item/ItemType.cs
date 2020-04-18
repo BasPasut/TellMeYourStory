@@ -4,6 +4,6 @@ using UnityEngine;
 
 public enum ItemType
 {
-    piano,
-    doorUnder
+    doorUnder,
+    piano
 }

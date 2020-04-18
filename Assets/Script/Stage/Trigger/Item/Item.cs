@@ -7,26 +7,31 @@ public class Item : MonoBehaviour
 
     public Action GetPerformAction()
     {
-        switch (itemType)
+        Debug.Log(itemType);
+        if (itemType == ItemType.doorUnder)
         {
-            case ItemType.piano:
-                return PlayPianoSound;
-            case ItemType.doorUnder:
-                return UnlockDoor;
-            default:
-                return null;
-            
+            return UnlockDoor;
         }
-       
+        else if (itemType == ItemType.piano)
+        {
+            return PlayPianoSound;
+        }
+        else
+        {
+            return null;
+        }
+
     }
 
     private void PlayPianoSound()
     {
-        SoundManager.PlaySound(Sound.Piano, this.transform.position);
+        Debug.Log("Play piano sound");
+        SoundManager.PlaySound(Sound.Piano, new Vector3(-10.8f, 1.15f, -17.06f));
     }
 
     private void UnlockDoor()
     {
+        Debug.Log("Unlock the door");
         this.gameObject.tag = "Interactable";
     }
 }
