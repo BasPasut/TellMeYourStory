@@ -32,7 +32,7 @@ namespace Valve.VR
 
         /// <summary>Whether or not to update this transform's position and rotation inline with the skeleton transforms or if this is handled in another script</summary>
         [Tooltip("Set to true if you want this script to update its position and rotation. False if this will be handled elsewhere")]
-        public bool updatePose = true;
+        public bool updatePose = false;
 
         /// <summary>Check this to not set the positions of the bones. This is helpful for differently scaled skeletons.</summary>
         [Tooltip("Check this to not set the positions of the bones. This is helpful for differently scaled skeletons.")]

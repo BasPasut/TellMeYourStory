@@ -13,7 +13,6 @@ public class PlayerMovementVR : MonoBehaviour
     public float jumpHeight = 2.0f;
     private bool grounded = false;
 
-
     Rigidbody rigidbody;
 
 
@@ -68,6 +67,12 @@ public class PlayerMovementVR : MonoBehaviour
                 }
             }
         }
+        else
+        {
+            Vector3 vel = rigidbody.velocity.normalized * speed;
+            vel.y = rigidbody.velocity.y;
+            rigidbody.velocity = vel;
+        }
 
         // We apply gravity manually for more tuning control
 
@@ -80,23 +85,23 @@ public class PlayerMovementVR : MonoBehaviour
             //Forward
             Debug.Log("Forward");
             
-            Movement(new Vector3(-2000f,0,0));
+            Movement(new Vector3(-5000f,0,0));
         }
         if (Input.GetKey(KeyCode.JoystickButton3))
         {
             Debug.Log("Right");
-            Movement(new Vector3(0, 0, 2000f));
+            Movement(new Vector3(0, 0, 5000f));
         }
 
         if (Input.GetKey(KeyCode.JoystickButton0))
         {
             Debug.Log("Left");
-            Movement(new Vector3(0, 0, -2000f));
+            Movement(new Vector3(0, 0, -5000f));
         }
         if (Input.GetKey(KeyCode.JoystickButton1))
         {
             Debug.Log("Back");
-            Movement(new Vector3(2000f, 0, 0));
+            Movement(new Vector3(5000f, 0, 0));
         }
     }
 

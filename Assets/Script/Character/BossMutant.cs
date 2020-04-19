@@ -5,13 +5,15 @@ using UnityEngine;
 public class BossMutant : Monster
 {
 
-    public GameObject player;
+    GameObject player;
     private AudioSource audioSource;
+    
 
     // Start is called before the first frame update
     void Start()
     {
         base.Start();
+        player = GameObject.Find("PlayerVR");
         audioSource = this.GetComponent<AudioSource>();
     }
 
@@ -24,12 +26,21 @@ public class BossMutant : Monster
     void RunningToPlayer()
     {
         Vector3 playerPos = player.transform.position;
-        playerPos.y = this.transform.position.y;
-        if(this.animator.GetCurrentAnimatorStateInfo(0).IsName("roaring"))
+        Vector3 direction = playerPos - this.transform.position;
+        direction.y = 0;
+
+        transform.LookAt(playerPos);
+        if (this.animator.GetCurrentAnimatorStateInfo(0).IsName("run"))
         {
-            this.transform.LookAt(playerPos);
-            if (this.animator.GetCurrentAnimatorStateInfo(0).IsName("run"))
-                this.transform.Translate(0, 0, 0.05f);
+            transform.LookAt(playerPos);
+            if (direction.magnitude >= 5f)
+            {
+                this.transform.Translate(0, 0, 0.5f);
+            }
+            else
+            {
+                ScenarioManager.Instance.LoadGameOver();
+            }
         }
     }
 

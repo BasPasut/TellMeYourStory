@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -22,14 +21,18 @@ public class TriggerController : MonoBehaviour
         currentTriggerIndex = 0;
         int indexSpawn = 0;
         int indexTimeline = 0;
-        for (int i = 0; i < triggerPointList.Count; i++) {
+        for (int i = 0; i < triggerPointList.Count; i++)
+        {
             triggerPointList[i].gameObject.SetActive(false);
             switch (triggerPointList[i].GetTriggerType())
             {
                 case TriggerType.Action:
-                    triggerActionController.ReceivedTargetObject(triggerPointList[i].PerformActionWithItem(() => triggerActionController.StartTargetAction()));
+                    Item itemTrigger = triggerPointList[i].GetItemWithAction();
+                    triggerActionController = new TriggerActionController();
+                    triggerActionController.ReceivedTargetObject(itemTrigger);
+                    triggerPointList[i].PerformActionWithoutObject(triggerActionController.StartTargetAction);
                     break;
-                case TriggerType.Spawn:                   
+                case TriggerType.Spawn:
                     triggerPointList[i].PerformActionWithoutObject(() => triggerSpawnController.Spawn(indexSpawn++));
                     break;
                 case TriggerType.Timeline:
@@ -55,7 +58,7 @@ public class TriggerController : MonoBehaviour
                 }
             }
         }
-        catch(Exception e)
+        catch (Exception e)
         {
             //Debug.Log(e);        
         }

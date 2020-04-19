@@ -5,7 +5,7 @@ using Valve.VR;
 
 public class HandForLantern : MonoBehaviour
 {
-    public SteamVR_Action_Boolean pickUpLantern = null;
+    /*public SteamVR_Action_Boolean pickUpLantern = null;
     private SteamVR_Behaviour_Pose poseBehave = null;
     private FixedJoint joint = null;
 
@@ -57,7 +57,9 @@ public class HandForLantern : MonoBehaviour
     {
         pickUplanternInter = GetNearestLantern();
         if (!pickUplanternInter) return;
-        if (pickUplanternInter.activeHand)
+
+
+        if (pickUplanternInter.activeH and)
         {
             pickUplanternInter.activeHand.Drop();
         }
@@ -96,5 +98,5 @@ public class HandForLantern : MonoBehaviour
         }
 
         return nearest;
-    }
+    }*/
 }

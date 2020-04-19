@@ -42,6 +42,11 @@ public class SFXPlayer : MonoBehaviour
         audioSource.PlayOneShot(SoundManager.GetAudioClip(Sound.MutantBreathing));
     }
 
+    public void PlayAttackingMutant()
+    {
+        audioSource.PlayOneShot(SoundManager.GetAudioClip(Sound.MutantAttacking));
+    }
+
     public void PlayDoorOpen()
     {
         audioSource.PlayOneShot(SoundManager.GetAudioClip(Sound.DoorOpen));

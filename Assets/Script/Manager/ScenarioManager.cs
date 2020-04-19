@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Valve.VR;
 using TMPro;
+using UnityEngine.UI;
 
 public class ScenarioManager : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class ScenarioManager : MonoBehaviour
     private SwapFloor playerSwapFloor;
     public CanvasFader canvasFader;
     public TextMeshProUGUI subTextBox;
+    public Text endGameText;
 
     public Transform gameoverPos;
     public GameObject player;
@@ -49,6 +51,7 @@ public class ScenarioManager : MonoBehaviour
         playerSwapFloor.secondFloorSwapPoint = swapFloor.secondFloorSwapPoint;
         playerSwapFloor.playerWaitingRoom = swapFloor.playerWaitingRoom;
         playerSwapFloor.firstFloorPartition = swapFloor.firstFloorPartition;
+        playerSwapFloor.playerCamera = swapFloor.playerCamera;
         isGameOver = false;
         canvasFader.FadeOut();
         timer.StartTimer();
@@ -76,7 +79,7 @@ public class ScenarioManager : MonoBehaviour
     {
         isGameOver = true;
         timer.StopTimer();
-        canvasFader.FadeIn();
+        //canvasFader.FadeIn();
         StartCoroutine(ChangeScenario());
     }
 
@@ -87,10 +90,11 @@ public class ScenarioManager : MonoBehaviour
 
     IEnumerator ChangeScenario()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(0.5f);
         swapFloor.CloseMansion();
         gameOverRoom.SetActive(true);
         player.transform.position = gameoverPos.position;
+        endGameText.text = "";
         canvasFader.FadeOut();
         resultSheet.SetActive(true);
         subTextBox.GetComponent<TextMeshProUGUI>().text = "Press Trigger to continue";
