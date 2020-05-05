@@ -21,6 +21,15 @@ public class MainMenuController : MonoBehaviour
     public GameObject playerModel;
     public Transform playerWaitingRoom;
 
+    public GameObject dancepadCheck;
+    public GameObject dancepadUncheck;
+    public Collider dancepadCol;
+    public GameObject controllerCheck;
+    public GameObject controllerUncheck;
+    public Collider controllerCol;
+
+    public bool isPlayWithDancepad = false;
+
     public void Awake()
     {
         canvasFader.FadeOut();
@@ -58,6 +67,25 @@ public class MainMenuController : MonoBehaviour
             mainMenuRoom.SetActive(false);
             StartCoroutine(Wait());
         }
+        else if (dancepadCol.isTrigger == true)
+        {
+            dancepadCheck.SetActive(true);
+            dancepadUncheck.SetActive(false);
+            controllerCheck.SetActive(false);
+            controllerUncheck.SetActive(true);
+
+            isPlayWithDancepad = true;
+        }
+        else if (controllerCol.isTrigger == true)
+        {
+            dancepadCheck.SetActive(false);
+            dancepadUncheck.SetActive(true);
+            controllerCheck.SetActive(true);
+            controllerUncheck.SetActive(false);
+
+            isPlayWithDancepad = false;
+        }
+        GameManager.instance.isPlayWithDancepad = isPlayWithDancepad;
     }
 
     IEnumerator Wait()

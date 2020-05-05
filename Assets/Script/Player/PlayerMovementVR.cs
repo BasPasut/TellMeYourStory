@@ -21,6 +21,7 @@ public class PlayerMovementVR : MonoBehaviour
         rigidbody = this.GetComponent<Rigidbody>();
         rigidbody.freezeRotation = true;
         //rigidbody.useGravity = false;
+        UseDancePad = GameManager.instance.isPlayWithDancepad;
     }
 
     void Movement(Vector3 move)

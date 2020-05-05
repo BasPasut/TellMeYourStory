@@ -33,6 +33,8 @@ public class GameManager : MonoBehaviour
     public SoundAudioClip[] SoundAudioClips;
     public PlayerDataReport currentPlayerReport;
 
+    public bool isPlayWithDancepad;
+
     [System.Serializable]
     public class SoundAudioClip
     {
